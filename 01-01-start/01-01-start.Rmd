@@ -1,0 +1,112 @@
+---
+title: "Getting started"
+subtitle: "Teaching Data Science, Reproducibly <br> @ ICOTS 2018"
+author: "Mine Çetinkaya-Rundel & Colin Rundel"
+date: "July 7, 2018"
+output:
+  xaringan::moon_reader:
+    css: "../slides.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: center, middle
+
+# Getting started
+
+---
+
+class: middle
+
+.question[
+What do you do on the first day of class? What do you not do?
+]
+
+---
+
+## Cherish day one!
+
+.pull-left[
+**Don't do this:**
+- Install R
+- Install RStudio
+- Install the following packages:
+    - rmarkdown
+    - tidyverse
+    - …
+- Load these packages
+- Install git
+]
+.pull-right[
+**Do this:**
+- Go to [rstudio.cloud](https://rstudio.cloud/) (or some other server based solution)
+- Log in with your ID & pass  
+
+`> hello R!`
+]
+
+---
+
+## Don't start with this
+
+```{r lame-start}
+class(mtcars$mpg)
+mean(mtcars$mpg)
+median(mtcars$mpg)
+sd(mtcars$mpg)
+```
+
+---
+
+## Start with (something like) this
+
+```{r better-start, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=5.5, dpi=150}
+library(tidyverse)
+library(unvotes)
+library(lubridate)
+un_votes %>%
+  filter(country %in% c("United States of America", "Turkey")) %>%
+  inner_join(un_roll_calls, by = "rcid") %>%
+  inner_join(un_roll_call_issues, by = "rcid") %>%
+  group_by(country, year = year(date), issue) %>%
+  summarize(
+    votes = n(),
+    percent_yes = mean(vote == "yes")
+    ) %>%
+  filter(votes > 5) %>%  # only use records where there are more than 5 votes
+  ggplot(mapping = aes(x = year, y = percent_yes, color = country)) +
+    geom_point() +
+    geom_smooth(method = "loess", se = FALSE) +
+    facet_wrap(~ issue) +
+    labs(
+      title = "Percentage of 'Yes' votes in the UN General Assembly",
+      subtitle = "1946 to 2015",
+      y = "% Yes",
+      x = "Year",
+      color = "Country"
+    )
+```
+
+---
+
+## Let's do it!
+
+- **Go to** http://bit.ly/teach-data-sci-rscloud and join the workspace
+- **Make a copy** of the project called *UN votes*
+- **Open** the file called `unvotes.Rmd` and **click** on Knit HTML
+- **Discuss** with the person sitting next to you what you see in the two figures. 
+Don't worry about the code to produce them just yet, only focus on the output.  
+
+--
+- In the last figure, **change** `"Turkey"` to a country of interest to you and 
+recreate the figure by knitting the document again. Do this by making a change 
+in Line 95 of the document only.
+    - Tip: The country you choose must be in the dataset and must be spelled 
+    exactly the same way as it appears in the dataset. You can use the 
+    searchable table in the Appendix to locate the country of your choice and 
+    to confirm its spelling.
+- **Discuss** with the person sitting next to you why you chose this country and 
+how its voting record is similar to or different than the US.
