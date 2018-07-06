@@ -21,9 +21,240 @@ class: center, middle, inverse, title-slide
 
 class: center, middle
 
+# A few important goals
+
+---
+
+The course should 
+
+- ask questions that students want to answer and equip students 
+with the tools to answer questions of their own choosing
+- emphasize modern and multivariate exploratory data analysis, and particularly 
+multivariate data visualization
+
+---
+
+## MPG vs. displacement 
+
+
+```r
+plot(mtcars$mpg ~ mtcars$disp)
+```
+
+![](01-04-tidyverse_files/figure-html/base-mpg-displ-1.png)&lt;!-- --&gt;
+
+---
+
+## MPG vs. displacement
+
+and transmission
+
+
+```r
+mtcars$trans_color &lt;- ifelse(mtcars$am == 0, "green", "blue")
+plot(mtcars$mpg ~ mtcars$disp, col = mtcars$trans_color)
+legend("topright", 
+       legend = c("automatic", "manual"), 
+       pch = 1, col = c("green", "blue"))
+```
+
+![](01-04-tidyverse_files/figure-html/base-mpg-displ-trans-1.png)&lt;!-- --&gt;
+
+---
+
+## Need
+
+syntax that doesn't grow exponentially with the complexity of the analysis!
+
+---
+
+class: center, middle
+
 # Tidyverse
 
 ---
+
+## What is the tidyverse?
+
+.pull-left[
+![](img/tidyverse.png)
+]
+.pull-right[
+- The tidyverse is an opinionated collection of R packages designed for data science. 
+- All packages share an underlying design philosophy, grammar, and data structures.
+
+
+```r
+install.packages("tidyverse")
+```
+
+```r
+library(tidyverse)
+```
+]
+
+---
+
+## Tidyverse packages
+
+- **dplyr**: Grammar of data manipulation
+- **ggplot2**: System for declaratively creating graphics, based on The Grammar of Graphics
+- **tibble**: Modern reimagining of the `data.frame`, keeping what time has proven to be effective, and throwing out what is not
+- **readr**: Fast and friendly way to read rectangular data (like csv, tsv, and fwf)
+- **tidyr**: Tools to help you create tidy data where each variable is in a column, 
+each observation is a row, and rach value is a cell
+- **purrr**: Functional programming toolkit
+
+Learn more at [tidyverse.org/](https://www.tidyverse.org/)
+
+---
+
+## Recoding a binary variable
+
+.pull-left[
+**Base R:**
+
+
+```r
+mtcars$transmission &lt;- 
+  ifelse(
+    mtcars$am == 0, 
+    "automatic", 
+    "manual"
+  )
+```
+]
+
+--
+
+.pull-right[
+**tidyverse:**
+
+
+```r
+mtcars &lt;- mtcars %&gt;%
+  mutate(
+    transmission = 
+      case_when(
+        am == 0 ~ "automatic",
+        am == 1 ~ "manual"
+      )
+  )
+```
+]
+
+---
+
+## Recoding a multi-level variable
+
+.pull-left[
+**Base R:**
+
+
+```r
+mtcars$gear_char &lt;- 
+  ifelse(
+    mtcars$gear == 3, 
+    "three", 
+    ifelse(
+      mtcars$gear == 4, 
+      "four", 
+      "five")
+  )
+```
+]
+
+--
+
+.pull-right[
+**tidyverse:**
+
+
+```r
+mtcars &lt;- mtcars %&gt;%
+  mutate(
+    gear_char = 
+      case_when(
+        gear == 3 ~ "three",
+        gear == 4 ~ "four",
+*       gear == 5 ~ "five"    
+      )
+  )
+```
+]
+
+---
+
+## Visualizing three variables
+
+**Base R:**
+
+
+```r
+mtcars$trans_col &lt;- ifelse(mtcars$transmission == "automatic", 
+                           "green", "blue")
+
+plot(mtcars$mpg ~ mtcars$disp, col = mtcars$trans_col)
+
+legend("topright", 
+       legend = c("automatic", "manual"), 
+       pch = 1, col = c("green", "blue"))
+```
+
+![](01-04-tidyverse_files/figure-html/base-viz-three-vars-1.png)&lt;!-- --&gt;
+
+---
+
+## Visualizing three variables (cont.)
+
+**tidyverse:**
+
+
+```r
+ggplot(data = mtcars, mapping = aes(x = disp, y = mpg, 
+                                    color = transmission)) +
+  geom_point()
+```
+
+![](01-04-tidyverse_files/figure-html/tidy-viz-three-vars-1.png)&lt;!-- --&gt;
+
+---
+
+## Visualizing four variables
+
+**Base R:**
+
+
+```r
+mtcars4 &lt;- mtcars[mtcars$cyl == 4, ]
+mtcars6 &lt;- mtcars[mtcars$cyl == 6, ]
+mtcars8 &lt;- mtcars[mtcars$cyl == 8, ]
+
+par(mfrow = c(1, 3))
+plot(mpg ~ disp, data = mtcars4, col = trans_col, main = "Cyl 4")
+plot(mpg ~ disp, data = mtcars6, col = trans_col, main = "Cyl 6")
+plot(mpg ~ disp, data = mtcars8, col = trans_col, main = "Cyl 8")
+legend("topright", legend = c("automatic", "manual"), 
+       pch = 1, col = c("green", "blue"))
+```
+
+![](01-04-tidyverse_files/figure-html/base-viz-four-vars-1.png)&lt;!-- --&gt;
+
+---
+
+## Visualizing four variables
+
+**tidyverse:**
+
+
+```r
+ggplot(data = mtcars, mapping = aes(x = disp, y = mpg, 
+                                    color = transmission)) +
+  geom_point() +
+* facet_wrap(~ cyl)  
+```
+
+![](01-04-tidyverse_files/figure-html/tidy-viz-four-vars-1.png)&lt;!-- --&gt;
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
