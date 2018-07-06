@@ -19,3 +19,48 @@ class: center, middle
 
 ---
 
+## Meet and greet
+
+.center[
+.pull-left[
+![](img/mine.png)  
+Mine Çetinkaya-Rundel
+]
+.pull-right[
+![](img/colin.png)  
+Colin Rundel
+]
+]
+
+---
+
+## Part 1 (today)
+
+Overview of the toolkit for doing data science and design principles for teaching it
+
+| Time          | Activity                                |
+|:--------------|:----------------------------------------|
+| 09:30 - 09:45 | Welcome                                 |
+| 09:45 - 10:15 | Getting started                         |
+| 10:15 - 10:45 | Designing an intro data science course  |
+| 10:45 - 11:00 | Break                                   |
+| 11:00 - 11:15 | Computing with R and RStudio            |
+| 11:15 - 12:00 | Literate programming with R Markdown    |
+| 12:00 - 12:30 | Data analysis with the tidyverse        |
+| 12:30 - 12:45 | Break                                   |
+| 12:45 - 13:30 | Version control with Git and GitHub     |
+
+---
+
+## Part 2 (tomorrow)
+
+Best practices for configuring and deploying infrastructure for teaching data science
+
+| Time          | Activity                                |
+|:--------------|:----------------------------------------|
+| 09:30 - 09:45 | Welcome                                 |
+| 09:45 - 10:45 | Computing infrastructure with RStudio   |
+| 10:45 - 11:00 | Break                                   |
+| 11:00 - 12:30 | Course management with GitHub           |
+| 12:30 - 12:45 | Break                                   |
+| 12:45 - 13:30 | Assessment and feedback                 |
