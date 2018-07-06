@@ -102,7 +102,7 @@ class: center, middle
 You got some data.
 
 - `WorldCupMatches-01.csv`: Match info for each game in pre-2000 World Cups
-- Codebook at https://github.com/mine-cetinkaya-rundel/repro-compute-isba18/blob/master/01-lit-program/data/README.md#codebook
+- Codebook at https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/data/README.md
 - Ultimate goal: Visualize the total number of goals for each World Cup over time.
 
 .instructions[
@@ -176,5 +176,3 @@ document renders even when there are errors.
 --
 
 - Don’t try to change working directory within an R Markdown document. (If you do still decide to use setwd in a code chunk, beware that the new working directory will only apply to that specific code chunk, and any following code chunks will revert back to use the original working directory.)
-
-
