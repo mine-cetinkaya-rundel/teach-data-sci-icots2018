@@ -1,17 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Literate programming with   R Markdown</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Mine Çetinkaya-Rundel &amp; Colin Rundel" />
+    <meta name="date" content="2018-07-07" />
+    <link rel="stylesheet" href="../slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Literate programming with <br> R Markdown
+## Teaching Data Science, Reproducibly <br> @ ICOTS 2018
+### Mine Çetinkaya-Rundel &amp; Colin Rundel
+### July 7, 2018
+
 ---
-title: "Literate programming with <br> R Markdown"
-subtitle: "Teaching Data Science, Reproducibly <br> @ ICOTS 2018"
-author: "Mine Çetinkaya-Rundel & Colin Rundel"
-date: "July 7, 2018"
-output:
-  xaringan::moon_reader:
-    css: "../slides.css"
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 class: center, middle
 
@@ -59,7 +65,7 @@ friendly) markup language for creating pdf documents.
 
 ## Sample Markdown document
 
-<img src="img/markdown.png" alt="markdown" style="width:900px">
+&lt;img src="img/markdown.png" alt="markdown" style="width:900px"&gt;
 
 ---
 
@@ -71,23 +77,23 @@ Well, it's R + Markdown:
 
 - Rendering of R code to produce output and plots
 
-- Ability to include LaTeX: $\hat{y} = \beta_0 + \beta_1 \times x$
+- Ability to include LaTeX: `\(\hat{y} = \beta_0 + \beta_1 \times x\)`
 
 ---
 
 ## Sample R Markdown document
 
-<img src="img/rmarkdown.png" alt="rmarkdown" style="width:1000px">
+&lt;img src="img/rmarkdown.png" alt="rmarkdown" style="width:1000px"&gt;
 
 ---
 
 ## Another R Markdown document
 
-<br><br><br><br>
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-<center>
+&lt;center&gt;
 This presentation!
-</center>
+&lt;/center&gt;
 
 ---
 
@@ -137,7 +143,7 @@ render when errors occur `error = FALSE`, which is the default
 - Set these per chunk or globally in a `setup` chunk on top of the document 
 with `knitr::opts_chunk$set(...)`
 
-<img src="img/chunk-opts.png" alt="markdown" style="width:900px">
+&lt;img src="img/chunk-opts.png" alt="markdown" style="width:900px"&gt;
 
 ---
 
@@ -176,5 +182,40 @@ document renders even when there are errors.
 --
 
 - Don’t try to change working directory within an R Markdown document. (If you do still decide to use setwd in a code chunk, beware that the new working directory will only apply to that specific code chunk, and any following code chunks will revert back to use the original working directory.)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
