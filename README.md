@@ -36,18 +36,18 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 |:--------------|:------------------------------------------------------------|
 | 09:30 - 09:45 | [Welcome](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-00-welcome/01-00-welcome.html) |
 | 09:45 - 10:15 | [Getting started](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/01-01-start.html)                                                  |
-|               | (1) [Join RStudio Cloud](http://bit.ly/teach-data-sci-rscloud) |
-|               | (2) [UN Votes Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.Rmd) - [UN Votes output](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.html)                        |
+|               | <i class="fas fa-check-square"></i> [Join RStudio Cloud](http://bit.ly/teach-data-sci-rscloud) |
+|               | <i class="fas fa-check-square"></i> UN Votes [Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.Rmd) / [Output](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.html)                        |
 | 10:15 - 10:30 | [Computing with R and RStudio](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-02-r-rstudio/01-02-r-rstudio.html)           |
 | 10:30 - 10:45 | Break                                                       |
 | 10:45 - 11:30 | [Literate programming with R Markdown](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/01-04-rmarkdown.html)          |
-|               | (1) [World Cup Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/world-cup-goals.Rmd)                                               |
-|               | (2) [World Cup codebook](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/data/README.md)                                               |
+|               | <i class="fas fa-check-square"></i> [World Cup Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/world-cup-goals.Rmd)                                               |
+|               | <i class="fas fa-check-square"></i> [World Cup codebook](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/data/README.md)                                               |
 | 11:30 - 11:45 | [Data analysis with the tidyverse](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-tidyverse/01-04-tidyverse.html)         |
 | 10:30 - 10:45 | Break                                                       |
 | 12:00 - 13:00 | [Version control with Git and GitHub](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-06-git/01-06-git.html)                        |
-|               | (1) [Create a GitHub account](https://github.com/)          |
-|               | (2) [Demo GitHub repository](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018-demo) |
+|               | <i class="fas fa-check-square"></i> [Create a GitHub account](https://github.com/)          |
+|               | <i class="fas fa-check-square"></i> [Demo GitHub repository](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018-demo) |
 | 13:00 - 13:30 | Designing an intro data science course                      |
 
 ### Part 2 - Sunday, July 8
