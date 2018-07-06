@@ -38,7 +38,7 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 | 09:45 - 10:15 | [Getting started](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/01-01-start.html)                                                  |
 |               | (1) [Join RStudio Cloud](http://bit.ly/teach-data-sci-rscloud) |
 |               | (2) [UN Votes Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.Rmd) - [UN Votes output](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.html)                        |
-| 10:15 - 10:30 | Computing with R and RStudio                                |
+| 10:15 - 10:30 | [Computing with R and RStudio](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-02-r-rstudio/01-02-r-rstudio.html)           |
 | 10:30 - 10:45 | Break                                                       |
 | 10:45 - 11:30 | [Literate programming with R Markdown](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/01-04-rmarkdown.html)          |
 |               | (1) [World Cup Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/world-cup-goals.Rmd)                                               |
