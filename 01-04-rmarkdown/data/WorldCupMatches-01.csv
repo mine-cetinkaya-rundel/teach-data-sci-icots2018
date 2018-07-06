@@ -1,0 +1,581 @@
+year,datetime,stage,stadium,city,home_team_name,home_team_goals,away_team_goals,away_team_name,win_conditions,attendance,half_time_home_goals,half_time_away_goals,referee,assistant_1,assistant_2,round_id,match_id,home_team_initials,away_team_initials
+1930,13 Jul 1930 - 15:00 ,Group 1,Pocitos,Montevideo ,France,4,1,Mexico, ,4444,3,0,LOMBARDI Domingo (URU),CRISTOPHE Henry (BEL),REGO Gilberto (BRA),201,1096,FRA,MEX
+1930,13 Jul 1930 - 15:00 ,Group 4,Parque Central,Montevideo ,USA,3,0,Belgium, ,18346,2,0,MACIAS Jose (ARG),MATEUCCI Francisco (URU),WARNKEN Alberto (CHI),201,1090,USA,BEL
+1930,14 Jul 1930 - 12:45 ,Group 2,Parque Central,Montevideo ,Yugoslavia,2,1,Brazil, ,24059,2,0,TEJADA Anibal (URU),VALLARINO Ricardo (URU),BALWAY Thomas (FRA),201,1093,YUG,BRA
+1930,14 Jul 1930 - 14:50 ,Group 3,Pocitos,Montevideo ,Romania,3,1,Peru, ,2549,1,0,WARNKEN Alberto (CHI),LANGENUS Jean (BEL),MATEUCCI Francisco (URU),201,1098,ROU,PER
+1930,15 Jul 1930 - 16:00 ,Group 1,Parque Central,Montevideo ,Argentina,1,0,France, ,23409,0,0,REGO Gilberto (BRA),SAUCEDO Ulises (BOL),RADULESCU Constantin (ROU),201,1085,ARG,FRA
+1930,16 Jul 1930 - 14:45 ,Group 1,Parque Central,Montevideo ,Chile,3,0,Mexico, ,9249,1,0,CRISTOPHE Henry (BEL),APHESTEGUY Martin (URU),LANGENUS Jean (BEL),201,1095,CHI,MEX
+1930,17 Jul 1930 - 12:45 ,Group 2,Parque Central,Montevideo ,Yugoslavia,4,0,Bolivia, ,18306,0,0,MATEUCCI Francisco (URU),LOMBARDI Domingo (URU),WARNKEN Alberto (CHI),201,1092,YUG,BOL
+1930,17 Jul 1930 - 14:45 ,Group 4,Parque Central,Montevideo ,USA,3,0,Paraguay, ,18306,2,0,MACIAS Jose (ARG),APHESTEGUY Martin (URU),TEJADA Anibal (URU),201,1097,USA,PAR
+1930,18 Jul 1930 - 14:30 ,Group 3,Estadio Centenario,Montevideo ,Uruguay,1,0,Peru, ,57735,0,0,LANGENUS Jean (BEL),BALWAY Thomas (FRA),CRISTOPHE Henry (BEL),201,1099,URU,PER
+1930,19 Jul 1930 - 12:50 ,Group 1,Estadio Centenario,Montevideo ,Chile,1,0,France, ,2000,0,0,TEJADA Anibal (URU),LOMBARDI Domingo (URU),REGO Gilberto (BRA),201,1094,CHI,FRA
+1930,19 Jul 1930 - 15:00 ,Group 1,Estadio Centenario,Montevideo ,Argentina,6,3,Mexico, ,42100,3,1,SAUCEDO Ulises (BOL),ALONSO Gualberto (URU),RADULESCU Constantin (ROU),201,1086,ARG,MEX
+1930,20 Jul 1930 - 13:00 ,Group 2,Estadio Centenario,Montevideo ,Brazil,4,0,Bolivia, ,25466,1,0,BALWAY Thomas (FRA),MATEUCCI Francisco (URU),VALLEJO Gaspar (MEX),201,1091,BRA,BOL
+1930,20 Jul 1930 - 15:00 ,Group 4,Estadio Centenario,Montevideo ,Paraguay,1,0,Belgium, ,12000,1,0,VALLARINO Ricardo (URU),MACIAS Jose (ARG),LOMBARDI Domingo (URU),201,1089,PAR,BEL
+1930,21 Jul 1930 - 14:50 ,Group 3,Estadio Centenario,Montevideo ,Uruguay,4,0,Romania, ,70022,4,0,REGO Gilberto (BRA),WARNKEN Alberto (CHI),SAUCEDO Ulises (BOL),201,1100,URU,ROU
+1930,22 Jul 1930 - 14:45 ,Group 1,Estadio Centenario,Montevideo ,Argentina,3,1,Chile, ,41459,2,1,LANGENUS Jean (BEL),CRISTOPHE Henry (BEL),SAUCEDO Ulises (BOL),201,1084,ARG,CHI
+1930,26 Jul 1930 - 14:45 ,Semi-finals,Estadio Centenario,Montevideo ,Argentina,6,1,USA, ,72886,1,0,LANGENUS Jean (BEL),VALLEJO Gaspar (MEX),WARNKEN Alberto (CHI),202,1088,ARG,USA
+1930,27 Jul 1930 - 14:45 ,Semi-finals,Estadio Centenario,Montevideo ,Uruguay,6,1,Yugoslavia, ,79867,3,1,REGO Gilberto (BRA),SAUCEDO Ulises (BOL),BALWAY Thomas (FRA),202,1101,URU,YUG
+1930,30 Jul 1930 - 14:15 ,Final,Estadio Centenario,Montevideo ,Uruguay,4,2,Argentina, ,68346,1,2,LANGENUS Jean (BEL),SAUCEDO Ulises (BOL),CRISTOPHE Henry (BEL),405,1087,URU,ARG
+1934,27 May 1934 - 16:30 ,Preliminary round,Stadio Benito Mussolini,Turin ,Austria,3,2,France,Austria win after extra time ,16000,0,0,VAN MOORSEL Johannes (NED),CAIRONI Camillo (ITA),BAERT Louis (BEL),204,1104,AUT,FRA
+1934,27 May 1934 - 16:30 ,Preliminary round,Giorgio Ascarelli,Naples ,Hungary,4,2,Egypt, ,9000,2,2,BARLASSINA Rinaldo (ITA),DATTILO Generoso (ITA),SASSI Otello (ITA),204,1119,HUN,EGY
+1934,27 May 1934 - 16:30 ,Preliminary round,San Siro,Milan ,Switzerland,3,2,Netherlands, ,33000,2,1,EKLIND Ivan (SWE),BERANEK Alois (AUT),BONIVENTO Ferruccio (ITA),204,1133,SUI,NED
+1934,27 May 1934 - 16:30 ,Preliminary round,Littorale,Bologna ,Sweden,3,2,Argentina, ,14000,1,1,BRAUN Eugen (AUT),CARRARO Albino (ITA),TURBIANI Giuseppe (ITA),204,1102,SWE,ARG
+1934,27 May 1934 - 16:30 ,Preliminary round,Giovanni Berta,Florence ,Germany,5,2,Belgium, ,8000,1,2,MATTEA Francesco (ITA),MELANDRI Ermenegildo (ITA),BAERT Jacques (FRA),204,1108,GER,BEL
+1934,27 May 1934 - 16:30 ,Preliminary round,Luigi Ferraris,Genoa ,Spain,3,1,Brazil, ,21000,3,0,BIRLEM Alfred (GER),CARMINATI Ettore (ITA),IVANCSICS Mihaly (HUN),204,1111,ESP,BRA
+1934,27 May 1934 - 16:30 ,Preliminary round,Nazionale PNF,Rome ,Italy,7,1,USA, ,25000,3,0,MERCET Rene (SUI),ESCARTIN Pedro (ESP),ZENISEK Bohumil (TCH),204,1135,ITA,USA
+1934,27 May 1934 - 16:30 ,Preliminary round,Littorio,Trieste ,Czechoslovakia,2,1,Romania, ,9000,0,1,LANGENUS Jean (BEL),SCARPI Giuseppe (ITA),SCORZONI Raffaele (ITA),204,1141,TCH,ROU
+1934,31 May 1934 - 16:30 ,Quarter-finals,Stadio Benito Mussolini,Turin ,Czechoslovakia,3,2,Switzerland, ,12000,1,1,BERANEK Alois (AUT),MOHAMED Youssuf (EGY),BAERT Jacques (FRA),418,1143,TCH,SUI
+1934,31 May 1934 - 16:30 ,Quarter-finals,San Siro,Milan ,Germany,2,1,Sweden, ,3000,0,0,BARLASSINA Rinaldo (ITA),MERCET Rene (SUI),VAN MOORSEL Johannes (NED),418,1129,GER,SWE
+1934,31 May 1934 - 16:30 ,Quarter-finals,Giovanni Berta,Florence ,Italy,1,1,Spain, ,35000,0,0,BAERT Louis (BEL),ZENISEK Bohumil (TCH),IVANCSICS Mihaly (HUN),418,1122,ITA,ESP
+1934,31 May 1934 - 16:30 ,Quarter-finals,Littorale,Bologna ,Austria,2,1,Hungary, ,23000,1,0,MATTEA Francesco (ITA),ESCARTIN Pedro (ESP),BIRLEM Alfred (GER),418,1106,AUT,HUN
+1934,01 Jun 1934 - 16:30 ,Quarter-finals,Giovanni Berta,Florence ,Italy,1,0,Spain, ,43000,1,0,MERCET Rene (SUI),IVANCSICS Mihaly (HUN),ZENISEK Bohumil (TCH),418,1123,ITA,ESP
+1934,03 Jun 1934 - 16:30 ,Semi-finals,San Siro,Milan ,Italy,1,0,Austria, ,35000,1,0,EKLIND Ivan (SWE),BAERT Louis (BEL),ZENISEK Bohumil (TCH),3492,1107,ITA,AUT
+1934,03 Jun 1934 - 16:30 ,Semi-finals,Nazionale PNF,Rome ,Czechoslovakia,3,1,Germany, ,15000,1,0,BARLASSINA Rinaldo (ITA),BERANEK Alois (AUT),ESCARTIN Pedro (ESP),3492,1130,TCH,GER
+1934,07 Jun 1934 - 18:00 ,Match for third place,Giorgio Ascarelli,Naples ,Germany,3,2,Austria, ,7000,3,1,CARRARO Albino (ITA),CAIRONI Camillo (ITA),ESCARTIN Pedro (ESP),3491,1105,GER,AUT
+1934,10 Jun 1934 - 17:30 ,Final,Nazionale PNF,Rome ,Italy,2,1,Czechoslovakia,Italy win after extra time ,55000,0,0,EKLIND Ivan (SWE),BAERT Louis (BEL),IVANCSICS Mihaly (HUN),3490,1134,ITA,TCH
+1938,04 Jun 1938 - 17:00 ,First round,Parc des Princes,Paris ,Switzerland,1,1,Germany, ,27152,0,0,LANGENUS Jean (BEL),MARENCO Paul (FRA),VAN MOORSEL Johannes (NED),206,1165,SUI,GER
+1938,05 Jun 1938 - 17:00 ,First round,Velodrome Municipale,Reims ,Hungary,6,0,Dutch East Indies, ,9000,4,0,CONRIE Roger (FRA),DE LA SALLE Charles (FRA),WEINGARTNER Karl (AUT),206,1173,HUN,INH
+1938,05 Jun 1938 - 17:00 ,First round,Stade Olympique,Colombes ,France,3,1,Belgium, ,30454,2,1,WUETHRICH Hans (SUI),KRIST Gustav (TCH),BIRLEM Alfred (GER),206,1146,FRA,BEL
+1938,05 Jun 1938 - 17:00 ,First round,Stade Municipal,Toulouse ,Cuba,3,3,Romania, ,7000,0,0,SCARPI Giuseppe (ITA),VALPREDE Ferdinand (FRA),MERKCX Jean (FRA),206,1156,CUB,ROU
+1938,05 Jun 1938 - 17:00 ,First round,Stade V�lodrome,Marseilles ,Italy,2,1,Norway,Italy win after extra time ,19000,0,0,BERANEK Alois (AUT),BOUTOURE D. (FRA),TREHOU D. (FRA),206,1179,ITA,NOR
+1938,05 Jun 1938 - 17:30 ,First round,Stade de la Meinau,Strasbourg ,Brazil,6,5,Poland,Brazil win after extra time ,13452,0,0,EKLIND Ivan (SWE),POISSANT Louis (FRA),KISSENBERGER Ernest (FRA),206,1150,BRA,POL
+1938,05 Jun 1938 - 18:30 ,First round,Cavee Verte,Le Havre ,Czechoslovakia,3,0,Netherlands,Czechoslovakia win after extra time ,11000,0,0,LECLERCQ Lucien (FRA),OLIVE D. (FRA),SDEZ Victor (FRA),206,1172,TCH,NED
+1938,09 Jun 1938 - 18:00 ,First round,Stade Municipal,Toulouse ,Cuba,2,1,Romania, ,8000,0,1,BIRLEM Alfred (GER),CAPDEVILLE Pierre (FRA),MARENCO Paul (FRA),206,1157,CUB,ROU
+1938,09 Jun 1938 - 18:00 ,First round,Parc des Princes,Paris ,Switzerland,4,2,Germany, ,20025,1,2,EKLIND Ivan (SWE),BAERT Louis (BEL),VAN MOORSEL Johannes (NED),206,1166,SUI,GER
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Stade du Parc Lescure,Bordeaux ,Brazil,1,1,Czechoslovakia, ,22021,0,0,VON HERTZKA Pal (HUN),SCARPI Giuseppe (ITA),DE LA SALLE Charles (FRA),429,1152,BRA,TCH
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Victor Boucquey,Lille ,Hungary,2,0,Switzerland, ,15000,1,0,BARLASSINA Rinaldo (ITA),BERANEK Alois (AUT),BOUTOURE D. (FRA),429,1175,HUN,SUI
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Fort Carree,Antibes ,Sweden,8,0,Cuba, ,7000,4,0,KRIST Gustav (TCH),WEINGARTNER Karl (AUT),SDEZ Victor (FRA),429,1158,SWE,CUB
+1938,12 Jun 1938 - 17:00 ,Quarter-finals,Stade Olympique,Colombes ,Italy,3,1,France, ,58455,1,1,BAERT Louis (BEL),WUETHRICH Hans (SUI),EKLIND Ivan (SWE),429,1164,ITA,FRA
+1938,14 Jun 1938 - 18:00 ,Quarter-finals,Stade du Parc Lescure,Bordeaux ,Brazil,2,1,Czechoslovakia, ,18141,0,1,CAPDEVILLE Georges (FRA),MARENCO Paul (FRA),KISSENBERGER Ernest (FRA),429,1153,BRA,TCH
+1938,16 Jun 1938 - 18:00 ,Semi-finals,Parc des Princes,Paris ,Hungary,5,1,Sweden, ,20000,3,1,LECLERCQ Lucien (FRA),VAN MOORSEL Johannes (NED),SCARPI Giuseppe (ITA),3489,1176,HUN,SWE
+1938,16 Jun 1938 - 18:00 ,Semi-finals,Stade V�lodrome,Marseilles ,Italy,2,1,Brazil, ,33000,0,0,WUETHRICH Hans (SUI),BERANEK Alois (AUT),MARENCO Paul (FRA),3489,1149,ITA,BRA
+1938,19 Jun 1938 - 17:00 ,Match for third place,Stade du Parc Lescure,Bordeaux ,Brazil,4,2,Sweden, ,12000,1,2,LANGENUS Jean (BEL),OLIVE D. (FRA),VALPREDE Ferdinand (FRA),3488,1151,BRA,SWE
+1938,19 Jun 1938 - 17:00 ,Final,Stade Olympique,Colombes ,Italy,4,2,Hungary, ,45000,3,1,CAPDEVILLE Georges (FRA),WUETHRICH Hans (SUI),KRIST Gustav (TCH),3487,1174,ITA,HUN
+1950,24 Jun 1950 - 15:00 ,Group 1,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Brazil,4,0,Mexico, ,81649,1,0,READER George (ENG),GRIFFITHS Benjamin (WAL),MITCHELL George (SCO),208,1187,BRA,MEX
+1950,25 Jun 1950 - 15:00 ,Group 2,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,England,2,0,Chile, ,29703,1,0,VAN DER MEER Karel (NED),GARDELLI Mario (BRA),DAHLNER Gunnar (SWE),208,1192,ENG,CHI
+1950,25 Jun 1950 - 15:00 ,Group 2,Durival de Brito,Curitiba ,Spain,3,1,USA, ,9511,0,1,VIANA Mario (BRA),DA COSTA VIEIRA Jose (POR),DE LA SALLE Charles (FRA),208,1208,ESP,USA
+1950,25 Jun 1950 - 15:00 ,Group 3,Pacaembu,Sao Paulo ,Sweden,3,2,Italy, ,36502,2,1,LUTZ Jean (SUI),BERANEK Alois (AUT),TEJADA Carlos (MEX),208,1219,SWE,ITA
+1950,25 Jun 1950 - 15:00 ,Group 1,Independencia,Belo Horizonte ,Yugoslavia,3,0,Switzerland, ,7336,0,0,GALEATI Giovanni (ITA),EKLIND Ivan (SWE),DATTILO Generoso (ITA),208,1230,YUG,SUI
+1950,28 Jun 1950 - 15:00 ,Group 1,Pacaembu,Sao Paulo ,Brazil,2,2,Switzerland, ,42032,2,1,AZON ROMA Ramon (ESP),BUSTAMANTE Sergio (CHI),DE NICOLA Cayetano (PAR),208,1188,BRA,SUI
+1950,28 Jun 1950 - 15:00 ,Group 1,Eucaliptos,Porto Alegre ,Yugoslavia,4,1,Mexico, ,11078,2,0,LEAFE Reginald (ENG),DAHLNER Gunnar (SWE),VAN DER MEER Karel (NED),208,1225,YUG,MEX
+1950,29 Jun 1950 - 15:00 ,Group 2,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Spain,2,0,Chile, ,19790,2,0,MALCHER Alberto (BRA),MARINO Esteban (URU),ALVAREZ Alfredo (BOL),208,1193,ESP,CHI
+1950,29 Jun 1950 - 15:30 ,Group 3,Durival de Brito,Curitiba ,Sweden,2,2,Paraguay, ,7903,2,1,MITCHELL Robert (SCO),LEMESIC Leo (YUG),GARCIA Prudencio (USA),208,1228,SWE,PAR
+1950,29 Jun 1950 - 15:00 ,Group 2,Independencia,Belo Horizonte ,USA,1,0,England, ,10151,1,0,DATTILO Generoso (ITA),DE LA SALLE Charles (FRA),GALEATI Giovanni (ITA),208,1202,USA,ENG
+1950,01 Jul 1950 - 15:00 ,Group 1,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Brazil,2,0,Yugoslavia, ,142429,1,0,GRIFFITHS Benjamin (WAL),BERANEK Alois (AUT),DA COSTA VIEIRA Jose (POR),208,1191,BRA,YUG
+1950,02 Jul 1950 - 15:00 ,Group 2,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Spain,1,0,England, ,74462,0,0,GALEATI Giovanni (ITA),LUTZ Jean (SUI),DATTILO Generoso (ITA),208,1199,ESP,ENG
+1950,02 Jul 1950 - 15:00 ,Group 3,Pacaembu,Sao Paulo ,Italy,2,0,Paraguay, ,25811,1,0,ELLIS Arthur (ENG),GARCIA Prudencio (USA),DE LA SALLE Charles (FRA),208,1218,ITA,PAR
+1950,02 Jul 1950 - 15:00 ,Group 4,Independencia,Belo Horizonte ,Uruguay,8,0,Bolivia, ,5284,4,0,READER George (ENG),VIANA Mario (BRA),LEMESIC Leo (YUG),208,1185,URU,BOL
+1950,02 Jul 1950 - 15:40 ,Group 1,Eucaliptos,Porto Alegre ,Switzerland,2,1,Mexico, ,3580,2,0,EKLIND Ivan (SWE),DAHLNER Gunnar (SWE),BUSTAMANTE Sergio (CHI),208,1222,SUI,MEX
+1950,02 Jul 1950 - 15:00 ,Group 2,Ilha do Retiro,Recife ,Chile,5,2,USA, ,8501,2,0,GARDELLI Mario (BRA),HEYEN Mario Ruben (PAR),ALVAREZ Alfredo (BOL),208,1194,CHI,USA
+1950,09 Jul 1950 - 15:00 ,Group 6,Pacaembu,Sao Paulo ,Uruguay,2,2,Spain, ,44802,1,2,GRIFFITHS Benjamin (WAL),DATTILO Generoso (ITA),ALVAREZ Alfredo (BOL),209,1207,URU,ESP
+1950,09 Jul 1950 - 15:00 ,Group 6,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Brazil,7,1,Sweden, ,138886,3,0,ELLIS Arthur (ENG),GARCIA Prudencio (USA),DE LA SALLE Charles (FRA),209,1189,BRA,SWE
+1950,13 Jul 1950 - 15:00 ,Group 6,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Brazil,6,1,Spain, ,152772,3,0,LEAFE Reginald (ENG),MITCHELL George (SCO),DA COSTA VIEIRA Jose (POR),209,1186,BRA,ESP
+1950,13 Jul 1950 - 15:00 ,Group 6,Pacaembu,Sao Paulo ,Uruguay,3,2,Sweden, ,7987,1,2,GALEATI Giovanni (ITA),BERANEK Alois (AUT),DE NICOLA Cayetano (PAR),209,1231,URU,SWE
+1950,16 Jul 1950 - 15:00 ,Group 6,Pacaembu,Sao Paulo ,Sweden,3,1,Spain, ,11227,2,0,VAN DER MEER Karel (NED),LUTZ Jean (SUI),GARCIA Prudencio (USA),209,1206,SWE,ESP
+1950,16 Jul 1950 - 15:00 ,Group 6,Maracan� - Est�dio Jornalista M�rio Filho,Rio De Janeiro ,Uruguay,2,1,Brazil, ,173850,0,0,READER George (ENG),ELLIS Arthur (ENG),MITCHELL George (SCO),209,1190,URU,BRA
+1954,16 Jun 1954 - 18:00 ,Group 3,Wankdorf Stadium,Berne ,Uruguay,2,0,Czechoslovakia, ,20500,0,0,ELLIS Arthur (ENG),LING William (ENG),SCHICKER Werner (SUI),211,1315,URU,TCH
+1954,16 Jun 1954 - 18:00 ,Group 3,Hardturm,Zurich ,Austria,1,0,Scotland, ,25000,1,0,FRANKEN Laurent (BEL),VIANA Mario (BRA),GULDE Josef (SUI),211,1236,AUT,SCO
+1954,16 Jun 1954 - 18:00 ,Group 1,Charmilles,Geneva ,Brazil,5,0,Mexico, ,13470,4,0,WYSSLING Paul (SUI),SCHONHOLZER Ernest (SUI),DA COSTA VIEIRA Jose (POR),211,1249,BRA,MEX
+1954,16 Jun 1954 - 18:00 ,Group 1,La Pontaise,Lausanne ,Yugoslavia,1,0,France, ,16000,1,0,GRIFFITHS Benjamin (WAL),BAUMBERGER Rene (SUI),ASENSI Manuel (ESP),211,1276,YUG,FRA
+1954,17 Jun 1954 - 18:00 ,Group 2,Wankdorf Stadium,Berne ,Germany FR,4,1,Turkey, ,28000,1,1,DA COSTA VIEIRA Jose (POR),ZSOLT Istvan (HUN),MERLOTTI Armand (SUI),211,1283,FRG,TUR
+1954,17 Jun 1954 - 18:00 ,Group 2,Hardturm,Zurich ,Hungary,9,0,Korea Republic, ,13000,4,0,VINCENTI Raymond (FRA),VON GUNTER Albert (SUI),STEINER Carl (AUT),211,1294,HUN,KOR
+1954,17 Jun 1954 - 18:10 ,Group 4,St. Jakob,Basel ,England,4,4,Belgium, ,14000,0,0,SCHMETZER Emil (FRG),BUCHMUELLER Fritz (SUI),RUFFLI Willy (SUI),211,1240,ENG,BEL
+1954,17 Jun 1954 - 17:50 ,Group 4,La Pontaise,Lausanne ,Switzerland,2,1,Italy, ,43000,1,1,VIANA Mario (BRA),ASENSI Manuel (ESP),MARINO Esteban (URU),211,1300,SUI,ITA
+1954,19 Jun 1954 - 16:50 ,Group 3,St. Jakob,Basel ,Uruguay,7,0,Scotland, ,34000,2,0,ORLANDINI Vincenzo (ITA),WYSSLING Paul (SUI),GUIDI Denilo (SUI),211,1313,URU,SCO
+1954,19 Jun 1954 - 17:00 ,Group 3,Hardturm,Zurich ,Austria,5,0,Czechoslovakia, ,26000,4,0,STEFANOVIC Vasa (YUG),DOERFLINGER Ernst (SUI),GULDE Josef (SUI),211,1238,AUT,TCH
+1954,19 Jun 1954 - 17:10 ,Group 1,Charmilles,Geneva ,France,3,2,Mexico, ,19000,1,0,ASENSI Manuel (ESP),FRANKEN Laurent (BEL),BAUMBERGER Rene (SUI),211,1275,FRA,MEX
+1954,19 Jun 1954 - 17:00 ,Group 1,La Pontaise,Lausanne ,Brazil,1,1,Yugoslavia, ,24637,0,0,FAULTLESS Charlie (SCO),ELLIS Arthur (ENG),VON GUNTER Albert (SUI),211,1252,BRA,YUG
+1954,20 Jun 1954 - 16:50 ,Group 2,St. Jakob,Basel ,Hungary,8,3,Germany FR, ,56000,3,1,LING William (ENG),SCHICKER Werner (SUI),GRIFFITHS Benjamin (WAL),211,1277,HUN,FRG
+1954,20 Jun 1954 - 17:00 ,Group 2,Charmilles,Geneva ,Turkey,7,0,Korea Republic, ,4000,4,0,MARINO Esteban (URU),ORLANDINI Vincenzo (ITA),SCHONHOLZER Ernest (SUI),211,1304,TUR,KOR
+1954,20 Jun 1954 - 17:10 ,Group 4,Wankdorf Stadium,Berne ,England,2,0,Switzerland, ,43500,1,0,ZSOLT Istvan (HUN),DA COSTA VIEIRA Jose (POR),STEFANOVIC Vasa (YUG),211,1263,ENG,SUI
+1954,20 Jun 1954 - 17:00 ,Group 4,Comunale di Cornaredo,Lugano ,Italy,4,1,Belgium, ,24000,1,0,STEINER Carl (AUT),VINCENTI Raymond (FRA),SCHMETZER Emil (FRG),211,1243,ITA,BEL
+1954,23 Jun 1954 - 18:00 ,Group 2,Hardturm,Zurich ,Germany FR,7,2,Turkey, ,17000,3,1,VINCENTI Raymond (FRA),FAULTLESS Charlie (SCO),DOERFLINGER Ernst (SUI),211,1284,FRG,TUR
+1954,23 Jun 1954 - 18:00 ,Group 4,St. Jakob,Basel ,Switzerland,4,1,Italy, ,30000,1,0,GRIFFITHS Benjamin (WAL),DA COSTA VIEIRA Jose (POR),LING William (ENG),211,1301,SUI,ITA
+1954,26 Jun 1954 - 17:00 ,Quarter-finals,St. Jakob,Basel ,Uruguay,4,2,England, ,28000,2,1,STEINER Carl (AUT),STEFANOVIC Vasa (YUG),ORLANDINI Vincenzo (ITA),212,1264,URU,ENG
+1954,26 Jun 1954 - 17:00 ,Quarter-finals,La Pontaise,Lausanne ,Austria,7,5,Switzerland, ,35000,5,4,FAULTLESS Charlie (SCO),ASENSI Manuel (ESP),SCHMETZER Emil (FRG),212,1237,AUT,SUI
+1954,27 Jun 1954 - 17:00 ,Quarter-finals,Charmilles,Geneva ,Germany FR,2,0,Yugoslavia, ,17000,1,0,ZSOLT Istvan (HUN),FRANKEN Laurent (BEL),BUCHMUELLER Fritz (SUI),212,1285,FRG,YUG
+1954,27 Jun 1954 - 17:00 ,Quarter-finals,Wankdorf Stadium,Berne ,Hungary,4,2,Brazil, ,40000,2,1,ELLIS Arthur (ENG),LING William (ENG),WYSSLING Paul (SUI),212,1248,HUN,BRA
+1954,30 Jun 1954 - 18:00 ,Semi-finals,St. Jakob,Basel ,Germany FR,6,1,Austria, ,58000,1,0,ORLANDINI Vincenzo (ITA),ELLIS Arthur (ENG),BUCHMUELLER Fritz (SUI),462,1233,FRG,AUT
+1954,30 Jun 1954 - 18:00 ,Semi-finals,La Pontaise,Lausanne ,Hungary,4,2,Uruguay,Hungary win after extra time ,45000,0,0,GRIFFITHS Benjamin (WAL),FAULTLESS Charlie (SCO),VINCENTI Raymond (FRA),462,1295,HUN,URU
+1954,03 Jul 1954 - 17:00 ,Match for third place,Hardturm,Zurich ,Austria,3,1,Uruguay, ,32000,1,1,WYSSLING Paul (SUI),ZSOLT Istvan (HUN),ELLIS Arthur (ENG),3485,1239,AUT,URU
+1954,04 Jul 1954 - 17:00 ,Final,Wankdorf Stadium,Berne ,Germany FR,3,2,Hungary, ,62500,2,2,LING William (ENG),ORLANDINI Vincenzo (ITA),GRIFFITHS Benjamin (WAL),3484,1278,FRG,HUN
+1958,08 Jun 1958 - 14:00 ,Group 3,Rasunda Stadium,Solna ,Sweden,3,0,Mexico, ,34107,1,0,LATYCHEV Nikolaj (URS),MOWAT Jack (SCO),ERIKSSON Arne (FIN),220,1415,SWE,MEX
+1958,08 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Gothenburg ,Soviet Union,2,2,England, ,49348,1,0,ZSOLT Istvan (HUN),NILSEN Birger (NOR),JORGENSEN Carl Frederik (DEN),220,1372,URS,ENG
+1958,08 Jun 1958 - 19:00 ,Group 1,Malmo Stadion,Malm� ,Argentina,1,3,Germany FR, ,31156,1,2,LEAFE Reginald (ENG),HELGE Leo (DEN),AHLNER Sten (SWE),220,1323,ARG,FRG
+1958,08 Jun 1958 - 19:00 ,Group 3,Jarnvallen,Sandviken ,Hungary,1,1,Wales, ,15343,1,1,CODESAL Jose Maria (URU),LEMESIC Leo (YUG),VAN NUFFEL Lucien (BEL),220,1407,HUN,WAL
+1958,08 Jun 1958 - 19:00 ,Group 2,Idrottsparken,Norrk�Ping ,France,7,3,Paraguay, ,16518,2,2,GARDEAZABAL Juan (ESP),GRIFFITHS Benjamin (WAL),BROZZI Juan (ARG),220,1386,FRA,PAR
+1958,08 Jun 1958 - 19:00 ,Group 2,Arosvallen,Vasteras ,Yugoslavia,1,1,Scotland, ,9591,1,0,WYSSLING Paul (SUI),ORLANDINI Vincenzo (ITA),MACKO Martin (TCH),220,1434,YUG,SCO
+1958,08 Jun 1958 - 19:00 ,Group 4,Rimnersvallen,Udevalla ,Brazil,3,0,Austria, ,17788,1,0,GUIGUE Maurice (FRA),DUSCH Albert (GER),BRONKHORST Jan (NED),220,1326,BRA,AUT
+1958,08 Jun 1958 - 19:00 ,Group 1,Orjans Vall,Halmstad ,Northern Ireland,1,0,Czechoslovakia, ,10647,1,0,SEIPELT Fritz (AUT),ELLIS Arthur (ENG),FERNANDES CAMPOS Joaquim (POR),220,1421,NIR,TCH
+1958,11 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Gothenburg ,Brazil,0,0,England, ,40895,0,0,DUSCH Albert (GER),LOEOEW Bertil (SWE),ZSOLT Istvan (HUN),220,1339,BRA,ENG
+1958,11 Jun 1958 - 19:00 ,Group 3,Rasunda Stadium,Solna ,Mexico,1,1,Wales, ,15150,0,1,LEMESIC Leo (YUG),LATYCHEV Nikolaj (URS),CODESAL Jose Maria (URU),220,1418,MEX,WAL
+1958,11 Jun 1958 - 19:00 ,Group 2,Idrottsparken,Norrk�Ping ,Paraguay,3,2,Scotland, ,11665,2,1,ORLANDINI Vincenzo (ITA),GARDEAZABAL Juan (ESP),ANDREN Bengt (SWE),220,1423,PAR,SCO
+1958,11 Jun 1958 - 19:00 ,Group 2,Arosvallen,Vasteras ,Yugoslavia,3,2,France, ,12217,1,1,GRIFFITHS Benjamin (WAL),WYSSLING Paul (SUI),DRAGVOLL Georg (NOR),220,1388,YUG,FRA
+1958,11 Jun 1958 - 19:00 ,Group 4,Ryavallen,Boras ,Soviet Union,2,0,Austria, ,21239,1,0,JORGENSEN Carl Frederik (DEN),NILSEN Birger (NOR),ACKEBORN Gosta (SWE),220,1332,URS,AUT
+1958,11 Jun 1958 - 19:00 ,Group 1,Olympia Stadium,Helsingborg ,Germany FR,2,2,Czechoslovakia, ,25000,0,2,ELLIS Arthur (ENG),LEAFE Reginald (ENG),SEIPELT Fritz (AUT),220,1391,FRG,TCH
+1958,11 Jun 1958 - 19:00 ,Group 1,Orjans Vall,Halmstad ,Argentina,3,1,Northern Ireland, ,14174,1,1,AHLNER Sten (SWE),FERNANDES CAMPOS Joaquim (POR),HELGE Leo (DEN),220,1324,ARG,NIR
+1958,12 Jun 1958 - 19:00 ,Group 3,Rasunda Stadium,Solna ,Sweden,2,1,Hungary, ,38850,1,0,MOWAT Jack (SCO),VAN NUFFEL Lucien (BEL),DRAGVOLL Georg (NOR),220,1406,SWE,HUN
+1958,15 Jun 1958 - 14:00 ,Group 3,Rasunda Stadium,Solna ,Sweden,0,0,Wales, ,30287,0,0,VAN NUFFEL Lucien (BEL),LEMESIC Leo (YUG),LATYCHEV Nikolaj (URS),220,1438,SWE,WAL
+1958,15 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Gothenburg ,Brazil,2,0,Soviet Union, ,50928,1,0,GUIGUE Maurice (FRA),NILSEN Birger (NOR),JORGENSEN Carl Frederik (DEN),220,1344,BRA,URS
+1958,15 Jun 1958 - 19:00 ,Group 1,Malmo Stadion,Malm� ,Germany FR,2,2,Northern Ireland, ,21990,1,1,FERNANDES CAMPOS Joaquim (POR),AHLNER Sten (SWE),HELGE Leo (DEN),220,1389,FRG,NIR
+1958,15 Jun 1958 - 19:00 ,Group 3,Jarnvallen,Sandviken ,Hungary,4,0,Mexico, ,13300,1,0,ERIKSSON Arne (FIN),CODESAL Jose Maria (URU),MOWAT Jack (SCO),220,1403,HUN,MEX
+1958,15 Jun 1958 - 19:00 ,Group 2,Tunavallen,Eskilstuna ,Paraguay,3,3,Yugoslavia, ,13103,1,2,MACKO Martin (TCH),GRIFFITHS Benjamin (WAL),GARDEAZABAL Juan (ESP),220,1426,PAR,YUG
+1958,15 Jun 1958 - 19:00 ,Group 2,Eyravallen,Orebro ,France,2,1,Scotland, ,13554,2,0,BROZZI Juan (ARG),ORLANDINI Vincenzo (ITA),WYSSLING Paul (SUI),220,1387,FRA,SCO
+1958,15 Jun 1958 - 19:00 ,Group 4,Ryavallen,Boras ,England,2,2,Austria, ,15872,0,1,BRONKHORST Jan (NED),DUSCH Albert (GER),ZSOLT Istvan (HUN),220,1327,ENG,AUT
+1958,15 Jun 1958 - 19:00 ,Group 1,Olympia Stadium,Helsingborg ,Czechoslovakia,6,1,Argentina, ,16418,3,0,ELLIS Arthur (ENG),LEAFE Reginald (ENG),SEIPELT Fritz (AUT),220,1325,TCH,ARG
+1958,17 Jun 1958 - 19:00 ,Group 4,Nya Ullevi,Gothenburg ,Soviet Union,1,0,England, ,23182,0,0,DUSCH Albert (GER),BRONKHORST Jan (NED),SEIPELT Fritz (AUT),220,1373,URS,ENG
+1958,17 Jun 1958 - 19:00 ,Group 1,Malmo Stadion,Malm� ,Northern Ireland,2,1,Czechoslovakia,Northern Ireland win after extra time ,6196,0,0,GUIGUE Maurice (FRA),FERNANDES CAMPOS Joaquim (POR),AHLNER Sten (SWE),220,1422,NIR,TCH
+1958,17 Jun 1958 - 19:00 ,Group 3,Rasunda Stadium,Solna ,Wales,2,1,Hungary, ,2823,0,1,LATYCHEV Nikolaj (URS),CODESAL Jose Maria (URU),ERIKSSON Arne (FIN),220,1408,WAL,HUN
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Nya Ullevi,Gothenburg ,Brazil,1,0,Wales, ,25923,0,0,SEIPELT Fritz (AUT),GUIGUE Maurice (FRA),DUSCH Albert (GER),221,1345,BRA,WAL
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Malmo Stadion,Malm� ,Germany FR,1,0,Yugoslavia, ,20055,1,0,WYSSLING Paul (SUI),FERNANDES CAMPOS Joaquim (POR),HELGE Leo (DEN),221,1392,FRG,YUG
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Rasunda Stadium,Solna ,Sweden,2,0,Soviet Union, ,31900,0,0,LEAFE Reginald (ENG),BROZZI Juan (ARG),DRAGVOLL Georg (NOR),221,1437,SWE,URS
+1958,19 Jun 1958 - 19:00 ,Quarter-finals,Idrottsparken,Norrk�Ping ,France,4,0,Northern Ireland, ,11800,1,0,GARDEAZABAL Juan (ESP),LATYCHEV Nikolaj (URS),ANDREN Bengt (SWE),221,1385,FRA,NIR
+1958,24 Jun 1958 - 19:00 ,Semi-finals,Nya Ullevi,Gothenburg ,Sweden,3,1,Germany FR, ,49471,1,1,ZSOLT Istvan (HUN),SEIPELT Fritz (AUT),ELLIS Arthur (ENG),488,1390,SWE,FRG
+1958,24 Jun 1958 - 19:00 ,Semi-finals,Rasunda Stadium,Solna ,Brazil,5,2,France, ,27100,2,1,GRIFFITHS Benjamin (WAL),WYSSLING Paul (SUI),LEAFE Reginald (ENG),488,1340,BRA,FRA
+1958,28 Jun 1958 - 17:00 ,Match for third place,Nya Ullevi,Gothenburg ,France,6,3,Germany FR, ,32483,3,1,BROZZI Juan (ARG),ELLIS Arthur (ENG),LUNDELL Bengt (SWE),3483,1382,FRA,FRG
+1958,29 Jun 1958 - 15:00 ,Final,Rasunda Stadium,Solna ,Brazil,5,2,Sweden, ,49737,2,1,GUIGUE Maurice (FRA),DUSCH Albert (GER),GARDEAZABAL Juan (ESP),3482,1343,BRA,SWE
+1962,30 May 1962 - 15:00 ,Group 1,Carlos Dittborn,Arica ,Uruguay,2,1,Colombia, ,7908,0,1,DOROGI Andor (HUN),ETZEL FILHO Joao (BRA),GALBA Karol (TCH),231,1479,URU,COL
+1962,30 May 1962 - 15:00 ,Group 3,Estadio Sausalito,Vina Del Mar ,Brazil,2,0,Mexico, ,10484,0,0,DIENST Gottfried (SUI),STEINER Carl (AUT),SCHWINTE Pierre (FRA),231,1461,BRA,MEX
+1962,30 May 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Rancagua ,Argentina,1,0,Bulgaria, ,7134,1,0,GARDEAZABAL Juan (ESP),BUERGO Fernando (MEX),MORGAN Raymond (CAN),231,1447,ARG,BUL
+1962,30 May 1962 - 15:00 ,Group 2,Nacional,Santiago De Chile ,Chile,3,1,Switzerland, ,65006,1,1,ASTON Ken (ENG),BLAVIER Arthur (BEL),YAMASAKI MALDONADO Arturo (MEX),231,1473,CHI,SUI
+1962,31 May 1962 - 15:00 ,Group 1,Carlos Dittborn,Arica ,Soviet Union,2,0,Yugoslavia, ,9622,0,0,DUSCH Albert (GER),ETZEL FILHO Joao (BRA),ROBLES Carlos (CHI),231,1563,URS,YUG
+1962,31 May 1962 - 15:00 ,Group 3,Estadio Sausalito,Vina Del Mar ,Czechoslovakia,1,0,Spain, ,12700,0,0,STEINER Carl (AUT),MARINO Esteban (URU),VAN ROSBERG Walter Jose (CUW),231,1498,TCH,ESP
+1962,31 May 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Rancagua ,Hungary,2,1,England, ,7938,1,0,HORN Leo (NED),BLAVIER Arthur (BEL),GOLDSTEIN Leo (USA),231,1490,HUN,ENG
+1962,31 May 1962 - 15:00 ,Group 2,Nacional,Santiago De Chile ,Germany FR,0,0,Italy, ,65440,0,0,DAVIDSON Bob (SCO),MORGAN Raymond (CAN),VENTRE Luis Antonio (ARG),231,1507,FRG,ITA
+1962,02 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Arica ,Yugoslavia,3,1,Uruguay, ,8829,2,1,GALBA Karol (TCH),DUSCH Albert (GER),JONNI Cesare (ITA),231,1564,YUG,URU
+1962,02 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Vina Del Mar ,Brazil,0,0,Czechoslovakia, ,14903,0,0,SCHWINTE Pierre (FRA),MASSARO Artur (CHI),DIENST Gottfried (SUI),231,1462,BRA,TCH
+1962,02 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Rancagua ,England,3,1,Argentina, ,9794,2,0,LATYCHEV Nikolaj (URS),REGINATO Adolfe Molina (CHI),MORGAN Raymond (CAN),231,1450,ENG,ARG
+1962,02 Jun 1962 - 15:00 ,Group 2,Nacional,Santiago De Chile ,Chile,2,0,Italy, ,66057,0,0,ASTON Ken (ENG),GOLDSTEIN Leo (USA),BUERGO Fernando (MEX),231,1472,CHI,ITA
+1962,03 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Arica ,Soviet Union,4,4,Colombia, ,8040,3,1,ETZEL FILHO Joao (BRA),DOROGI Andor (HUN),ROBLES Carlos (CHI),231,1478,URS,COL
+1962,03 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Vina Del Mar ,Spain,1,0,Mexico, ,11875,0,0,TESANIC Branko (YUG),VICUNA Claudio (CHI),VAN ROSBERG Walter Jose (CUW),231,1497,ESP,MEX
+1962,03 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Rancagua ,Hungary,6,1,Bulgaria, ,7442,4,0,GARDEAZABAL Juan (ESP),DAVIDSON Bob (SCO),SILVA Luis (CHI),231,1470,HUN,BUL
+1962,03 Jun 1962 - 15:00 ,Group 2,Nacional,Santiago De Chile ,Germany FR,2,1,Switzerland, ,64922,1,0,HORN Leo (NED),LATYCHEV Nikolaj (URS),VENTRE Luis Antonio (ARG),231,1510,FRG,SUI
+1962,06 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Arica ,Soviet Union,2,1,Uruguay, ,9973,1,0,JONNI Cesare (ITA),DOROGI Andor (HUN),DUSCH Albert (GER),231,1562,URS,URU
+1962,06 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Vina Del Mar ,Brazil,2,1,Spain, ,18715,0,1,BUSTAMANTE Sergio (CHI),MARINO Esteban (URU),SUNDHEIM Jose Antonio (COL),231,1460,BRA,ESP
+1962,06 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Rancagua ,Hungary,0,0,Argentina, ,7945,0,0,YAMASAKI MALDONADO Arturo (MEX),BULNES R. (CHI),GARDEAZABAL Juan (ESP),231,1451,HUN,ARG
+1962,06 Jun 1962 - 15:00 ,Group 2,Nacional,Santiago De Chile ,Germany FR,2,0,Chile, ,67224,1,0,DAVIDSON Bob (SCO),ASTON Ken (ENG),HORN Leo (NED),231,1471,FRG,CHI
+1962,07 Jun 1962 - 15:00 ,Group 1,Carlos Dittborn,Arica ,Yugoslavia,5,0,Colombia, ,7167,2,0,ROBLES Carlos (CHI),JONNI Cesare (ITA),GALBA Karol (TCH),231,1480,YUG,COL
+1962,07 Jun 1962 - 15:00 ,Group 3,Estadio Sausalito,Vina Del Mar ,Mexico,3,1,Czechoslovakia, ,10648,2,1,DIENST Gottfried (SUI),TESANIC Branko (YUG),SUNDHEIM Jose Antonio (COL),231,1544,MEX,TCH
+1962,07 Jun 1962 - 15:00 ,Group 4,Estadio El Teniente-Codelco,Rancagua ,England,0,0,Bulgaria, ,5700,0,0,BLAVIER Arthur (BEL),REGINATO Adolfe Molina (CHI),BULNES R. (CHI),231,1464,ENG,BUL
+1962,07 Jun 1962 - 15:00 ,Group 2,Nacional,Santiago De Chile ,Italy,3,0,Switzerland, ,59828,1,0,LATYCHEV Nikolaj (URS),DAVIDSON Bob (SCO),RUMENTCHEV Dimitar (BUL),231,1532,ITA,SUI
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Carlos Dittborn,Arica ,Chile,2,1,Soviet Union, ,17268,2,1,HORN Leo (NED),ETZEL FILHO Joao (BRA),GALBA Karol (TCH),232,1474,CHI,URS
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Estadio Sausalito,Vina Del Mar ,Brazil,3,1,England, ,17736,1,1,SCHWINTE Pierre (FRA),DIENST Gottfried (SUI),BUSTAMANTE Sergio (CHI),232,1459,BRA,ENG
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Estadio El Teniente-Codelco,Rancagua ,Czechoslovakia,1,0,Hungary, ,11690,1,0,LATYCHEV Nikolaj (URS),BUERGO Fernando (MEX),RUMENTCHEV Dimitar (BUL),232,1525,TCH,HUN
+1962,10 Jun 1962 - 14:30 ,Quarter-finals,Nacional,Santiago De Chile ,Yugoslavia,1,0,Germany FR, ,63324,0,0,YAMASAKI MALDONADO Arturo (MEX),VENTRE Luis Antonio (ARG),SILVA Jose Antonio (CHI),232,1511,YUG,FRG
+1962,13 Jun 1962 - 14:30 ,Semi-finals,Estadio Sausalito,Vina Del Mar ,Czechoslovakia,3,1,Yugoslavia, ,5890,0,0,DIENST Gottfried (SUI),STEINER Carl (AUT),JONNI Cesare (ITA),514,1559,TCH,YUG
+1962,13 Jun 1962 - 14:30 ,Semi-finals,Nacional,Santiago De Chile ,Brazil,4,2,Chile, ,76594,2,1,YAMASAKI MALDONADO Arturo (MEX),MARINO Esteban (URU),VENTRE Luis Antonio (ARG),514,1458,BRA,CHI
+1962,16 Jun 1962 - 14:30 ,Match for third place,Nacional,Santiago De Chile ,Chile,1,0,Yugoslavia, ,66697,0,0,GARDEAZABAL Juan (ESP),DUSCH Albert (GER),DOROGI Andor (HUN),3481,1475,CHI,YUG
+1962,17 Jun 1962 - 14:30 ,Final,Nacional,Santiago De Chile ,Brazil,3,1,Czechoslovakia, ,68679,1,1,LATYCHEV Nikolaj (URS),HORN Leo (NED),DAVIDSON Bob (SCO),3480,1463,BRA,TCH
+1966,11 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,London ,England,0,0,Uruguay, ,87148,0,0,ZSOLT Istvan (HUN),BAKHRAMOV Tofik (URS),RUMENTCHEV Dimitar (BUL),238,1636,ENG,URU
+1966,12 Jul 1966 - 19:30 ,Group 2,Hillsborough,Sheffield ,Germany FR,5,0,Switzerland, ,36127,3,0,PHILLIPS Hugh (SCO),ADAIR John (NIR),LOEOEW Bertil (SWE),238,1656,FRG,SUI
+1966,12 Jul 1966 - 19:30 ,Group 3,Goodison Park,Liverpool ,Brazil,2,0,Bulgaria, ,47308,1,0,TSCHENSCHER Kurt (GER),McCABE George (ENG),TAYLOR John (ENG),238,1596,BRA,BUL
+1966,12 Jul 1966 - 19:30 ,Group 4,Ayresome Park,Middlesbrough ,Soviet Union,3,0,Korea DPR, ,23006,2,0,GARDEAZABAL Juan (ESP),KANDIL Aly Hussein (EGY),DIENST Gottfried (SUI),238,1710,URS,PRK
+1966,13 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,London ,France,1,1,Mexico, ,69237,0,0,ASHKENAZI Menachem (ISR),FERNANDES CAMPOS Joaquim (POR),GALBA Karol (TCH),238,1650,FRA,MEX
+1966,13 Jul 1966 - 19:30 ,Group 3,Old Trafford Stadium,Manchester ,Portugal,3,1,Hungary, ,29886,1,0,CALLAGHAN Leo (WAL),HOWLEY Kevin (ENG),CLEMENTS William (ENG),238,1675,POR,HUN
+1966,13 Jul 1966 - 19:30 ,Group 2,Villa Park,Birmingham ,Argentina,2,1,Spain, ,42738,0,0,RUMENTCHEV Dimitar (BUL),YAMASAKI MALDONADO Arturo (MEX),ZECEVIC Konstantin (YUG),238,1578,ARG,ESP
+1966,13 Jul 1966 - 19:30 ,Group 4,Roker Park Ground,Sunderland ,Italy,2,0,Chile, ,27199,1,0,DIENST Gottfried (SUI),FINNEY Jim (ENG),KREITLEIN Rudolf (GER),238,1608,ITA,CHI
+1966,15 Jul 1966 - 19:30 ,Group 1,White City,London ,Uruguay,2,1,France, ,45662,2,1,GALBA Karol (TCH),CALLAGHAN Leo (WAL),MARQUES Armando (BRA),238,1653,URU,FRA
+1966,15 Jul 1966 - 19:30 ,Group 2,Hillsborough,Sheffield ,Spain,2,1,Switzerland, ,32028,0,1,BAKHRAMOV Tofik (URS),ZSOLT Istvan (HUN),PHILLIPS Hugh (SCO),238,1641,ESP,SUI
+1966,15 Jul 1966 - 19:30 ,Group 3,Goodison Park,Liverpool ,Hungary,3,1,Brazil, ,51387,1,1,DAGNALL Kenneth (ENG),HOWLEY Kevin (ENG),YAMASAKI MALDONADO Arturo (MEX),238,1597,HUN,BRA
+1966,15 Jul 1966 - 19:30 ,Group 4,Ayresome Park,Middlesbrough ,Korea DPR,1,1,Chile, ,13792,0,1,KANDIL Aly Hussein (EGY),CRAWFORD William (SCO),FINNEY Jim (ENG),238,1609,PRK,CHI
+1966,16 Jul 1966 - 15:00 ,Group 3,Old Trafford Stadium,Manchester ,Portugal,3,0,Bulgaria, ,25438,2,0,CODESAL Jose Maria (URU),GOICOECHEA Roberto (ARG),TSCHENSCHER Kurt (GER),238,1602,POR,BUL
+1966,16 Jul 1966 - 15:00 ,Group 2,Villa Park,Birmingham ,Germany FR,0,0,Argentina, ,46587,0,0,ZECEVIC Konstantin (YUG),FERNANDES CAMPOS Joaquim (POR),LOEOEW Bertil (SWE),238,1579,FRG,ARG
+1966,16 Jul 1966 - 15:00 ,Group 4,Roker Park Ground,Sunderland ,Soviet Union,1,0,Italy, ,27793,0,0,KREITLEIN Rudolf (GER),CRAWFORD William (SCO),KANDIL Aly Hussein (EGY),238,1682,URS,ITA
+1966,16 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,London ,England,2,0,Mexico, ,92570,1,0,LO BELLO Concetto (ITA),CHOI Duk Ryong (PRK),ASHKENAZI Menachem (ISR),238,1634,ENG,MEX
+1966,19 Jul 1966 - 16:30 ,Group 1,Wembley Stadium,London ,Uruguay,0,0,Mexico, ,61112,0,0,LOEOEW Bertil (SWE),VICUNA Claudio (CHI),LO BELLO Concetto (ITA),238,1689,URU,MEX
+1966,19 Jul 1966 - 19:30 ,Group 2,Hillsborough,Sheffield ,Argentina,2,0,Switzerland, ,32127,0,0,FERNANDES CAMPOS Joaquim (POR),ZSOLT Istvan (HUN),BAKHRAMOV Tofik (URS),238,1582,ARG,SUI
+1966,19 Jul 1966 - 19:30 ,Group 3,Goodison Park,Liverpool ,Portugal,3,1,Brazil, ,58479,2,0,McCABE George (ENG),CALLAGHAN Leo (WAL),DAGNALL Kenneth (ENG),238,1598,POR,BRA
+1966,19 Jul 1966 - 19:30 ,Group 4,Ayresome Park,Middlesbrough ,Korea DPR,1,0,Italy, ,17829,1,0,SCHWINTE Pierre (FRA),ADAIR John (NIR),TAYLOR John (ENG),238,1679,PRK,ITA
+1966,20 Jul 1966 - 19:30 ,Group 1,Wembley Stadium,London ,England,2,0,France, ,98270,1,0,YAMASAKI MALDONADO Arturo (MEX),GALBA Karol (TCH),RUMENTCHEV Dimitar (BUL),238,1632,ENG,FRA
+1966,20 Jul 1966 - 19:30 ,Group 3,Old Trafford Stadium,Manchester ,Hungary,3,1,Bulgaria, ,24129,2,1,GOICOECHEA Roberto (ARG),GARDEAZABAL Juan (ESP),CODESAL Jose Maria (URU),238,1599,HUN,BUL
+1966,20 Jul 1966 - 19:30 ,Group 2,Villa Park,Birmingham ,Germany FR,2,1,Spain, ,42187,1,1,MARQUES Armando (BRA),VICUNA Claudio (CHI),CHOI Duk Ryong (PRK),238,1637,FRG,ESP
+1966,20 Jul 1966 - 19:30 ,Group 4,Roker Park Ground,Sunderland ,Soviet Union,2,1,Chile, ,16027,1,1,ADAIR John (NIR),SCHWINTE Pierre (FRA),CLEMENTS William (ENG),238,1610,URS,CHI
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Wembley Stadium,London ,England,1,0,Argentina, ,90584,0,0,KREITLEIN Rudolf (GER),DIENST Gottfried (SUI),ZSOLT Istvan (HUN),239,1577,ENG,ARG
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Hillsborough,Sheffield ,Germany FR,4,0,Uruguay, ,40007,1,0,FINNEY Jim (ENG),KANDIL Aly Hussein (EGY),PHILLIPS Hugh (SCO),239,1660,FRG,URU
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Roker Park Ground,Sunderland ,Soviet Union,2,1,Hungary, ,26844,1,0,GARDEAZABAL Juan (ESP),CODESAL Jose Maria (URU),FERNANDES CAMPOS Joaquim (POR),239,1676,URS,HUN
+1966,23 Jul 1966 - 15:00 ,Quarter-finals,Goodison Park,Liverpool ,Portugal,5,3,Korea DPR, ,40248,2,3,ASHKENAZI Menachem (ISR),GALBA Karol (TCH),SCHWINTE Pierre (FRA),239,1702,POR,PRK
+1966,25 Jul 1966 - 19:30 ,Semi-finals,Goodison Park,Liverpool ,Germany FR,2,1,Soviet Union, ,38273,1,0,LO BELLO Concetto (ITA),CODESAL Jose Maria (URU),GARDEAZABAL Juan (ESP),536,1659,FRG,URS
+1966,26 Jul 1966 - 19:30 ,Semi-finals,Wembley Stadium,London ,England,2,1,Portugal, ,94493,1,0,SCHWINTE Pierre (FRA),YAMASAKI MALDONADO Arturo (MEX),ZECEVIC Konstantin (YUG),536,1635,ENG,POR
+1966,28 Jul 1966 - 19:30 ,Match for third place,Wembley Stadium,London ,Portugal,2,1,Soviet Union, ,87696,1,1,DAGNALL Kenneth (ENG),HOWLEY Kevin (ENG),KANDIL Aly Hussein (EGY),3479,1709,POR,URS
+1966,30 Jul 1966 - 15:00 ,Final,Wembley Stadium,London ,England,4,2,Germany FR,England win after extra time ,96924,0,0,DIENST Gottfried (SUI),BAKHRAMOV Tofik (URS),GALBA Karol (TCH),3478,1633,ENG,FRG
+1970,31 May 1970 - 12:00 ,Group 1,Estadio Azteca,Mexico City ,Mexico,0,0,Soviet Union, ,107160,0,0,TSCHENSCHER Kurt (GER),DUNSTAN Keith (BER),TAYLOR John (ENG),250,1902,MEX,URS
+1970,02 Jun 1970 - 16:00 ,Group 2,Cuauhtemoc,Puebla ,Uruguay,2,0,Israel, ,20654,1,0,DAVIDSON Bob (SCO),SCHEURER Ruedi (SUI),TAREKEGN Seyoum (ETH),250,1881,URU,ISR
+1970,02 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Leon ,Peru,3,2,Bulgaria, ,13765,0,1,SBARDELLA Antonio (ITA),AGUILAR ELIZALDE Abel (MEX),MARUYAMA Yoshiyuki (JPN),250,1780,PER,BUL
+1970,02 Jun 1970 - 16:00 ,Group 3,Jalisco,Guadalajara ,England,1,0,Romania, ,50560,0,0,LORAUX Vital (BEL),MACHIN Roger (FRA),DE LEO Diego (MEX),250,1812,ENG,ROU
+1970,03 Jun 1970 - 16:00 ,Group 2,Luis Dosal,Toluca ,Italy,1,0,Sweden, ,13433,1,0,TAYLOR John (ENG),SCHEURER Ruedi (SUI),KANDIL Aly Hussein (EGY),250,1883,ITA,SWE
+1970,03 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Leon ,Germany FR,2,1,Morocco, ,12942,0,1,VAN RAVENS Laurens (NED),ORTIZ DE MENDIBIL Jose Maria (ESP),VELASQUEZ Guillermo (COL),250,1839,FRG,MAR
+1970,03 Jun 1970 - 16:00 ,Group 3,Jalisco,Guadalajara ,Brazil,4,1,Czechoslovakia, ,52897,1,1,BARRETO RUIZ Ramon (URU),KLEIN Abraham (ISR),YAMASAKI MALDONADO Arturo (MEX),250,1770,BRA,TCH
+1970,03 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Mexico City ,Belgium,3,0,El Salvador, ,92205,1,0,RADULESCU Andrei (ROU),GLOECKNER Rudolf (GDR),TSCHENSCHER Kurt (GER),250,1747,BEL,SLV
+1970,06 Jun 1970 - 16:00 ,Group 2,Cuauhtemoc,Puebla ,Uruguay,0,0,Italy, ,29968,0,0,GLOECKNER Rudolf (GDR),TSCHENSCHER Kurt (GER),HORVAT Drago (YUG),250,1884,URU,ITA
+1970,06 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Leon ,Peru,3,0,Morocco, ,13537,0,0,BAKHRAMOV Tofik (URS),MARUYAMA Yoshiyuki (JPN),SBARDELLA Antonio (ITA),250,1893,PER,MAR
+1970,06 Jun 1970 - 16:00 ,Group 3,Jalisco,Guadalajara ,Romania,2,1,Czechoslovakia, ,56818,0,1,DE LEO Diego (MEX),EMSBERGER Gyula (HUN),LORAUX Vital (BEL),250,1919,ROU,TCH
+1970,06 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Mexico City ,Soviet Union,4,1,Belgium, ,95261,1,0,SCHEURER Ruedi (SUI),LANDAUER Henry (USA),DAVIDSON Bob (SCO),250,1753,URS,BEL
+1970,07 Jun 1970 - 12:00 ,Group 2,Luis Dosal,Toluca ,Sweden,1,1,Israel, ,9624,0,0,TAREKEGN Seyoum (ETH),RADULESCU Andrei (ROU),HORVAT Drago (YUG),250,1880,SWE,ISR
+1970,07 Jun 1970 - 12:00 ,Group 4,Nou Camp - Estadio Le�n,Leon ,Germany FR,5,2,Bulgaria, ,12710,2,1,ORTIZ DE MENDIBIL Jose Maria (ESP),VELASQUEZ Guillermo (COL),SALDANHA RIBEIRO Antonio (POR),250,1774,FRG,BUL
+1970,07 Jun 1970 - 12:00 ,Group 3,Jalisco,Guadalajara ,Brazil,1,0,England, ,66843,0,0,KLEIN Abraham (ISR),YAMASAKI MALDONADO Arturo (MEX),MACHIN Roger (FRA),250,1764,BRA,ENG
+1970,07 Jun 1970 - 12:00 ,Group 1,Estadio Azteca,Mexico City ,Mexico,4,0,El Salvador, ,103058,1,0,KANDIL Aly Hussein (EGY),DUNSTAN Keith (BER),TAYLOR John (ENG),250,1820,MEX,SLV
+1970,10 Jun 1970 - 16:00 ,Group 2,Cuauhtemoc,Puebla ,Sweden,1,0,Uruguay, ,18163,0,0,LANDAUER Henry (USA),TAYLOR John (ENG),RADULESCU Andrei (ROU),250,1922,SWE,URU
+1970,10 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Leon ,Germany FR,3,1,Peru, ,17875,3,1,AGUILAR ELIZALDE Abel (MEX),ORTIZ DE MENDIBIL Jose Maria (ESP),SBARDELLA Antonio (ITA),250,1840,FRG,PER
+1970,10 Jun 1970 - 16:00 ,Group 3,Jalisco,Guadalajara ,Brazil,3,2,Romania, ,50804,2,1,MARSCHALL Ferdinand (AUT),BARRETO RUIZ Ramon (URU),LORAUX Vital (BEL),250,1769,BRA,ROU
+1970,10 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Mexico City ,Soviet Union,2,0,El Salvador, ,89979,0,0,HORMAZABAL DIAZ Rafael (CHI),COEREZZA Norberto Angel (ARG),DE MORAES Ayrton Vieira (BRA),250,1823,URS,SLV
+1970,11 Jun 1970 - 16:00 ,Group 2,Luis Dosal,Toluca ,Italy,0,0,Israel, ,9890,0,0,DE MORAES Ayrton Vieira (BRA),TAREKEGN Seyoum (ETH),TSCHENSCHER Kurt (GER),250,1877,ITA,ISR
+1970,11 Jun 1970 - 16:00 ,Group 4,Nou Camp - Estadio Le�n,Leon ,Bulgaria,1,1,Morocco, ,12299,1,0,SALDANHA RIBEIRO Antonio (POR),BAKHRAMOV Tofik (URS),VAN RAVENS Laurens (NED),250,1779,BUL,MAR
+1970,11 Jun 1970 - 16:00 ,Group 3,Jalisco,Guadalajara ,England,1,0,Czechoslovakia, ,49292,0,0,MACHIN Roger (FRA),EMSBERGER Gyula (HUN),MARSCHALL Ferdinand (AUT),250,1813,ENG,TCH
+1970,11 Jun 1970 - 16:00 ,Group 1,Estadio Azteca,Mexico City ,Mexico,1,0,Belgium, ,108192,1,0,COEREZZA Norberto Angel (ARG),LANDAUER Henry (USA),HORMAZABAL DIAZ Rafael (CHI),250,1752,MEX,BEL
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Luis Dosal,Toluca ,Italy,4,1,Mexico, ,26851,1,1,SCHEURER Ruedi (SUI),DUNSTAN Keith (BER),LANDAUER Henry (USA),251,1882,ITA,MEX
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Nou Camp - Estadio Le�n,Leon ,Germany FR,3,2,England,Germany FR win after extra time ,23357,0,0,COEREZZA Norberto Angel (ARG),VELASQUEZ Guillermo (COL),ORTIZ DE MENDIBIL Jose Maria (ESP),251,1811,FRG,ENG
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Jalisco,Guadalajara ,Brazil,4,2,Peru, ,54233,2,1,LORAUX Vital (BEL),MARSCHALL Ferdinand (AUT),EMSBERGER Gyula (HUN),251,1768,BRA,PER
+1970,14 Jun 1970 - 12:00 ,Quarter-finals,Estadio Azteca,Mexico City ,Uruguay,1,0,Soviet Union,Uruguay win after extra time ,26085,0,0,VAN RAVENS Laurens (NED),DAVIDSON Bob (SCO),GLOECKNER Rudolf (GDR),251,1925,URU,URS
+1970,17 Jun 1970 - 16:00 ,Semi-finals,Jalisco,Guadalajara ,Brazil,3,1,Uruguay, ,51261,1,1,ORTIZ DE MENDIBIL Jose Maria (ESP),BAKHRAMOV Tofik (URS),MARSCHALL Ferdinand (AUT),569,1771,BRA,URU
+1970,17 June 1970 - 16:00 ,Semi-finals,Estadio Azteca,Mexico City ,Italy,4,3,Germany FR,Italy win after extra time ,102444,0,0,YAMASAKI MALDONADO Arturo (MEX),HORMAZABAL DIAZ Rafael (CHI),VELASQUEZ Guillermo (COL),569,1838,ITA,FRG
+1970,20 Jun 1970 - 16:00 ,Match for third place,Estadio Azteca,Mexico City ,Germany FR,1,0,Uruguay, ,104403,1,0,SBARDELLA Antonio (ITA),MARSCHALL Ferdinand (AUT),AGUILAR ELIZALDE Abel (MEX),3477,1843,FRG,URU
+1970,21 Jun 1970 - 12:00 ,Final,Estadio Azteca,Mexico City ,Brazil,4,1,Italy, ,107412,1,1,GLOECKNER Rudolf (GDR),SCHEURER Ruedi (SUI),COEREZZA Norberto Angel (ARG),3476,1765,BRA,ITA
+1974,13 Jun 1974 - 17:00 ,Group 2,Waldstadion,Frankfurt/Main ,Brazil,0,0,Yugoslavia, ,62000,0,0,SCHEURER Ruedi (SUI),LORAUX Vital (BEL),PESTARINO Luis (ARG),262,1986,BRA,YUG
+1974,14 Jun 1974 - 16:00 ,Group 1,Olympiastadion,Berlin West ,Germany FR,1,0,Chile, ,81100,1,0,BABACAN Dogan (TUR),TAYLOR John (ENG),WINSEMANN Werner (CAN),262,2003,FRG,CHI
+1974,14 Jun 1974 - 19:30 ,Group 1,Volksparkstadion,Hamburg ,German DR,2,0,Australia, ,17000,0,0,NDIAYE Youssou (SEN),SANCHEZ IBANEZ Pablo (ESP),DELGADO Omar (COL),262,1955,GDR,AUS
+1974,14 Jun 1974 - 19:30 ,Group 2,Westfalenstadion,Dortmund ,Zaire,0,2,Scotland, ,27000,0,2,SCHULENBURG Gerhard (GER),BOSKOVIC Tony (AUS),WEYLAND Hans Joachim (FRG),262,2176,ZAI,SCO
+1974,15 Jun 1974 - 16:00 ,Group 3,Niedersachsenstadion,Hanover ,Uruguay,0,2,Netherlands, ,55100,0,1,PALOTAI Karoly (HUN),KAZAKOV Pavel (URS),RAINEA Nicolae (ROU),262,2098,URU,NED
+1974,15 Jun 1974 - 16:00 ,Group 3,Rheinstadion,D�Sseldorf ,Sweden,0,0,Bulgaria, ,23800,0,0,PEREZ NUNEZ Edison A. (PER),GONZALEZ ARCHUNDIA Alfonso (MEX),SUPPIAH George (SIN),262,1995,SWE,BUL
+1974,15 Jun 1974 - 18:00 ,Group 4,Olympiastadion,Munich ,Italy,3,1,Haiti, ,53000,0,0,LLOBREGAT Vicente (VEN),NAMDAR Jafar (IRN),MARQUES Armando (BRA),262,2083,ITA,HAI
+1974,15 Jun 1974 - 18:00 ,Group 4,Neckarstadion,Stuttgart ,Poland,3,2,Argentina, ,32700,2,0,THOMAS Clive (WAL),ALDINGER Heinz (GER),DAVIDSON Bob (SCO),262,1952,POL,ARG
+1974,18 Jun 1974 - 16:00 ,Group 1,Volksparkstadion,Hamburg ,Australia,0,3,Germany FR, ,53300,0,2,KAMEL Mahmoud (EGY),GONZALEZ ARCHUNDIA Alfonso (MEX),PEREZ NUNEZ Edison A. (PER),262,1954,AUS,FRG
+1974,18 Jun 1974 - 19:30 ,Group 2,Waldstadion,Frankfurt/Main ,Scotland,0,0,Brazil, ,62000,0,0,VAN GEMERT Arie (NED),PALOTAI Karoly (HUN),LINEMAYR Erich (AUT),262,1985,SCO,BRA
+1974,18 Jun 1974 - 19:30 ,Group 1,Olympiastadion,Berlin West ,Chile,1,1,German DR, ,28300,0,0,ANGONESE Aurelio (ITA),SCHEURER Ruedi (SUI),DAVIDSON Bob (SCO),262,2004,CHI,GDR
+1974,18 Jun 1974 - 19:30 ,Group 2,Parkstadion,Gelsenkirchen ,Yugoslavia,9,0,Zaire, ,31700,6,0,DELGADO Omar (COL),LLOBREGAT Vicente (VEN),BARRETO RUIZ Ramon (URU),262,2186,YUG,ZAI
+1974,19 Jun 1974 - 19:30 ,Group 3,Westfalenstadion,Dortmund ,Netherlands,0,0,Sweden, ,53700,0,0,WINSEMANN Werner (CAN),TSCHENSCHER Kurt (GER),THOMAS Clive (WAL),262,2097,NED,SWE
+1974,19 Jun 1974 - 19:30 ,Group 3,Niedersachsenstadion,Hanover ,Bulgaria,1,1,Uruguay, ,13400,0,0,TAYLOR John (ENG),BABACAN Dogan (TUR),OHMSEN Klaus (GER),262,1996,BUL,URU
+1974,19 Jun 1974 - 19:30 ,Group 4,Olympiastadion,Munich ,Haiti,0,7,Poland, ,25300,0,5,SUPPIAH George (SIN),BIWERSI Ferdinand (GER),ESCHWEILER Walter (GER),262,2085,HAI,POL
+1974,19 Jun 1974 - 19:30 ,Group 4,Neckarstadion,Stuttgart ,Argentina,1,1,Italy, ,70100,1,1,KAZAKOV Pavel (URS),GLOECKNER Rudolf (GDR),RAINEA Nicolae (ROU),262,1949,ARG,ITA
+1974,22 Jun 1974 - 16:00 ,Group 2,Waldstadion,Frankfurt/Main ,Scotland,1,1,Yugoslavia, ,56000,0,0,GONZALEZ ARCHUNDIA Alfonso (MEX),GLOECKNER Rudolf (GDR),TSCHENSCHER Kurt (GER),262,2175,SCO,YUG
+1974,22 Jun 1974 - 16:00 ,Group 1,Olympiastadion,Berlin West ,Australia,0,0,Chile, ,17400,0,0,NAMDAR Jafar (IRN),LORAUX Vital (BEL),VAN GEMERT Arie (NED),262,1953,AUS,CHI
+1974,22 Jun 1974 - 16:00 ,Group 2,Parkstadion,Gelsenkirchen ,Zaire,0,3,Brazil, ,36200,0,1,RAINEA Nicolae (ROU),ANGONESE Aurelio (ITA),OHMSEN Klaus (GER),262,1987,ZAI,BRA
+1974,22 June 1974 - 19:30 ,Group 1,Volksparkstadion,Hamburg ,German DR,1,0,Germany FR, ,60200,0,0,BARRETO RUIZ Ramon (URU),MARQUES Armando (BRA),PESTARINO Luis (ARG),262,2062,GDR,FRG
+1974,23 Jun 1974 - 16:00 ,Group 3,Westfalenstadion,Dortmund ,Bulgaria,1,4,Netherlands, ,53300,0,2,BOSKOVIC Tony (AUS),BIWERSI Ferdinand (GER),ESCHWEILER Walter (GER),262,1990,BUL,NED
+1974,23 Jun 1974 - 16:00 ,Group 4,Olympiastadion,Munich ,Argentina,4,1,Haiti, ,25900,2,0,SANCHEZ IBANEZ Pablo (ESP),KAMEL Mahmoud (EGY),NDIAYE Birame (SEN),262,1947,ARG,HAI
+1974,23 Jun 1974 - 16:00 ,Group 3,Rheinstadion,D�Sseldorf ,Sweden,3,0,Uruguay, ,28300,0,0,LINEMAYR Erich (AUT),LLOBREGAT Vicente (VEN),ALDINGER Heinz (GER),262,2181,SWE,URU
+1974,23 Jun 1974 - 16:00 ,Group 4,Neckarstadion,Stuttgart ,Poland,2,1,Italy, ,70100,2,0,WEYLAND Hans Joachim (FRG),WINSEMANN Werner (CAN),SCHULENBURG Gerhard (GER),262,2129,POL,ITA
+1974,26 Jun 1974 - 16:00 ,Group B,Rheinstadion,D�Sseldorf ,Yugoslavia,0,2,Germany FR, ,67385,0,1,MARQUES Armando (BRA),ANGONESE Aurelio (ITA),PEREZ NUNEZ Edison A. (PER),263,2066,YUG,FRG
+1974,26 Jun 1974 - 19:30 ,Group A,Niedersachsenstadion,Hanover ,Brazil,1,0,German DR, ,59863,0,0,THOMAS Clive (WAL),BABACAN Dogan (TUR),BOSKOVIC Tony (AUS),263,1982,BRA,GDR
+1974,26 Jun 1974 - 19:30 ,Group A,Parkstadion,Gelsenkirchen ,Netherlands,4,0,Argentina, ,56548,2,0,DAVIDSON Bob (SCO),TSCHENSCHER Kurt (GER),KAZAKOV Pavel (URS),263,1948,NED,ARG
+1974,26 Jun 1974 - 19:30 ,Group B,Neckarstadion,Stuttgart ,Sweden,0,1,Poland, ,44955,0,1,BARRETO RUIZ Ramon (URU),GONZALEZ ARCHUNDIA Alfonso (MEX),PESTARINO Luis (ARG),263,2167,SWE,POL
+1974,30 Jun 1974 - 16:00 ,Group A,Niedersachsenstadion,Hanover ,Argentina,1,2,Brazil, ,39400,1,1,LORAUX Vital (BEL),NDIAYE Birame (SEN),TAYLOR John (ENG),263,1945,ARG,BRA
+1974,30 Jun 1974 - 16:00 ,Group B,Waldstadion,Frankfurt/Main ,Poland,2,1,Yugoslavia, ,58000,1,1,GLOECKNER Rudolf (GDR),MARQUES Armando (BRA),WINSEMANN Werner (CAN),263,2170,POL,YUG
+1974,30 Jun 1974 - 16:00 ,Group A,Parkstadion,Gelsenkirchen ,German DR,0,2,Netherlands, ,68348,0,1,SCHEURER Ruedi (SUI),LINEMAYR Erich (AUT),DELGADO Omar (COL),263,2067,GDR,NED
+1974,30 Jun 1974 - 19:30 ,Group B,Rheinstadion,D�Sseldorf ,Germany FR,4,2,Sweden, ,67800,0,1,KAZAKOV Pavel (URS),RAINEA Nicolae (ROU),SANCHEZ IBANEZ Pablo (ESP),263,2065,FRG,SWE
+1974,03 Jul 1974 - 17:00 ,Group B,Waldstadion,Frankfurt/Main ,Poland,0,1,Germany FR, ,62000,0,0,LINEMAYR Erich (AUT),PALOTAI Karoly (HUN),SCHEURER Ruedi (SUI),263,2064,POL,FRG
+1974,03 Jul 1974 - 19:30 ,Group A,Westfalenstadion,Dortmund ,Netherlands,2,0,Brazil, ,53700,0,0,TSCHENSCHER Kurt (GER),DAVIDSON Bob (SCO),SUPPIAH George (SIN),263,1983,NED,BRA
+1974,03 Jul 1974 - 19:30 ,Group A,Parkstadion,Gelsenkirchen ,Argentina,1,1,German DR, ,54254,1,1,TAYLOR John (ENG),KAMEL Mahmoud (EGY),THOMAS Clive (WAL),263,1946,ARG,GDR
+1974,03 Jul 1974 - 19:30 ,Group B,Rheinstadion,D�Sseldorf ,Sweden,2,1,Yugoslavia, ,41300,1,1,PESTARINO Luis (ARG),BARRETO RUIZ Ramon (URU),LLOBREGAT Vicente (VEN),263,2182,SWE,YUG
+1974,06 Jul 1974 - 16:00 ,Match for third place,Olympiastadion,Munich ,Brazil,0,1,Poland, ,77100,0,0,ANGONESE Aurelio (ITA),NAMDAR Jafar (IRN),NDIAYE Birame (SEN),264,1984,BRA,POL
+1974,07 July 1974 - 16:00 ,Final,Olympiastadion,Munich ,Netherlands,1,2,Germany FR, ,78200,1,2,TAYLOR John (ENG),GONZALEZ ARCHUNDIA Alfonso (MEX),BARRETO RUIZ Ramon (URU),605,2063,NED,FRG
+1978,01 Jun 1978 - 15:00 ,Group 2,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Germany FR,0,0,Poland, ,67579,0,0,COEREZZA Norberto Angel (ARG),ITHURRALDE Arturo Andres (ARG),COMESANA Miguel (ARG),278,2351,FRG,POL
+1978,02 Jun 1978 - 13:45 ,Group 1,Estadio Jos� Mar�a Minella,Mar Del Plata ,Italy,2,1,France, ,42373,1,1,RAINEA Nicolae (ROU),LINEMAYR Erich (AUT),SILVAGNO CAVANNA Juan (CHI),278,2347,ITA,FRA
+1978,02 Jun 1978 - 16:45 ,Group 2,Arroyito - Estadio Dr. Lisandro de la Torre,Rosario ,Tunisia,3,1,Mexico, ,17396,0,1,GORDON John (SCO),DUBACH Jean (SUI),GONELLA Sergio (ITA),278,2433,TUN,MEX
+1978,02 Jun 1978 - 19:15 ,Group 1,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Argentina,2,1,Hungary, ,71615,1,1,GARRIDO Antonio (POR),NDIAYE Youssou (SEN),PARTRIDGE Pat (ENG),278,2199,ARG,HUN
+1978,03 Jun 1978 - 13:45 ,Group 3,Estadio Jos� Mar�a Minella,Mar Del Plata ,Sweden,1,1,Brazil, ,32569,1,1,THOMAS Clive (WAL),JARGUZ Alojzy (POL),NAMDAR Jafar (IRN),278,2253,SWE,BRA
+1978,03 Jun 1978 - 13:45 ,Group 3,Jose Amalfitani,Buenos Aires ,Austria,2,1,Spain, ,40841,1,1,PALOTAI Karoly (HUN),BARRETO RUIZ Ramon (URU),IVANOV Anatoly (URS),278,2216,AUT,ESP
+1978,03 Jun 1978 - 16:45 ,Group 4,Estadio Ol�mpico Chateau Carreras,Cordoba ,Peru,3,1,Scotland, ,37927,1,1,ERIKSSON Ulf (SWE),GEBREYESUS DIFUE Tesfaye (ERI),MARTINEZ Angel (ESP),278,2451,PER,SCO
+1978,03 Jun 1978 - 16:45 ,Group 4,San Martin,Mendoza ,Netherlands,3,0,IR Iran, ,33431,1,0,GONZALEZ ARCHUNDIA Alfonso (MEX),WURTZ Robert (FRA),COMESANA Miguel (ARG),278,2388,NED,IRN
+1978,06 Jun 1978 - 13:45 ,Group 1,Estadio Jos� Mar�a Minella,Mar Del Plata ,Italy,3,1,Hungary, ,26533,2,0,BARRETO RUIZ Ramon (URU),BIWERSI Ferdinand (GER),GORDON John (SCO),278,2396,ITA,HUN
+1978,06 Jun 1978 - 16:45 ,Group 2,Arroyito - Estadio Dr. Lisandro de la Torre,Rosario ,Poland,1,0,Tunisia, ,9624,1,0,MARTINEZ Angel (ESP),PESTARINO Luis (ARG),THOMAS Clive (WAL),278,2454,POL,TUN
+1978,06 Jun 1978 - 16:45 ,Group 2,Estadio Ol�mpico Chateau Carreras,Cordoba ,Germany FR,6,0,Mexico, ,35258,4,0,BOUZO Farouk (SYR),GARRIDO Antonio (POR),RION Francis (BEL),278,2350,FRG,MEX
+1978,06 Jun 1978 - 19:15 ,Group 1,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Argentina,2,1,France, ,71666,1,0,DUBACH Jean (SUI),OROZCO GUERRERO Cesar (PER),WINSEMANN Werner (CAN),278,2197,ARG,FRA
+1978,07 Jun 1978 - 13:45 ,Group 3,Estadio Jos� Mar�a Minella,Mar Del Plata ,Brazil,0,0,Spain, ,34771,0,0,GONELLA Sergio (ITA),KLEIN Abraham (ISR),ITHURRALDE Arturo Andres (ARG),278,2246,BRA,ESP
+1978,07 Jun 1978 - 13:45 ,Group 3,Jose Amalfitani,Buenos Aires ,Austria,1,0,Sweden, ,41424,1,0,CORVER Charles (NED),MAKSIMOVIC Dusan (SCG),SEOUDI Hedi (TUN),278,2224,AUT,SWE
+1978,07 Jun 1978 - 16:45 ,Group 4,Estadio Ol�mpico Chateau Carreras,Cordoba ,Scotland,1,1,IR Iran, ,7938,1,0,NDIAYE Youssou (SEN),RAINEA Nicolae (ROU),COELHO Arnaldo (BRA),278,2408,SCO,IRN
+1978,07 Jun 1978 - 16:45 ,Group 4,San Martin,Mendoza ,Netherlands,0,0,Peru, ,28125,0,0,PROKOP Adolf (GDR),COEREZZA Norberto Angel (ARG),IVANOV Anatoly (URS),278,2394,NED,PER
+1978,10 Jun 1978 - 15:10 ,Group 1,Estadio Jos� Mar�a Minella,Mar Del Plata ,France,3,1,Hungary, ,23127,3,1,COELHO Arnaldo (BRA),PARTRIDGE Pat (ENG),SILVAGNO CAVANNA Juan (CHI),278,2344,FRA,HUN
+1978,10 Jun 1978 - 16:45 ,Group 2,Arroyito - Estadio Dr. Lisandro de la Torre,Rosario ,Poland,3,1,Mexico, ,22651,1,0,NAMDAR Jafar (IRN),ERIKSSON Ulf (SWE),CORVER Charles (NED),278,2431,POL,MEX
+1978,10 Jun 1978 - 16:45 ,Group 2,Estadio Ol�mpico Chateau Carreras,Cordoba ,Germany FR,0,0,Tunisia, ,30667,0,0,OROZCO GUERRERO Cesar (PER),COMESANA Miguel (ARG),PESTARINO Luis (ARG),278,2352,FRG,TUN
+1978,10 Jun 1978 - 19:15 ,Group 1,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Italy,1,0,Argentina, ,71712,0,0,KLEIN Abraham (ISR),GONZALEZ ARCHUNDIA Alfonso (MEX),RION Francis (BEL),278,2200,ITA,ARG
+1978,11 Jun 1978 - 13:45 ,Group 3,Estadio Jos� Mar�a Minella,Mar Del Plata ,Brazil,1,0,Austria, ,35221,1,0,WURTZ Robert (FRA),BOUZO Farouk (SYR),GEBREYESUS DIFUE Tesfaye (ERI),278,2215,BRA,AUT
+1978,11 Jun 1978 - 13:45 ,Group 3,Jose Amalfitani,Buenos Aires ,Spain,1,0,Sweden, ,42132,0,0,BIWERSI Ferdinand (GER),ITHURRALDE Arturo Andres (ARG),PROKOP Adolf (GDR),278,2337,ESP,SWE
+1978,11 Jun 1978 - 16:45 ,Group 4,Estadio Ol�mpico Chateau Carreras,Cordoba ,Peru,4,1,Iran, ,21262,3,1,JARGUZ Alojzy (POL),MAKSIMOVIC Dusan (SCG),WINSEMANN Werner (CAN),278,2405,PER,IRN
+1978,11 Jun 1978 - 16:45 ,Group 4,San Martin,Mendoza ,Scotland,3,2,Netherlands, ,35130,1,1,LINEMAYR Erich (AUT),PALOTAI Karoly (HUN),SEOUDI Hedi (TUN),278,2395,SCO,NED
+1978,14 Jun 1978 - 13:45 ,Group A,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Germany FR,0,0,Italy, ,67547,0,0,MAKSIMOVIC Dusan (SCG),GONZALEZ ARCHUNDIA Alfonso (MEX),COMESANA Miguel (ARG),279,2349,FRG,ITA
+1978,14 Jun 1978 - 13:45 ,Group A,Estadio Ol�mpico Chateau Carreras,Cordoba ,Netherlands,5,1,Austria, ,25050,3,0,GORDON John (SCO),ITHURRALDE Arturo Andres (ARG),BOUZO Farouk (SYR),279,2220,NED,AUT
+1978,14 Jun 1978 - 16:45 ,Group B,San Martin,Mendoza ,Brazil,3,0,Peru, ,31278,2,0,RAINEA Nicolae (ROU),DUBACH Jean (SUI),WINSEMANN Werner (CAN),279,2251,BRA,PER
+1978,14 Jun 1978 - 19:15 ,Group B,Arroyito - Estadio Dr. Lisandro de la Torre,Rosario ,Argentina,2,0,Poland, ,37091,1,0,ERIKSSON Ulf (SWE),NAMDAR Jafar (IRN),GEBREYESUS DIFUE Tesfaye (ERI),279,2202,ARG,POL
+1978,18 Jun 1978 - 13:45 ,Group B,San Martin,Mendoza ,Poland,1,0,Peru, ,35288,0,0,PARTRIDGE Pat (ENG),CLIVE Thomas (WAL),CORVER Charles (NED),279,2450,POL,PER
+1978,18 Jun 1978 - 16:45 ,Group A,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Italy,1,0,Austria, ,66695,1,0,RION Francis (BEL),COEREZZA Norberto Angel (ARG),NDIAYE Youssou (SEN),279,2221,ITA,AUT
+1978,18 Jun 1978 - 16:45 ,Group A,Estadio Ol�mpico Chateau Carreras,Cordoba ,Germany FR,2,2,Netherlands, ,40750,1,1,BARRETO RUIZ Ramon (URU),COMESANA Miguel (ARG),COELHO Arnaldo (BRA),279,2348,FRG,NED
+1978,18 Jun 1978 - 19:15 ,Group B,Arroyito - Estadio Dr. Lisandro de la Torre,Rosario ,Argentina,0,0,Brazil, ,37326,0,0,PALOTAI Karoly (HUN),LINEMAYR Erich (AUT),PROKOP Adolf (GDR),279,2196,ARG,BRA
+1978,21 Jun 1978 - 13:45 ,Group A,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Netherlands,2,1,Italy, ,67433,0,1,MARTINEZ Angel (ESP),PESTARINO Luis (ARG),OROZCO GUERRERO Cesar (PER),279,2391,NED,ITA
+1978,21 Jun 1978 - 13:45 ,Group A,Estadio Ol�mpico Chateau Carreras,Cordoba ,Austria,3,2,Germany FR, ,38318,0,1,KLEIN Abraham (ISR),JARGUZ Alojzy (POL),GARRIDO Antonio (POR),279,2217,AUT,FRG
+1978,21 Jun 1978 - 16:45 ,Group B,San Martin,Mendoza ,Brazil,3,1,Poland, ,39586,1,1,SILVAGNO CAVANNA Juan (CHI),IVANOV Anatoly (URS),GONZALEZ ARCHUNDIA Alfonso (MEX),279,2252,BRA,POL
+1978,21 Jun 1978 - 19:15 ,Group B,Arroyito - Estadio Dr. Lisandro de la Torre,Rosario ,Argentina,6,0,Peru, ,37315,2,0,WURTZ Robert (FRA),BIWERSI Ferdinand (GER),GONELLA Sergio (ITA),279,2201,ARG,PER
+1978,24 Jun 1978 - 15:00 ,Match for third place,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Brazil,2,1,Italy, ,69659,0,1,KLEIN Abraham (ISR),GONZALEZ ARCHUNDIA Alfonso (MEX),PALOTAI Karoly (HUN),280,2247,BRA,ITA
+1978,25 Jun 1978 - 15:00 ,Final,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Argentina,3,1,Netherlands,Argentina win after extra time ,71483,0,0,GONELLA Sergio (ITA),BARRETO RUIZ Ramon (URU),LINEMAYR Erich (AUT),639,2198,ARG,NED
+1982,13 Jun 1982 - 20:00 ,Group 3,Camp Nou,Barcelona ,Argentina,0,1,Belgium, ,95000,0,0,CHRISTOV Vojtech (TCH),PALOTAI Karoly (HUN),JARGUZ Alojzy (POL),293,749,ARG,BEL
+1982,14 Jun 1982 - 17:15 ,Group 1,Estadio Municipal de Bala�dos,Vigo ,Italy,0,0,Poland, ,33000,0,0,VAUTROT Michel (FRA),PROKOP Adolf (GDR),RAINEA Nicolae (ROU),293,995,ITA,POL
+1982,14 Jun 1982 - 21:00 ,Group 6,Ramon Sanchez Pizjuan,Seville ,Brazil,2,1,Soviet Union, ,68000,0,1,LAMO CASTILLO Augusto (ESP),SANCHEZ ARMINIO Victoriano (ESP),GARCIA CARRION Jose L. (ESP),293,791,BRA,URS
+1982,15 Jun 1982 - 17:15 ,Group 1,Riazor,La Coru�A ,Peru,0,0,Cameroon, ,11000,0,0,WOEHRER Franz (AUT),RAINEA Nicolae (ROU),PROKOP Adolf (GDR),293,833,PER,CMR
+1982,15 Jun 1982 - 21:00 ,Group 3,Nuevo Estadio,Elche ,Hungary,10,1,El Salvador, ,23000,3,0,AL DOY Ebrahim (BHR),CORVER Charles (NED),LUND-SORENSEN Henning (DEN),293,896,HUN,SLV
+1982,15 Jun 1982 - 21:00 ,Group 6,La Rosaleda,Malaga ,Scotland,5,2,New Zealand, ,36000,3,0,SOCHA David (USA),CHAN Thomson Tam Sun (HKG),EL GHOUL Yusef Mohamed (LBY),293,1051,SCO,NZL
+1982,16 Jun 1982 - 17:15 ,Group 2,El Molinon,Gijon ,Germany FR,1,2,Algeria, ,42000,0,0,LABO REVOREDO Enrique (PER),ARISTIZABAL MURCIA Gilberto (COL),CASARIN Paolo (ITA),293,741,FRG,ALG
+1982,16 Jun 1982 - 17:15 ,Group 4,San Mames,Bilbao ,England,3,1,France, ,44172,1,1,GARRIDO Antonio (POR),CASTRO Gaston (CHI),COELHO Arnaldo (BRA),293,878,ENG,FRA
+1982,16 Jun 1982 - 21:00 ,Group 5,Luis Casanova,Valencia ,Spain,1,1,Honduras, ,49562,0,1,ITHURRALDE Arturo Andres (ARG),DOTCHEV Bogdan (BUL),BARRANCOS Luis (BOL),293,901,ESP,HON
+1982,17 Jun 1982 - 17:15 ,Group 2,Carlos Tartiere,Oviedo ,Chile,0,1,Austria, ,22500,0,1,CARDELLINO DE SAN VICENTE Juan (URU),CASARIN Paolo (ITA),ARISTIZABAL MURCIA Gilberto (COL),293,764,CHI,AUT
+1982,17 Jun 1982 - 17:45 ,Group 4,Jose Zorrilla,Valladolid ,Czechoslovakia,1,1,Kuwait, ,25000,1,0,DWOMOH Benjamin (GHA),MENDEZ MOLINA Romulo (GUA),VALENTINE Robert (SCO),293,1012,TCH,KUW
+1982,17 Jun 1982 - 21:00 ,Group 5,La Romareda,Zaragoza ,Yugoslavia,0,0,Northern Ireland, ,25000,0,0,FREDRIKSSON Erik (SWE),GALLER Bruno (SUI),PALOTAI Karoly (HUN),293,1044,YUG,NIR
+1982,18 Jun 1982 - 17:15 ,Group 1,Estadio Municipal de Bala�dos,Vigo ,Italy,1,1,Peru, ,25000,1,0,ESCHWEILER Walter (GER),RUBIO VAZQUEZ Mario (MEX),KLEIN Abraham (ISR),293,994,ITA,PER
+1982,18 Jun 1982 - 21:00 ,Group 3,Jose Rico Perez,Alicante ,Argentina,4,1,Hungary, ,32093,2,0,LACARNE Belaid (ALG),VAUTROT Michel (FRA),RAINEA Nicolae (ROU),293,752,ARG,HUN
+1982,18 Jun 1982 - 21:00 ,Group 6,Benito Villamarin,Seville ,Brazil,4,1,Scotland, ,47379,1,1,SILES Jesus Paulino (CRC),CHAN Thomson Tam Sun (HKG),PROKOP Adolf (GDR),293,790,BRA,SCO
+1982,19 Jun 1982 - 19:15 ,Group 1,Riazor,La Coru�A ,Poland,0,0,Cameroon, ,19000,0,0,PONNET Alexis (BEL),ESCHWEILER Walter (GER),RUBIO VAZQUEZ Mario (MEX),293,834,POL,CMR
+1982,19 Jun 1982 - 21:00 ,Group 3,Nuevo Estadio,Elche ,Belgium,1,0,El Salvador, ,15000,1,0,MOFFATT Malcolm (NIR),CASTRO Gaston (CHI),JARGUZ Alojzy (POL),293,774,BEL,SLV
+1982,19 Jun 1982 - 21:00 ,Group 6,La Rosaleda,Malaga ,Soviet Union,3,0,New Zealand, ,19000,1,0,EL GHOUL Yusef Mohamed (LBY),SORIANO ALADREN Emilio (ESP),WHITE Clive (ENG),293,1054,URS,NZL
+1982,20 Jun 1982 - 17:15 ,Group 2,El Molinon,Gijon ,Germany FR,4,1,Chile, ,42000,1,0,GALLER Bruno (SUI),CHRISTOV Vojtech (TCH),BOSKOVIC Tony (AUS),293,813,FRG,CHI
+1982,20 Jun 1982 - 17:15 ,Group 4,San Mames,Bilbao ,England,2,0,Czechoslovakia, ,41123,0,0,CORVER Charles (NED),DOTCHEV Bogdan (BUL),ARISTIZABAL MURCIA Gilberto (COL),293,889,ENG,TCH
+1982,20 Jun 1982 - 21:00 ,Group 5,Luis Casanova,Valencia ,Spain,2,1,Yugoslavia, ,48000,1,1,LUND-SORENSEN Henning (DEN),GARRIDO Antonio (POR),ITHURRALDE Arturo Andres (ARG),293,903,ESP,YUG
+1982,21 Jun 1982 - 17:15 ,Group 2,Carlos Tartiere,Oviedo ,Algeria,0,2,Austria, ,22000,0,0,BOSKOVIC Tony (AUS),CHRISTOV Vojtech (TCH),AL DOY Ebrahim (BHR),293,739,ALG,AUT
+1982,21 Jun 1982 - 17:15 ,Group 4,Jose Zorrilla,Valladolid ,France,4,1,Kuwait, ,30043,2,0,STUPAR Miroslav (URS),FREDRIKSSON Erik (SWE),MATOVINOVIC Damir (CRO),293,919,FRA,KUW
+1982,21 Jun 1982 - 21:00 ,Group 5,La Romareda,Zaragoza ,Honduras,1,1,Northern Ireland, ,15000,0,1,CHAN Thomson Tam Sun (HKG),LABO REVOREDO Enrique (PER),CASARIN Paolo (ITA),293,959,HON,NIR
+1982,22 Jun 1982 - 17:15 ,Group 1,Riazor,La Coru�A ,Poland,5,1,Peru, ,25000,0,0,RUBIO VAZQUEZ Mario (MEX),SORIANO ALADREN Emilio (ESP),SANCHEZ ARMINIO Victoriano (ESP),293,1055,POL,PER
+1982,22 Jun 1982 - 21:00 ,Group 3,Nuevo Estadio,Elche ,Belgium,1,1,Hungary, ,37000,0,1,WHITE Clive (ENG),ESCHWEILER Walter (GER),LACARNE Belaid (ALG),293,779,BEL,HUN
+1982,22 Jun 1982 - 21:00 ,Group 6,La Rosaleda,Malaga ,Soviet Union,2,2,Scotland, ,45000,0,1,RAINEA Nicolae (ROU),JARGUZ Alojzy (POL),PONNET Alexis (BEL),293,1071,URS,SCO
+1982,23 Jun 1982 - 17:15 ,Group 1,Estadio Municipal de Bala�dos,Vigo ,Italy,1,1,Cameroon, ,20000,0,0,DOTCHEV Bogdan (BUL),SORIANO ALADREN Emilio (ESP),SANCHEZ ARMINIO Victoriano (ESP),293,828,ITA,CMR
+1982,23 Jun 1982 - 21:00 ,Group 3,Jose Rico Perez,Alicante ,Argentina,2,0,El Salvador, ,32500,1,0,BARRANCOS Luis (BOL),LAMO CASTILLO Augusto (ESP),LACARNE Belaid (ALG),293,751,ARG,SLV
+1982,23 Jun 1982 - 21:00 ,Group 6,Benito Villamarin,Seville ,Brazil,4,0,New Zealand, ,43000,2,0,MATOVINOVIC Damir (CRO),KLEIN Abraham (ISR),CORVER Charles (NED),293,789,BRA,NZL
+1982,24 Jun 1982 - 17:15 ,Group 2,Carlos Tartiere,Oviedo ,Algeria,3,2,Chile, ,16000,3,0,MENDEZ MOLINA Romulo (GUA),FREDRIKSSON Erik (SWE),COELHO Arnaldo (BRA),293,740,ALG,CHI
+1982,24 Jun 1982 - 17:15 ,Group 4,Jose Zorrilla,Valladolid ,France,1,1,Czechoslovakia, ,28000,0,0,CASARIN Paolo (ITA),DWOMOH Benjamin (GHA),PALOTAI Karoly (HUN),293,922,FRA,TCH
+1982,24 Jun 1982 - 21:00 ,Group 5,La Romareda,Zaragoza ,Honduras,0,1,Yugoslavia, ,25000,0,0,CASTRO Gaston (CHI),SILES Jesus Paulino (CRC),ITHURRALDE Arturo Andres (ARG),293,962,HON,YUG
+1982,25 Jun 1982 - 17:15 ,Group 2,El Molinon,Gijon ,Germany FR,1,0,Austria, ,41000,1,0,VALENTINE Robert (SCO),AL DOY Ebrahim (BHR),COELHO Arnaldo (BRA),293,770,FRG,AUT
+1982,25 Jun 1982 - 17:15 ,Group 4,San Mames,Bilbao ,England,1,0,Kuwait, ,39700,1,0,ARISTIZABAL MURCIA Gilberto (COL),LUND-SORENSEN Henning (DEN),GARCIA CARRION Jose L. (ESP),293,882,ENG,KUW
+1982,25 Jun 1982 - 21:00 ,Group 5,Luis Casanova,Valencia ,Northern Ireland,1,0,Spain, ,49562,0,0,ORTIZ Hector (PAR),LABO REVOREDO Enrique (PER),PONNET Alexis (BEL),293,902,NIR,ESP
+1982,28 Jun 1982 - 17:15 ,Group 4,Vicente Calderon,Madrid ,Austria,0,1,France, ,37000,0,1,PALOTAI Karoly (HUN),CHRISTOV Vojtech (TCH),MATOVINOVIC Damir (CRO),294,767,AUT,FRA
+1982,28 Jun 1982 - 21:00 ,Group 1,Camp Nou,Barcelona ,Poland,3,0,Belgium, ,65000,2,0,SILES Jesus Paulino (CRC),LABO REVOREDO Enrique (PER),CASTRO Gaston (CHI),294,782,POL,BEL
+1982,29 Jun 1982 - 17:15 ,Group 3,Sarria,Barcelona ,Italy,2,1,Argentina, ,43000,0,0,RAINEA Nicolae (ROU),GALLER Bruno (SUI),LACARNE Belaid (ALG),294,753,ITA,ARG
+1982,29 Jun 1982 - 21:00 ,Group 2,Santiago Bernabeu,Madrid ,Germany FR,0,0,England, ,75000,0,0,COELHO Arnaldo (BRA),ORTIZ Hector (PAR),MENDEZ MOLINA Romulo (GUA),294,879,FRG,ENG
+1982,01 Jul 1982 - 17:15 ,Group 4,Vicente Calderon,Madrid ,Austria,2,2,Northern Ireland, ,20000,0,1,PROKOP Adolf (GDR),FREDRIKSSON Erik (SWE),ESCHWEILER Walter (GER),294,771,AUT,NIR
+1982,01 Jul 1982 - 21:00 ,Group 1,Camp Nou,Barcelona ,Belgium,0,1,Soviet Union, ,45000,0,0,VAUTROT Michel (FRA),CORVER Charles (NED),GARRIDO Antonio (POR),294,783,BEL,URS
+1982,02 Jul 1982 - 17:15 ,Group 3,Sarria,Barcelona ,Argentina,1,3,Brazil, ,44000,0,1,RUBIO VAZQUEZ Mario (MEX),ARISTIZABAL MURCIA Gilberto (COL),CASTRO Gaston (CHI),294,750,ARG,BRA
+1982,02 Jul 1982 - 21:00 ,Group 2,Santiago Bernabeu,Madrid ,Germany FR,2,1,Spain, ,90089,0,0,CASARIN Paolo (ITA),WOEHRER Franz (AUT),PALOTAI Karoly (HUN),294,900,FRG,ESP
+1982,04 Jul 1982 - 17:15 ,Group 4,Vicente Calderon,Madrid ,France,4,1,Northern Ireland, ,37000,1,0,JARGUZ Alojzy (POL),RAINEA Nicolae (ROU),EL GHOUL Yusef Mohamed (LBY),294,920,FRA,NIR
+1982,04 Jul 1982 - 21:00 ,Group 1,Camp Nou,Barcelona ,Poland,0,0,Soviet Union, ,65000,0,0,VALENTINE Robert (SCO),LUND-SORENSEN Henning (DEN),WHITE Clive (ENG),294,1058,POL,URS
+1982,05 Jul 1982 - 17:15 ,Group 3,Sarria,Barcelona ,Italy,3,2,Brazil, ,44000,2,1,KLEIN Abraham (ISR),CHAN Thomson Tam Sun (HKG),DOTCHEV Bogdan (BUL),294,788,ITA,BRA
+1982,05 Jul 1982 - 21:00 ,Group 2,Santiago Bernabeu,Madrid ,Spain,0,0,England, ,75000,0,0,PONNET Alexis (BEL),VAUTROT Michel (FRA),LACARNE Belaid (ALG),294,877,ESP,ENG
+1982,08 Jul 1982 - 17:15 ,Semi-finals,Camp Nou,Barcelona ,Poland,0,2,Italy, ,50000,0,1,CARDELLINO DE SAN VICENTE Juan (URU),SOCHA David (USA),ARISTIZABAL MURCIA Gilberto (COL),295,996,POL,ITA
+1982,08 Jul 1982 - 21:00 ,Semi-finals,Ramon Sanchez Pizjuan,Seville ,Germany FR,3,3,France, win on penalties (5 - 4) ,70000,0,0,CORVER Charles (NED),GALLER Bruno (SUI),VALENTINE Robert (SCO),295,914,FRG,FRA
+1982,10 Jul 1982 - 20:00 ,Match for third place,Jose Rico Perez,Alicante ,Poland,3,2,France, ,28000,2,1,GARRIDO Antonio (POR),RUBIO VAZQUEZ Mario (MEX),LACARNE Belaid (ALG),676,921,POL,FRA
+1982,11 Jul 1982 - 20:00 ,Final,Santiago Bernabeu,Madrid ,Italy,3,1,Germany FR, ,90000,0,0,COELHO Arnaldo (BRA),KLEIN Abraham (ISR),CHRISTOV Vojtech (TCH),3475,923,ITA,FRG
+1986,31 May 1986 - 12:00 ,Group A,Estadio Azteca,Mexico City ,Bulgaria,1,1,Italy, ,96000,0,1,FREDRIKSSON Erik (SWE),CODESAL MENDEZ Edgardo (MEX),ROTH Volker (GER),308,459,BUL,ITA
+1986,01 Jun 1986 - 16:00 ,Group C,Nou Camp - Estadio Le�n,Leon ,Canada,0,1,France, ,65500,0,0,SILVA ARCE Hernan (CHI),MENDEZ MOLINA Romulo (GUA),ULLOA MORERA Berny (CRC),308,468,CAN,FRA
+1986,01 Jun 1986 - 12:00 ,Group D,Jalisco,Guadalajara ,Spain,0,1,Brazil, ,35748,0,0,BAMBRIDGE Christopher (AUS),SOCHA David (USA),KEIZER Jan (NED),308,439,ESP,BRA
+1986,02 Jun 1986 - 12:00 ,Group C,Estadio Irapuato,Irapuato ,Soviet Union,6,0,Hungary, ,16500,3,0,AGNOLIN Luigi (ITA),COURTNEY George (ENG),BRUMMEIER Horst (AUT),308,610,URS,HUN
+1986,02 Jun 1986 - 12:00 ,Group A,Estadio Ol�mpico Universitario,Mexico City ,Argentina,3,1,Korea Republic, ,60000,2,0,SANCHEZ ARMINIO Victoriano (ESP),GONZALEZ ROA Gabriel (PAR),DIAZ PALACIO Jesus (COL),308,395,ARG,KOR
+1986,02 Jun 1986 - 16:00 ,Group F,Estadio Universitario,Monterrey ,Morocco,0,0,Poland, ,19900,0,0,MARTINEZ BAZAN Jose Luis (URU),QUINIOU Joel (FRA),TRAORE Idrissa (MLI),308,674,MAR,POL
+1986,03 Jun 1986 - 12:00 ,Group D,Tres de Marzo,Guadalajara ,Algeria,1,1,Northern Ireland, ,22000,0,1,BUTENKO Valeri (RUS),DAINA Andre (SUI),PETROVIC Zoran (SRB),308,379,ALG,NIR
+1986,03 Jun 1986 - 12:00 ,Group B,Estadio Azteca,Mexico City ,Belgium,1,2,Mexico, ,110000,1,2,ESPOSITO Carlos (ARG),SILVA VALENTE Carlos Alberto (POR),MENDEZ MOLINA Romulo (GUA),308,428,BEL,MEX
+1986,03 Jun 1986 - 16:00 ,Group F,Tecnologico,Monterrey ,Portugal,1,0,England, ,23000,0,0,ROTH Volker (GER),DOTCHEV Bogdan (BUL),AL SHARIF Jamal (SYR),308,538,POR,ENG
+1986,04 Jun 1986 - 12:00 ,Group B,Bombonera - Estadio Nemesio Diez,Toluca ,Paraguay,1,0,Iraq, ,24000,1,0,PICON-ACKONG Edwin (MRI),ULLOA MORERA Berny (CRC),SOCHA David (USA),308,628,PAR,IRQ
+1986,04 Jun 1986 - 16:00 ,Group E,Neza,Nezahualcoyotl ,Scotland,0,1,Denmark, ,18000,0,0,NEMETH Lajos (HUN),KIRSCHEN Siegfried (GER),AL SHANAR Fallaj Khuzam (KSA),308,517,SCO,DEN
+1986,04 Jun 1986 - 12:00 ,Group E,Estadio Corregidora,Queretaro ,Uruguay,1,1,Germany FR, ,30500,1,0,CHRISTOV Vojtech (TCH),SILVA ARCE Hernan (CHI),SILVA VALENTE Carlos Alberto (POR),308,585,URU,FRG
+1986,05 Jun 1986 - 12:00 ,Group A,Cuauhtemoc,Puebla ,Italy,1,1,Argentina, ,32000,1,1,KEIZER Jan (NED),MARQUEZ RAMIREZ Antonio (MEX),SNODDY Alan (NIR),308,394,ITA,ARG
+1986,05 Jun 1986 - 12:00 ,Group C,Nou Camp - Estadio Le�n,Leon ,France,1,1,Soviet Union, ,36540,0,0,ARPPI FILHO Romualdo (BRA),SANCHEZ ARMINIO Victoriano (ESP),TAKADA Shizuo (JPN),308,571,FRA,URS
+1986,05 Jun 1986 - 16:00 ,Group A,Estadio Ol�mpico Universitario,Mexico City ,Korea Republic,1,1,Bulgaria, ,45000,0,1,AL SHANAR Fallaj Khuzam (KSA),IGNA Ioan (ROU),BUTENKO Valeri (RUS),308,460,KOR,BUL
+1986,06 Jun 1986 - 12:00 ,Group C,Estadio Irapuato,Irapuato ,Hungary,2,0,Canada, ,13800,1,0,AL SHARIF Jamal (SYR),PETROVIC Zoran (SRB),BAMBRIDGE Christopher (AUS),308,475,HUN,CAN
+1986,06 Jun 1986 - 12:00 ,Group D,Jalisco,Guadalajara ,Brazil,1,0,Algeria, ,48000,0,0,MENDEZ MOLINA Romulo (GUA),MARTINEZ BAZAN Jose Luis (URU),QUINIOU Joel (FRA),308,377,BRA,ALG
+1986,06 Jun 1986 - 16:00 ,Group F,Tecnologico,Monterrey ,England,0,0,Morocco, ,20200,0,0,GONZALEZ ROA Gabriel (PAR),ESPOSITO Carlos (ARG),KIRSCHEN Siegfried (GER),308,533,ENG,MAR
+1986,07 Jun 1986 - 12:00 ,Group D,Tres de Marzo,Guadalajara ,Northern Ireland,1,2,Spain, ,28000,0,2,BRUMMEIER Horst (AUT),AGNOLIN Luigi (ITA),NEMETH Lajos (HUN),308,551,NIR,ESP
+1986,07 Jun 1986 - 12:00 ,Group B,Estadio Azteca,Mexico City ,Mexico,1,1,Paraguay, ,114600,1,0,COURTNEY George (ENG),FREDRIKSSON Erik (SWE),IGNA Ioan (ROU),308,680,MEX,PAR
+1986,07 Jun 1986 - 16:00 ,Group F,Estadio Universitario,Monterrey ,Poland,1,0,Portugal, ,19915,0,0,BENNACEUR Ali (TUN),PICON-ACKONG Edwin (MRI),TAKADA Shizuo (JPN),308,701,POL,POR
+1986,08 Jun 1986 - 12:00 ,Group B,Bombonera - Estadio Nemesio Diez,Toluca ,Iraq,1,2,Belgium, ,20000,0,2,DIAZ PALACIO Jesus (COL),CHRISTOV Vojtech (TCH),SANCHEZ ARMINIO Victoriano (ESP),308,427,IRQ,BEL
+1986,08 Jun 1986 - 16:00 ,Group E,Neza,Nezahualcoyotl ,Denmark,6,1,Uruguay, ,26500,2,1,MARQUEZ RAMIREZ Antonio (MEX),KEIZER Jan (NED),ARPPI FILHO Romualdo (BRA),308,522,DEN,URU
+1986,08 Jun 1986 - 12:00 ,Group E,Estadio Corregidora,Queretaro ,Germany FR,2,1,Scotland, ,30000,1,1,IGNA Ioan (ROU),DOTCHEV Bogdan (BUL),SNODDY Alan (NIR),308,580,FRG,SCO
+1986,09 Jun 1986 - 12:00 ,Group C,Nou Camp - Estadio Le�n,Leon ,Hungary,0,3,France, ,31420,0,1,SILVA VALENTE Carlos Alberto (POR),PONNET Alexis (BEL),DAINA Andre (SUI),308,567,HUN,FRA
+1986,09 Jun 1986 - 12:00 ,Group C,Estadio Irapuato,Irapuato ,Soviet Union,2,0,Canada, ,14200,0,0,TRAORE Idrissa (MLI),AL SHANAR Fallaj Khuzam (KSA),GONZALEZ ROA Gabriel (PAR),308,476,URS,CAN
+1986,10 Jun 1986 - 12:00 ,Group A,Cuauhtemoc,Puebla ,Korea Republic,2,3,Italy, ,20000,0,1,SOCHA David (USA),URREA Joaquin (MEX),AL SHARIF Jamal (SYR),308,643,KOR,ITA
+1986,10 Jun 1986 - 12:00 ,Group A,Estadio Ol�mpico Universitario,Mexico City ,Argentina,2,0,Bulgaria, ,65000,1,0,ULLOA MORERA Berny (CRC),ARPPI FILHO Romualdo (BRA),MARTINEZ BAZAN Jose Luis (URU),308,389,ARG,BUL
+1986,11 Jun 1986 - 12:00 ,Group B,Bombonera - Estadio Nemesio Diez,Toluca ,Paraguay,2,2,Belgium, ,16000,0,1,DOTCHEV Bogdan (BUL),BENNACEUR Ali (TUN),SILVA ARCE Hernan (CHI),308,429,PAR,BEL
+1986,11 Jun 1986 - 12:00 ,Group B,Estadio Azteca,Mexico City ,Iraq,0,1,Mexico, ,103763,0,0,PETROVIC Zoran (SRB),NEMETH Lajos (HUN),AGNOLIN Luigi (ITA),308,627,IRQ,MEX
+1986,11 Jun 1986 - 16:00 ,Group F,Tres de Marzo,Guadalajara ,Portugal,1,3,Morocco, ,28000,0,2,SNODDY Alan (NIR),BUTENKO Valeri (RUS),ROTH Volker (GER),308,675,POR,MAR
+1986,11 Jun 1986 - 16:00 ,Group F,Tecnologico,Monterrey ,England,3,0,Poland, ,22700,3,0,DAINA Andre (SUI),BRUMMEIER Horst (AUT),CHRISTOV Vojtech (TCH),308,537,ENG,POL
+1986,12 Jun 1986 - 12:00 ,Group D,Jalisco,Guadalajara ,Northern Ireland,0,3,Brazil, ,51000,0,2,KIRSCHEN Siegfried (GER),TRAORE Idrissa (MLI),COURTNEY George (ENG),308,441,NIR,BRA
+1986,12 Jun 1986 - 12:00 ,Group D,Tecnologico,Monterrey ,Algeria,0,3,Spain, ,23980,0,1,TAKADA Shizuo (JPN),PICON-ACKONG Edwin (MRI),ESPOSITO Carlos (ARG),308,378,ALG,ESP
+1986,13 Jun 1986 - 12:00 ,Group E,Neza,Nezahualcoyotl ,Scotland,0,0,Uruguay, ,20000,0,0,QUINIOU Joel (FRA),DIAZ PALACIO Jesus (COL),BENNACEUR Ali (TUN),308,712,SCO,URU
+1986,13 Jun 1986 - 12:00 ,Group E,Estadio Corregidora,Queretaro ,Denmark,2,0,Germany FR, ,36000,1,0,PONNET Alexis (BEL),BAMBRIDGE Christopher (AUS),FREDRIKSSON Erik (SWE),308,512,DEN,FRG
+1986,15 Jun 1986 - 16:00 ,Round of 16,Nou Camp - Estadio Le�n,Leon ,Soviet Union,3,4,Belgium,Belgium win after extra time ,32277,0,0,FREDRIKSSON Erik (SWE),SANCHEZ ARMINIO Victoriano (ESP),SOCHA David (USA),309,432,URS,BEL
+1986,15 Jun 1986 - 12:00 ,Round of 16,Estadio Azteca,Mexico City ,Mexico,2,0,Bulgaria, ,114580,1,0,ARPPI FILHO Romualdo (BRA),MENDEZ MOLINA Romulo (GUA),IGNA Ioan (ROU),309,463,MEX,BUL
+1986,16 Jun 1986 - 16:00 ,Round of 16,Cuauhtemoc,Puebla ,Argentina,1,0,Uruguay, ,26000,1,0,AGNOLIN Luigi (ITA),COURTNEY George (ENG),SILVA VALENTE Carlos Alberto (POR),309,398,ARG,URU
+1986,16 Jun 1986 - 12:00 ,Round of 16,Jalisco,Guadalajara ,Brazil,4,0,Poland, ,45000,1,0,ROTH Volker (GER),MARQUEZ RAMIREZ Antonio (MEX),SNODDY Alan (NIR),309,444,BRA,POL
+1986,17 Jun 1986 - 12:00 ,Round of 16,Estadio Ol�mpico Universitario,Mexico City ,Italy,0,2,France, ,70000,0,1,ESPOSITO Carlos (ARG),MARTINEZ BAZAN Jose Luis (URU),DIAZ PALACIO Jesus (COL),309,568,ITA,FRA
+1986,17 Jun 1986 - 16:00 ,Round of 16,Estadio Universitario,Monterrey ,Morocco,0,1,Germany FR, ,19800,0,0,PETROVIC Zoran (SRB),NEMETH Lajos (HUN),BRUMMEIER Horst (AUT),309,574,MAR,FRG
+1986,18 Jun 1986 - 12:00 ,Round of 16,Estadio Azteca,Mexico City ,England,3,0,Paraguay, ,98728,1,0,AL SHARIF Jamal (SYR),PONNET Alexis (BEL),AL SHANAR Fallaj Khuzam (KSA),309,536,ENG,PAR
+1986,18 Jun 1986 - 16:00 ,Round of 16,Estadio Corregidora,Queretaro ,Denmark,1,5,Spain, ,38500,1,1,KEIZER Jan (NED),BENNACEUR Ali (TUN),DOTCHEV Bogdan (BUL),309,511,DEN,ESP
+1986,21 Jun 1986 - 12:00 ,Quarter-finals,Jalisco,Guadalajara ,Brazil,1,1,France,France win on penalties (3 - 4) ,65000,0,0,IGNA Ioan (ROU),NEMETH Lajos (HUN),CHRISTOV Vojtech (TCH),714,440,BRA,FRA
+1986,21 Jun 1986 - 16:00 ,Quarter-finals,Estadio Universitario,Monterrey ,Germany FR,0,0,Mexico,Germany FR win on penalties (4 - 1) ,41700,0,0,DIAZ PALACIO Jesus (COL),BAMBRIDGE Christopher (AUS),SNODDY Alan (NIR),714,575,FRG,MEX
+1986,22 Jun 1986 - 16:00 ,Quarter-finals,Cuauhtemoc,Puebla ,Spain,1,1,Belgium,Belgium win on penalties (4 - 5) ,45000,0,0,KIRSCHEN Siegfried (GER),CODESAL MENDEZ Edgardo (MEX),BRUMMEIER Horst (AUT),714,421,ESP,BEL
+1986,22 Jun 1986 - 12:00 ,Quarter-finals,Estadio Azteca,Mexico City ,Argentina,2,1,England, ,114580,0,0,BENNACEUR Ali (TUN),ULLOA MORERA Berny (CRC),DOTCHEV Bogdan (BUL),714,392,ARG,ENG
+1986,25 Jun 1986 - 12:00 ,Semi-finals,Jalisco,Guadalajara ,France,0,2,Germany FR, ,45000,0,1,AGNOLIN Luigi (ITA),PETROVIC Zoran (SRB),NEMETH Lajos (HUN),3469,564,FRA,FRG
+1986,25 Jun 1986 - 16:00 ,Semi-finals,Estadio Azteca,Mexico City ,Argentina,2,0,Belgium, ,114500,0,0,MARQUEZ RAMIREZ Antonio (MEX),MENDEZ MOLINA Romulo (GUA),SILVA VALENTE Carlos Alberto (POR),3469,388,ARG,BEL
+1986,28 Jun 1986 - 12:00 ,Match for third place,Cuauhtemoc,Puebla ,France,4,2,Belgium,France win after extra time ,21000,0,0,COURTNEY George (ENG),SILVA ARCE Hernan (CHI),AL SHARIF Jamal (SYR),3468,422,FRA,BEL
+1986,29 Jun 1986 - 12:00 ,Final,Estadio Azteca,Mexico City ,Argentina,3,2,Germany FR, ,114600,1,0,ARPPI FILHO Romualdo (BRA),FREDRIKSSON Erik (SWE),ULLOA MORERA Berny (CRC),3467,393,ARG,FRG
+1990,08 Jun 1990 - 18:00 ,Group B,Giuseppe Meazza,Milan ,Argentina,0,1,Cameroon, ,73780,0,0,VAUTROT Michel (FRA),MAURO Vincent (USA),LISTKIEWICZ Michal (POL),322,26,ARG,CMR
+1990,09 Jun 1990 - 17:00 ,Group B,Stadio San Nicola,Bari ,Soviet Union,0,2,Romania, ,42907,0,1,CARDELLINO DE SAN VICENTE Juan (URU),SORIANO ALADREN Emilio (ESP),SILVA ARCE Hernan (CHI),322,342,URS,ROU
+1990,09 Jun 1990 - 17:00 ,Group D,Renato Dall Ara,Bologna ,"rn"">United Arab Emirates",0,2,Colombia, ,30791,0,0,COURTNEY George (ENG),TAKADA Shizuo (JPN),SNODDY Alan (NIR),322,119,UAE,COL
+1990,09 Jun 1990 - 21:00 ,Group A,Stadio Olimpico,Rome ,Italy,1,0,Austria, ,73303,0,0,RAMIZ WRIGHT Jose (BRA),PEREZ HOYOS Armando (COL),SILVA VALENTE Carlos Alberto (POR),322,42,ITA,AUT
+1990,10 Jun 1990 - 17:00 ,Group A,Comunale,Florence ,USA,1,5,Czechoslovakia, ,33266,0,2,ROETHLISBERGER Kurt (SUI),VAN LANGENHOVE Marcel (BEL),SCHMIDHUBER Aron (GER),322,355,USA,TCH
+1990,10 Jun 1990 - 21:00 ,Group C,Stadio delle Alpi,Turin ,Brazil,2,1,Sweden, ,62628,1,0,LANESE Tullio (ITA),VAUTROT Michel (FRA),JOUINI Neji (TUN),322,75,BRA,SWE
+1990,10 Jun 1990 - 21:00 ,Group D,Giuseppe Meazza,Milan ,Germany FR,4,1,Yugoslavia, ,74765,2,0,MIKKELSEN Peter (DEN),MANDI Jassim (BHR),LISTKIEWICZ Michal (POL),322,201,FRG,YUG
+1990,11 Jun 1990 - 17:00 ,Group C,Luigi Ferraris,Genoa ,Costa Rica,1,0,Scotland, ,30867,0,0,LOUSTAU Juan (ARG),MACIEL Carlos (PAR),JACOME GUERRERO Elias V. (ECU),322,127,CRC,SCO
+1990,11 Jun 1990 - 21:00 ,Group F,Sant Elia,Cagliari ,England,1,1,"rn"">Republic of Ireland", ,35238,1,0,SCHMIDHUBER Aron (GER),FREDRIKSSON Erik (SWE),ROETHLISBERGER Kurt (SUI),322,161,ENG,IRL
+1990,12 Jun 1990 - 17:00 ,Group E,Marc Antonio Bentegodi,Verona ,Belgium,2,0,Korea Republic, ,32790,0,0,MAURO Vincent (USA),SNODDY Alan (NIR),COURTNEY George (ENG),322,57,BEL,KOR
+1990,12 Jun 1990 - 21:00 ,Group F,Della Favorita,Palermo ,Netherlands,1,1,Egypt, ,33288,0,0,SORIANO ALADREN Emilio (ESP),CODESAL MENDEZ Edgardo (MEX),CARDELLINO DE SAN VICENTE Juan (URU),322,151,NED,EGY
+1990,13 Jun 1990 - 17:00 ,Group E,Dacia Arena,Udine ,Uruguay,0,0,Spain, ,35713,0,0,KOHL Helmut (AUT),SPIRIN Alexey (RUS),KIRSCHEN Siegfried (GER),322,180,URU,ESP
+1990,13 Jun 1990 - 21:00 ,Group B,San Paolo,Naples ,Argentina,2,0,Soviet Union, ,55759,1,0,FREDRIKSSON Erik (SWE),RAMIZ WRIGHT Jose (BRA),AL SHARIF Jamal (SYR),322,30,ARG,URS
+1990,14 Jun 1990 - 17:00 ,Group B,Stadio San Nicola,Bari ,Cameroon,2,1,Romania, ,38687,0,0,SILVA ARCE Hernan (CHI),SILVA VALENTE Carlos Alberto (POR),PEREZ HOYOS Armando (COL),322,108,CMR,ROU
+1990,14 Jun 1990 - 17:00 ,Group D,Renato Dall Ara,Bologna ,Yugoslavia,1,0,Colombia, ,32257,0,0,AGNOLIN Luigi (ITA),JOUINI Neji (TUN),DIRAMBA Jean Fidele (GAB),322,120,YUG,COL
+1990,14 Jun 1990 - 21:00 ,Group A,Stadio Olimpico,Rome ,Italy,1,0,USA, ,73423,1,0,CODESAL MENDEZ Edgardo (MEX),CARDELLINO DE SAN VICENTE Juan (URU),ULLOA MORERA Berny (CRC),322,265,ITA,USA
+1990,15 Jun 1990 - 17:00 ,Group A,Comunale,Florence ,Austria,0,1,Czechoslovakia, ,38962,0,1,SMITH George (SCO),LORENC Richard (AUS),AL SHARIF Jamal (SYR),322,43,AUT,TCH
+1990,15 Jun 1990 - 21:00 ,Group D,Giuseppe Meazza,Milan ,Germany FR,5,1,"rn"">United Arab Emirates", ,71169,2,0,SPIRIN Alexey (RUS),TAKADA Shizuo (JPN),PAIRETTO Pierluigi (ITA),322,198,FRG,UAE
+1990,16 Jun 1990 - 17:00 ,Group C,Stadio delle Alpi,Turin ,Brazil,1,0,Costa Rica, ,58007,1,0,JOUINI Neji (TUN),DIRAMBA Jean Fidele (GAB),MANDI Jassim (BHR),322,73,BRA,CRC
+1990,16 Jun 1990 - 21:00 ,Group C,Luigi Ferraris,Genoa ,Sweden,1,2,Scotland, ,31823,0,1,MACIEL Carlos (PAR),MAURO Vincent (USA),LISTKIEWICZ Michal (POL),322,348,SWE,SCO
+1990,16 Jun 1990 - 21:00 ,Group F,Sant Elia,Cagliari ,England,0,0,Netherlands, ,35267,0,0,PETROVIC Zoran (SRB),HANSAL Mohamed (ALG),CODESAL MENDEZ Edgardo (MEX),322,160,ENG,NED
+1990,17 Jun 1990 - 17:00 ,Group F,Della Favorita,Palermo ,"rn"">Republic of Ireland",0,0,Egypt, ,33288,0,0,VAN LANGENHOVE Marcel (BEL),QUINIOU Joel (FRA),LO BELLO Rosario (ITA),322,152,IRL,EGY
+1990,17 Jun 1990 - 21:00 ,Group E,Dacia Arena,Udine ,Korea Republic,1,3,Spain, ,32733,1,1,JACOME GUERRERO Elias V. (ECU),MAGNI Pierluigi (ITA),LOUSTAU Juan (ARG),322,175,KOR,ESP
+1990,17 Jun 1990 - 21:00 ,Group E,Marc Antonio Bentegodi,Verona ,Belgium,3,1,Uruguay, ,33759,2,0,KIRSCHEN Siegfried (GER),MIKKELSEN Peter (DEN),SPIRIN Alexey (RUS),322,66,BEL,URU
+1990,18 Jun 1990 - 21:00 ,Group B,San Paolo,Naples ,Argentina,1,1,Romania, ,52733,0,0,SILVA VALENTE Carlos Alberto (POR),ULLOA MORERA Berny (CRC),LONGHI Carlo (ITA),322,29,ARG,ROU
+1990,18 Jun 1990 - 21:00 ,Group B,Stadio San Nicola,Bari ,Cameroon,0,4,Soviet Union, ,37307,0,2,RAMIZ WRIGHT Jose (BRA),D ELIA Pietro (ITA),ROETHLISBERGER Kurt (SUI),322,111,CMR,URS
+1990,19 Jun 1990 - 17:00 ,Group D,Giuseppe Meazza,Milan ,Germany FR,1,1,Colombia, ,72510,0,0,SNODDY Alan (NIR),MANDI Jassim (BHR),LANESE Tullio (ITA),322,114,FRG,COL
+1990,19 Jun 1990 - 17:00 ,Group D,Renato Dall Ara,Bologna ,Yugoslavia,4,1,"rn"">United Arab Emirates", ,27833,2,1,TAKADA Shizuo (JPN),MIKKELSEN Peter (DEN),VAUTROT Michel (FRA),322,364,YUG,UAE
+1990,19 Jun 1990 - 21:00 ,Group A,Stadio Olimpico,Rome ,Italy,2,0,Czechoslovakia, ,73303,1,0,QUINIOU Joel (FRA),VAN LANGENHOVE Marcel (BEL),SMITH George (SCO),322,263,ITA,TCH
+1990,19 Jun 1990 - 21:00 ,Group A,Comunale,Florence ,Austria,2,1,USA, ,34857,0,0,AL SHARIF Jamal (SYR),LORENC Richard (AUS),PETROVIC Zoran (SRB),322,48,AUT,USA
+1990,20 Jun 1990 - 21:00 ,Group C,Stadio delle Alpi,Turin ,Brazil,1,0,Scotland, ,62502,0,0,KOHL Helmut (AUT),LISTKIEWICZ Michal (POL),KIRSCHEN Siegfried (GER),322,74,BRA,SCO
+1990,20 Jun 1990 - 21:00 ,Group C,Luigi Ferraris,Genoa ,Sweden,1,2,Costa Rica, ,30223,1,0,PETROVIC Zoran (SRB),SNODDY Alan (NIR),COURTNEY George (ENG),322,128,SWE,CRC
+1990,21 Jun 1990 - 17:00 ,Group E,Friuli,Udine ,Korea Republic,0,1,Uruguay, ,29039,0,0,LANESE Tullio (ITA),DIRAMBA Jean Fidele (GAB),JOUINI Neji (TUN),322,290,KOR,URU
+1990,21 Jun 1990 - 17:00 ,Group E,Marc Antonio Bentegodi,Verona ,Belgium,1,2,Spain, ,35950,1,2,LOUSTAU Juan (ARG),MACIEL Carlos (PAR),MAURO Vincent (USA),322,56,BEL,ESP
+1990,21 Jun 1990 - 21:00 ,Group F,Della Favorita,Palermo ,"rn"">Republic of Ireland",1,1,Netherlands, ,33288,0,1,VAUTROT Michel (FRA),LORENC Richard (AUS),HANSAL Mohamed (ALG),322,228,IRL,NED
+1990,21 Jun 1990 - 21:00 ,Group F,Sant Elia,Cagliari ,England,1,0,Egypt, ,34959,0,0,ROETHLISBERGER Kurt (SUI),ULLOA MORERA Berny (CRC),CODESAL MENDEZ Edgardo (MEX),322,150,ENG,EGY
+1990,23 Jun 1990 - 17:00 ,Round of 16,San Paolo,Naples ,Cameroon,2,1,Colombia,Cameroon win after extra time ,50026,0,0,LANESE Tullio (ITA),AL SHARIF Jamal (SYR),ULLOA MORERA Berny (CRC),323,102,CMR,COL
+1990,23 Jun 1990 - 21:00 ,Round of 16,Stadio San Nicola,Bari ,Czechoslovakia,4,1,Costa Rica, ,47673,1,0,KIRSCHEN Siegfried (GER),PEREZ HOYOS Armando (COL),D ELIA Pietro (ITA),323,129,TCH,CRC
+1990,24 Jun 1990 - 17:00 ,Round of 16,Stadio delle Alpi,Turin ,Brazil,0,1,Argentina, ,61381,0,0,QUINIOU Joel (FRA),SPIRIN Alexey (RUS),PAIRETTO Pierluigi (ITA),323,25,BRA,ARG
+1990,24 Jun 1990 - 21:00 ,Round of 16,Giuseppe Meazza,Milan ,Germany FR,2,1,Netherlands, ,74559,0,0,LOUSTAU Juan (ARG),JACOME GUERRERO Elias V. (ECU),MAURO Vincent (USA),323,196,FRG,NED
+1990,25 Jun 1990 - 17:00 ,Round of 16,Luigi Ferraris,Genoa ,"rn"">Republic of Ireland",0,0,Romania,Republic of Ireland win on penalties (5 - 4) ,31818,0,0,RAMIZ WRIGHT Jose (BRA),MACIEL Carlos (PAR),MANDI Jassim (BHR),323,248,IRL,ROU
+1990,25 Jun 1990 - 21:00 ,Round of 16,Stadio Olimpico,Rome ,Italy,2,0,Uruguay, ,73303,0,0,COURTNEY George (ENG),ROETHLISBERGER Kurt (SUI),PETROVIC Zoran (SRB),323,264,ITA,URU
+1990,26 Jun 1990 - 17:00 ,Round of 16,Marc Antonio Bentegodi,Verona ,Spain,1,2,Yugoslavia,Yugoslavia win after extra time ,35500,0,0,SCHMIDHUBER Aron (GER),SNODDY Alan (NIR),LISTKIEWICZ Michal (POL),323,181,ESP,YUG
+1990,26 Jun 1990 - 21:00 ,Round of 16,Renato Dall Ara,Bologna ,England,1,0,Belgium,England win after extra time ,34520,0,0,MIKKELSEN Peter (DEN),KOHL Helmut (AUT),TAKADA Shizuo (JPN),323,55,ENG,BEL
+1990,30 Jun 1990 - 17:00 ,Quarter-finals,Comunale,Florence ,Yugoslavia,0,0,Argentina, win on penalties (2 - 3) ,38971,0,0,ROETHLISBERGER Kurt (SUI),JOUINI Neji (TUN),HANSAL Mohamed (ALG),751,31,YUG,ARG
+1990,30 Jun 1990 - 21:00 ,Quarter-finals,Stadio Olimpico,Rome ,Italy,1,0,"rn"">Republic of Ireland", ,73303,1,0,SILVA VALENTE Carlos Alberto (POR),PEREZ HOYOS Armando (COL),ULLOA MORERA Berny (CRC),751,243,ITA,IRL
+1990,01 Jul 1990 - 17:00 ,Quarter-finals,Giuseppe Meazza,Milan ,Germany FR,1,0,Czechoslovakia, ,73347,1,0,KOHL Helmut (AUT),MIKKELSEN Peter (DEN),LISTKIEWICZ Michal (POL),751,197,FRG,TCH
+1990,01 Jul 1990 - 21:00 ,Quarter-finals,San Paolo,Naples ,England,3,2,Cameroon,England win after extra time ,55205,0,0,CODESAL MENDEZ Edgardo (MEX),MAURO Vincent (USA),MANDI Jassim (BHR),751,103,ENG,CMR
+1990,03 Jul 1990 - 20:00 ,Semi-finals,San Paolo,Naples ,Italy,1,1,Argentina, win on penalties (3 - 4) ,59978,0,0,VAUTROT Michel (FRA),LISTKIEWICZ Michal (POL),MIKKELSEN Peter (DEN),3464,28,ITA,ARG
+1990,04 Jul 1990 - 20:00 ,Semi-finals,Stadio delle Alpi,Turin ,Germany FR,1,1,England, win on penalties (4 - 3) ,62628,0,0,RAMIZ WRIGHT Jose (BRA),QUINIOU Joel (FRA),PEREZ HOYOS Armando (COL),3464,159,FRG,ENG
+1990,07 Jul 1990 - 20:00 ,Match for third place,Stadio San Nicola,Bari ,Italy,2,1,England, ,51426,0,0,QUINIOU Joel (FRA),HANSAL Mohamed (ALG),ROETHLISBERGER Kurt (SUI),3463,162,ITA,ENG
+1990,08 Jul 1990 - 20:00 ,Final,Stadio Olimpico,Rome ,Germany FR,1,0,Argentina, ,73603,0,0,CODESAL MENDEZ Edgardo (MEX),PEREZ HOYOS Armando (COL),LISTKIEWICZ Michal (POL),3462,27,FRG,ARG
+1994,17 Jun 1994 - 19:30 ,Group C,Cotton Bowl,Dallas ,Spain,2,2,Korea Republic, ,56247,0,0,MIKKELSEN Peter (DEN),CHRISTENSEN Carl-Johan Meyer (DEN),PEARSON Roy (ENG),337,3050,ESP,KOR
+1994,17 Jun 1994 - 15:00 ,Group C,Soldier Field,Chicago ,Germany,1,0,Bolivia, ,63117,0,0,BRIZIO CARTER Arturo (MEX),BRAZZALE Eugene (AUS),DUNSTER Gordon (AUS),337,3049,GER,BOL
+1994,18 Jun 1994 - 11:30 ,Group A,Pontiac Silverdome,Detroit ,USA,1,1,Switzerland, ,73425,1,1,LAMOLINA Francisco Oscar (ARG),TAIBI Ernesto (ARG),ZARATE Venancio (PAR),337,3051,USA,SUI
+1994,18 Jun 1994 - 16:00 ,Group E,Giants Stadium,New York/New Jersey ,Italy,0,1,"rn"">Republic of Ireland", ,75338,0,1,VAN DER ENDE Mario (NED),DOLSTRA Jan (NED),PARK Hae-Yong (KOR),337,3052,ITA,IRL
+1994,18 Jun 1994 - 19:30 ,Group A,Rose Bowl,Los Angeles ,Colombia,1,3,Romania, ,91856,1,2,AL SHARIF Jamal (SYR),AL GHATTAN Yousif Abdulla (BAH),JAMES Douglas Micael (TRI),337,3053,COL,ROU
+1994,19 Jun 1994 - 12:30 ,Group F,Citrus Bowl,Orlando ,Belgium,1,0,Morocco, ,61219,1,0,TORRES CADENA Jose Joaquin (COL),CALIX GARCIA Raimundo (HON),YLI-KARRO Tapio (FIN),337,3054,BEL,MAR
+1994,19 Jun 1994 - 16:00 ,Group E,RFK Stadium,Washington Dc ,Norway,1,0,Mexico, ,52395,0,0,PUHL Sandor (HUN),MARTON Sandor (HUN),IVANOV Valentin (RUS),337,3055,NOR,MEX
+1994,19 Jun 1994 - 19:30 ,Group B,Rose Bowl,Los Angeles ,Cameroon,2,2,Sweden, ,93194,1,1,TEJADA NORIEGA Alberto (PER),JAMES Douglas Micael (TRI),AL GHATTAN Yousif Abdulla (BAH),337,3056,CMR,SWE
+1994,20 Jun 1994 - 19:30 ,Group F,RFK Stadium,Washington Dc ,Netherlands,2,1,Saudi Arabia, ,50535,0,1,DIAZ VEGA Manuel (ESP),IVANOV Valentin (RUS),MARTON Sandor (HUN),337,3058,NED,KSA
+1994,20 Jun 1994 - 16:00 ,Group B,Stanford Stadium,San Francisco ,Brazil,2,0,Russia, ,81061,1,0,LIM KEE CHONG An Yan (MRI),RHARIB El Jilali Mohamed (MAR),RAMICONE Domenico (ITA),337,3057,BRA,RUS
+1994,21 Jun 1994 - 12:30 ,Group D,Foxboro Stadium,Boston ,Argentina,4,0,Greece, ,54456,2,0,ANGELES Arturo (USA),PARK Hae-Yong (KOR),DOLSTRA Jan (NED),337,3059,ARG,GRE
+1994,21 Jun 1994 - 19:30 ,Group D,Cotton Bowl,Dallas ,Nigeria,3,0,Bulgaria, ,44132,2,0,BADILLA Rodrigo (CRC),DUNSTER Gordon (AUS),BRAZZALE Eugene (AUS),337,3061,NGA,BUL
+1994,21 Jun 1994 - 16:00 ,Group C,Soldier Field,Chicago ,Germany,1,1,Spain, ,63113,0,1,FILIPPI Ernesto (URU),ZARATE Venancio (PAR),TAIBI Ernesto (ARG),337,3060,GER,ESP
+1994,22 Jun 1994 - 16:00 ,Group A,Pontiac Silverdome,Detroit ,Romania,1,4,Switzerland, ,61428,1,1,JOUINI Neji (TUN),HASSAN Abdel-Magid (EGY),FANAEI Mohammad (IRN),337,3062,ROU,SUI
+1994,22 Jun 1994 - 19:30 ,Group A,Rose Bowl,Los Angeles ,USA,2,1,Colombia, ,93869,1,0,BALDAS Fabio (ITA),RAMICONE Domenico (ITA),RHARIB El Jilali Mohamed (MAR),337,3063,USA,COL
+1994,23 Jun 1994 - 16:00 ,Group E,Giants Stadium,New York/New Jersey ,Italy,1,0,Norway, ,74624,0,0,KRUG Hellmut (GER),YLI-KARRO Tapio (FIN),PEARSON Roy (ENG),337,3064,ITA,NOR
+1994,23 Jun 1994 - 19:30 ,Group C,Foxboro Stadium,Boston ,Korea Republic,0,0,Bolivia, ,54453,0,0,MOTTRAM Leslie (SCO),MATTHYS Luc (BEL),EVERSTIG Mikael (SWE),337,3065,KOR,BOL
+1994,24 Jun 1994 - 12:30 ,Group E,Citrus Bowl,Orlando ,Mexico,2,1,"rn"">Republic of Ireland", ,60790,1,0,ROETHLISBERGER Kurt (SUI),LISTKIEWICZ Michal (POL),ALVES Paulo Jorge (BRA),337,3066,MEX,IRL
+1994,24 Jun 1994 - 19:30 ,Group B,Pontiac Silverdome,Detroit ,Sweden,3,1,Russia, ,71528,1,1,QUINIOU Joel (FRA),FANAEI Mohammad (IRN),HASSAN Abdel-Magid (EGY),337,3068,SWE,RUS
+1994,24 Jun 1994 - 16:00 ,Group B,Stanford Stadium,San Francisco ,Brazil,3,0,Cameroon, ,83401,1,0,BRIZIO CARTER Arturo (MEX),JAMES Douglas Micael (TRI),CHRISTENSEN Carl-Johan Meyer (DEN),337,3067,BRA,CMR
+1994,25 Jun 1994 - 12:30 ,Group F,Citrus Bowl,Orlando ,Belgium,1,0,Netherlands, ,62387,0,0,MARSIGLIA Renato (BRA),ALVES Paulo Jorge (BRA),LISTKIEWICZ Michal (POL),337,3069,BEL,NED
+1994,25 Jun 1994 - 12:30 ,Group F,Giants Stadium,New York/New Jersey ,Saudi Arabia,2,1,Morocco, ,76322,2,1,DON Philip (ENG),PEARSON Roy (ENG),YLI-KARRO Tapio (FIN),337,3070,KSA,MAR
+1994,25 Jun 1994 - 16:00 ,Group D,Foxboro Stadium,Boston ,Argentina,2,1,Nigeria, ,54453,2,1,KARLSSON Bo (SWE),EVERSTIG Mikael (SWE),MATTHYS Luc (BEL),337,3071,ARG,NGA
+1994,26 Jun 1994 - 12:30 ,Group D,Soldier Field,Chicago ,Bulgaria,4,0,Greece, ,63160,1,0,BUJSAIM Ali (UAE),AL GHATTAN Yousif Abdulla (BAH),CALIX GARCIA Raimundo (HON),337,3072,BUL,GRE
+1994,26 Jun 1994 - 16:00 ,Group A,Rose Bowl,Los Angeles ,USA,0,1,Romania, ,93869,0,1,VAN DER ENDE Mario (NED),DOLSTRA Jan (NED),DUNSTER Gordon (AUS),337,3073,USA,ROU
+1994,26 Jun 1994 - 16:00 ,Group A,Stanford Stadium,San Francisco ,Switzerland,0,2,Colombia, ,83401,0,1,MIKKELSEN Peter (DEN),CHRISTENSEN Carl-Johan Meyer (DEN),JAMES Douglas Micael (TRI),337,3074,SUI,COL
+1994,27 Jun 1994 - 16:00 ,Group C,Cotton Bowl,Dallas ,Germany,3,2,Korea Republic, ,63998,3,0,QUINIOU Joel (FRA),IVANOV Valentin (RUS),HASSAN Abdel-Magid (EGY),337,3076,GER,KOR
+1994,27 Jun 1994 - 16:00 ,Group C,Soldier Field,Chicago ,Bolivia,1,3,Spain, ,63089,0,1,BADILLA Rodrigo (CRC),CALIX GARCIA Raimundo (HON),AL GHATTAN Yousif Abdulla (BAH),337,3075,BOL,ESP
+1994,28 Jun 1994 - 12:30 ,Group E,Giants Stadium,New York/New Jersey ,"rn"">Republic of Ireland",0,0,Norway, ,72404,0,0,TORRES CADENA Jose Joaquin (COL),ALVES Paulo Jorge (BRA),PARK Hae-Yong (KOR),337,3077,IRL,NOR
+1994,28 Jun 1994 - 16:00 ,Group B,Pontiac Silverdome,Detroit ,Brazil,1,1,Sweden, ,77217,0,1,PUHL Sandor (HUN),MARTON Sandor (HUN),MATTHYS Luc (BEL),337,3080,BRA,SWE
+1994,28 Jun 1994 - 12:30 ,Group E,RFK Stadium,Washington Dc ,Italy,1,1,Mexico, ,52535,0,0,LAMOLINA Francisco Oscar (ARG),TAIBI Ernesto (ARG),BRAZZALE Eugene (AUS),337,3078,ITA,MEX
+1994,28 Jun 1994 - 16:00 ,Group B,Stanford Stadium,San Francisco ,Russia,6,1,Cameroon, ,74914,3,0,AL SHARIF Jamal (SYR),DUNSTER Gordon (AUS),DOLSTRA Jan (NED),337,3079,RUS,CMR
+1994,29 Jun 1994 - 12:30 ,Group F,Citrus Bowl,Orlando ,Morocco,1,2,Netherlands, ,60578,0,1,TEJADA NORIEGA Alberto (PER),ZARATE Venancio (PAR),EVERSTIG Mikael (SWE),337,3081,MAR,NED
+1994,29 Jun 1994 - 12:30 ,Group F,RFK Stadium,Washington Dc ,Belgium,0,1,Saudi Arabia, ,52959,0,1,KRUG Hellmut (GER),BRAZZALE Eugene (AUS),TAIBI Ernesto (ARG),337,3082,BEL,KSA
+1994,30 Jun 1994 - 19:30 ,Group D,Foxboro Stadium,Boston ,Greece,0,2,Nigeria, ,53001,0,1,MOTTRAM Leslie (SCO),PARK Hae-Yong (KOR),ALVES Paulo Jorge (BRA),337,3083,GRE,NGA
+1994,30 Jun 1994 - 19:30 ,Group D,Cotton Bowl,Dallas ,Argentina,0,2,Bulgaria, ,63998,0,0,JOUINI Neji (TUN),YLI-KARRO Tapio (FIN),RHARIB El Jilali Mohamed (MAR),337,3084,ARG,BUL
+1994,02 Jul 1994 - 12:00 ,Round of 16,Soldier Field,Chicago ,Germany,3,2,Belgium, ,60246,3,1,ROETHLISBERGER Kurt (SUI),LISTKIEWICZ Michal (POL),CHRISTENSEN Carl-Johan Meyer (DEN),338,3085,GER,BEL
+1994,02 Jul 1994 - 16:30 ,Round of 16,RFK Stadium,Washington Dc ,Spain,3,0,Switzerland, ,53121,1,0,VAN DER ENDE Mario (NED),DOLSTRA Jan (NED),MARTON Sandor (HUN),338,3086,ESP,SUI
+1994,03 Jul 1994 - 12:00 ,Round of 16,Cotton Bowl,Dallas ,Saudi Arabia,1,3,Sweden, ,60277,0,1,MARSIGLIA Renato (BRA),ALVES Paulo Jorge (BRA),CALIX GARCIA Raimundo (HON),338,3087,KSA,SWE
+1994,03 Jul 1994 - 13:30 ,Round of 16,Rose Bowl,Los Angeles ,Romania,3,2,Argentina, ,90469,2,1,PAIRETTO Pierluigi (ITA),RAMICONE Domenico (ITA),MATTHYS Luc (BEL),338,3088,ROU,ARG
+1994,04 Jul 1994 - 12:00 ,Round of 16,Citrus Bowl,Orlando ,Netherlands,2,0,"rn"">Republic of Ireland", ,61355,2,0,MIKKELSEN Peter (DEN),DUNSTER Gordon (AUS),BRAZZALE Eugene (AUS),338,3089,NED,IRL
+1994,04 Jul 1994 - 12:30 ,Round of 16,Stanford Stadium,San Francisco ,Brazil,1,0,USA, ,84147,0,0,QUINIOU Joel (FRA),PARK Hae-Yong (KOR),EVERSTIG Mikael (SWE),338,3090,BRA,USA
+1994,05 Jul 1994 - 13:00 ,Round of 16,Foxboro Stadium,Boston ,Nigeria,1,2,Italy,Italy win after extra time ,54367,0,0,BRIZIO CARTER Arturo (MEX),TAIBI Ernesto (ARG),ZARATE Venancio (PAR),338,3091,NGA,ITA
+1994,05 Jul 1994 - 16:30 ,Round of 16,Giants Stadium,New York/New Jersey ,Mexico,1,1,Bulgaria,Bulgaria win on penalties (1 - 3) ,71030,0,0,AL SHARIF Jamal (SYR),FANAEI Mohammad (IRN),AL GHATTAN Yousif Abdulla (BAH),338,3092,MEX,BUL
+1994,09 Jul 1994 - 12:00 ,Quarter-finals,Foxboro Stadium,Boston ,Italy,2,1,Spain, ,53400,1,0,PUHL Sandor (HUN),DUNSTER Gordon (AUS),MATTHYS Luc (BEL),796,3097,ITA,ESP
+1994,09 Jul 1994 - 14:30 ,Quarter-finals,Cotton Bowl,Dallas ,Netherlands,2,3,Brazil, ,63500,0,0,BADILLA Rodrigo (CRC),AL GHATTAN Yousif Abdulla (BAH),FANAEI Mohammad (IRN),796,3098,NED,BRA
+1994,10 Jul 1994 - 12:00 ,Quarter-finals,Giants Stadium,New York/New Jersey ,Bulgaria,2,1,Germany, ,72000,0,0,TORRES CADENA Jose Joaquin (COL),ZARATE Venancio (PAR),MARTON Sandor (HUN),796,3096,BUL,GER
+1994,10 Jul 1994 - 12:30 ,Quarter-finals,Stanford Stadium,San Francisco ,Romania,2,2,Sweden,Sweden win on penalties (4 - 5) ,83500,0,0,DON Philip (ENG),PEARSON Roy (ENG),PARK Hae-Yong (KOR),796,3095,ROU,SWE
+1994,13 Jul 1994 - 16:00 ,Semi-finals,Giants Stadium,New York/New Jersey ,Bulgaria,1,2,Italy, ,74110,1,2,QUINIOU Joel (FRA),CHRISTENSEN Carl-Johan Meyer (DEN),PEARSON Roy (ENG),3461,3100,BUL,ITA
+1994,13 Jul 1994 - 16:30 ,Semi-finals,Rose Bowl,Los Angeles ,Sweden,0,1,Brazil, ,91856,0,0,TORRES CADENA Jose Joaquin (COL),MARTON Sandor (HUN),MATTHYS Luc (BEL),3461,3099,SWE,BRA
+1994,16 Jul 1994 - 12:30 ,Match for third place,Rose Bowl,Los Angeles ,Sweden,4,0,Bulgaria, ,91500,4,0,BUJSAIM Ali (UAE),RHARIB El Jilali Mohamed (MAR),TAIBI Ernesto (ARG),3460,3103,SWE,BUL
+1994,17 Jul 1994 - 12:30 ,Final,Rose Bowl,Los Angeles ,Brazil,0,0,Italy,Brazil win on penalties (3 - 2) ,94194,0,0,PUHL Sandor (HUN),ZARATE Venancio (PAR),FANAEI Mohammad (IRN),3459,3104,BRA,ITA
+1998,10 Jun 1998 - 17:30 ,Group A,Stade de France,Saint-Denis ,Brazil,2,1,Scotland, ,80000,1,1,GARCIA ARANDA Jose Maria (ESP),TRESACO GRACIA Fernando (ESP),ARANGO Jorge Luis (COL),1014,4000,BRA,SCO
+1998,10 Jun 1998 - 21:00 ,Group A,La Mosson,Montpellier ,Morocco,2,2,Norway, ,29800,1,1,ANPRASERT Pirom (THA),ABDUL HAMID Halim (MAS),WICKRAMATUNGA Nimal (SRI),1014,8725,MAR,NOR
+1998,11 Jun 1998 - 17:30 ,Group B,Stade du Parc Lescure,Bordeaux ,Italy,2,2,Chile, ,31800,1,1,BOUCHARDEAU Lucien (NIG),DANTE Dramane (MLI),MANSRI Mohamed (TUN),1014,8726,ITA,CHI
+1998,11 Jun 1998 - 21:00 ,Group B,Stade Municipal,Toulouse ,Cameroon,1,1,Austria, ,33500,0,0,GONZALEZ CHAVEZ Epifanio (PAR),GALVAN Celestino (PAR),SALINAS Reynaldo (HON),1014,8727,CMR,AUT
+1998,12 Jun 1998 - 14:30 ,Group D,La Mosson,Montpellier ,Paraguay,0,0,Bulgaria, ,29800,0,0,ALZEID Abdulrahman (KSA),SALIE Achmat (RSA),GHADANFARI Hussain (KUW),1014,8728,PAR,BUL
+1998,12 Jun 1998 - 17:30 ,Group C,Stade Felix Bollaert,Lens ,Saudi Arabia,0,1,Denmark, ,38100,0,0,CASTRILLI Javier (ARG),ROSSI Claudio (ARG),DIAZ GALVEZ Jorge (CHI),1014,8729,KSA,DEN
+1998,12 Jun 1998 - 21:00 ,Group C,Stade V�lodrome,Marseilles ,France,3,0,South Africa, ,55000,1,0,REZENDE Marcio (BRA),PINTO Arnaldo (BRA),GONZALES Merere (TRI),1014,8730,FRA,RSA
+1998,13 Jun 1998 - 14:30 ,Group D,La Beaujoire,Nantes ,Spain,2,3,Nigeria, ,35500,1,1,BAHARMAST Esse (USA),TORRES ZUNIGA Luis (CRC),DUPANOV Yuri (BLR),1014,8731,ESP,NGA
+1998,13 Jun 1998 - 17:30 ,Group E,Stade de Gerland,Lyon ,Korea Republic,1,3,Mexico, ,39100,1,0,BENKO Gunter (AUT),FRED Lencie (VAN),SCHNEIDER Erich (GER),1014,8732,KOR,MEX
+1998,13 Jun 1998 - 21:00 ,Group E,Stade de France,Saint-Denis ,Netherlands,0,0,Belgium, ,77000,0,0,COLLINA Pierluigi (ITA),MAZZEI Gennaro (ITA),ZAMMIT Emanuel (MLT),1014,8733,NED,BEL
+1998,14 Jun 1998 - 14:30 ,Group H,Stade Municipal,Toulouse ,Argentina,1,0,Japan, ,33500,1,0,VAN DER ENDE Mario (NED),VAN DEN BROECK Marc (BEL),FOLEY Eddie (IRL),1014,8734,ARG,JPN
+1998,14 Jun 1998 - 17:30 ,Group F,Stade Geoffroy Guichard,Saint-Etienne ,Yugoslavia,1,0,Iran, ,30600,0,0,TEJADA NORIEGA Alberto (PER),POWELL Owen (JAM),POCIEGIEL Jacek (POL),1014,8735,YUG,IRN
+1998,14 Jun 1998 - 21:00 ,Group H,Stade Felix Bollaert,Lens ,Jamaica,1,3,Croatia, ,38100,1,1,MELO PEREIRA Vitor (POR),GRIGORESCU Nicolae (ROU),POUDEVIGNE Jacques (FRA),1014,8736,JAM,CRO
+1998,15 Jun 1998 - 14:30 ,Group G,Stade V�lodrome,Marseilles ,England,2,0,Tunisia, ,55000,1,0,OKADA Masayoshi (JPN),JEON Young Hyun (KOR),DANTE Dramane (MLI),1014,8740,ENG,TUN
+1998,15 Jun 1998 - 17:30 ,Group G,Stade de Gerland,Lyon ,Romania,1,0,Colombia, ,39100,1,0,LIM KEE CHONG An Yan (MRI),AL MUSAWI Mohamed (OMA),ABDUL HAMID Halim (MAS),1014,8739,ROU,COL
+1998,15 Jun 1998 - 21:00 ,Group F,Parc des Princes,Paris ,Germany,2,0,USA, ,45500,1,0,BELQOLA Said (MAR),MANSRI Mohamed (TUN),NILSSON Mikael (SWE),1014,8738,GER,USA
+1998,16 Jun 1998 - 17:30 ,Group A,Stade du Parc Lescure,Bordeaux ,Scotland,1,1,Norway, ,31800,0,0,VAGNER Laszlo (HUN),AMLER Evzen (CZE),RAUSIS Laurent (SUI),1014,8741,SCO,NOR
+1998,16 Jun 1998 - 21:00 ,Group A,La Beaujoire,Nantes ,Brazil,3,0,Morocco, ,35500,2,0,LEVNIKOV Nikolai (RUS),DUPANOV Yuri (BLR),WARREN Mark (ENG),1014,8742,BRA,MAR
+1998,17 Jun 1998 - 17:30 ,Group B,Stade Geoffroy Guichard,Saint-Etienne ,Chile,1,1,Austria, ,30600,0,0,EL GHANDOUR Gamal (EGY),GHADANFARI Hussain (KUW),TRESACO GRACIA Fernando (ESP),1014,8743,CHI,AUT
+1998,17 Jun 1998 - 21:00 ,Group B,La Mosson,Montpellier ,Italy,3,0,Cameroon, ,29800,1,0,LENNIE Edward (AUS),FRED Lencie (VAN),ROSSI Claudio (ARG),1014,8744,ITA,CMR
+1998,18 Jun 1998 - 17:30 ,Group C,Stade Municipal,Toulouse ,South Africa,1,1,Denmark, ,33500,0,1,TORO RENDON John (COL),ARANGO Jorge Luis (COL),GALVAN Celestino (PAR),1014,8746,RSA,DEN
+1998,18 Jun 1998 - 21:00 ,Group C,Stade de France,Saint-Denis ,France,4,0,Saudi Arabia, ,80000,1,0,BRIZIO CARTER Arturo (MEX),SALINAS Reynaldo (HON),TORRES ZUNIGA Luis (CRC),1014,8745,FRA,KSA
+1998,19 Jun 1998 - 17:30 ,Group D,Parc des Princes,Paris ,Nigeria,1,0,Bulgaria, ,45500,1,0,SANCHEZ YANTEN Mario (CHI),DIAZ GALVEZ Jorge (CHI),PINTO Arnaldo (BRA),1014,8747,NGA,BUL
+1998,19 Jun 1998 - 21:00 ,Group D,Stade Geoffroy Guichard,Saint-Etienne ,Spain,0,0,Paraguay, ,30600,0,0,McLEOD Ian (RSA),SOLDATOS Aristidis Chris (RSA),POWELL Owen (JAM),1014,8748,ESP,PAR
+1998,20 Jun 1998 - 14:30 ,Group H,La Beaujoire,Nantes ,Japan,0,1,Croatia, ,35500,0,0,RAMDHAN Ramesh (TRI),GONZALES Merere (TRI),SALIE Achmat (RSA),1014,8751,JPN,CRO
+1998,20 Jun 1998 - 17:30 ,Group E,Stade du Parc Lescure,Bordeaux ,Belgium,2,2,Mexico, ,31800,1,0,DALLAS Hugh (SCO),FOLEY Eddie (IRL),AL MUSAWI Mohamed (OMA),1014,8750,BEL,MEX
+1998,20 Jun 1998 - 21:00 ,Group E,Stade V�lodrome,Marseilles ,Netherlands,5,0,Korea Republic, ,55000,2,0,WOJCIK Ryszard (POL),POCIEGIEL Jacek (POL),DUPANOV Yuri (BLR),1014,8749,NED,KOR
+1998,21 Jun 1998 - 14:30 ,Group F,Stade Felix Bollaert,Lens ,Germany,2,2,Yugoslavia, ,38100,0,1,NIELSEN Kim Milton (DEN),ZAMMIT Emanuel (MLT),VAN DEN BROECK Marc (BEL),1014,8753,GER,YUG
+1998,21 Jun 1998 - 17:30 ,Group H,Parc des Princes,Paris ,Argentina,5,0,Jamaica, ,45500,1,0,PEDERSEN Rune (NOR),NILSSON Mikael (SWE),MAZZEI Gennaro (ITA),1014,8752,ARG,JAM
+1998,21 Jun 1998 - 21:00 ,Group F,Stade de Gerland,Lyon ,USA,1,2,Iran, ,39100,0,1,MEIER Urs (SUI),RAUSIS Laurent (SUI),GRIGORESCU Nicolae (ROU),1014,8754,USA,IRN
+1998,22 Jun 1998 - 17:30 ,Group G,La Mosson,Montpellier ,Colombia,1,0,Tunisia, ,29800,0,0,HEYNEMANN Bernd (GER),SCHNEIDER Erich (GER),AMLER Evzen (CZE),1014,8755,COL,TUN
+1998,22 Jun 1998 - 21:00 ,Group G,Stade Municipal,Toulouse ,Romania,2,1,England, ,33500,0,0,BATTA Marc (FRA),POUDEVIGNE Jacques (FRA),SOLDATOS Aristidis Chris (RSA),1014,8756,ROU,ENG
+1998,23 Jun 1998 - 16:00 ,Group B,Stade de France,Saint-Denis ,Italy,2,1,Austria, ,80000,0,0,DURKIN Paul (ENG),WARREN Mark (ENG),JEON Young Hyun (KOR),1014,8757,ITA,AUT
+1998,23 Jun 1998 - 16:00 ,Group B,La Beaujoire,Nantes ,Chile,1,1,Cameroon, ,35500,1,0,VAGNER Laszlo (HUN),WICKRAMATUNGA Nimal (SRI),ABDUL HAMID Halim (MAS),1014,8760,CHI,CMR
+1998,23 Jun 1998 - 21:00 ,Group A,Stade Geoffroy Guichard,Saint-Etienne ,Scotland,0,3,Morocco, ,30600,0,1,BUJSAIM Ali (UAE),TORRES ZUNIGA Luis (CRC),FRED Lencie (VAN),1014,8758,SCO,MAR
+1998,23 Jun 1998 - 21:00 ,Group A,Stade V�lodrome,Marseilles ,Brazil,1,2,Norway, ,55000,0,0,BAHARMAST Esse (USA),MAZZEI Gennaro (ITA),DANTE Dramane (MLI),1014,8759,BRA,NOR
+1998,24 Jun 1998 - 16:00 ,Group C,Stade de Gerland,Lyon ,France,2,1,Denmark, ,39100,1,1,COLLINA Pierluigi (ITA),VAN DEN BROECK Marc (BEL),ZAMMIT Emanuel (MLT),1014,8762,FRA,DEN
+1998,24 Jun 1998 - 16:00 ,Group C,Stade du Parc Lescure,Bordeaux ,South Africa,2,2,Saudi Arabia, ,31800,1,1,SANCHEZ YANTEN Mario (CHI),POWELL Owen (JAM),FOLEY Eddie (IRL),1014,8764,RSA,KSA
+1998,24 Jun 1998 - 21:00 ,Group D,Stade Felix Bollaert,Lens ,Spain,6,1,Bulgaria, ,38100,2,0,VAN DER ENDE Mario (NED),GRIGORESCU Nicolae (ROU),ROSSI Claudio (ARG),1014,8761,ESP,BUL
+1998,24 Jun 1998 - 21:00 ,Group D,Stade Municipal,Toulouse ,Nigeria,1,3,Paraguay, ,33500,1,1,ANPRASERT Pirom (THA),AL MUSAWI Mohamed (OMA),NILSSON Mikael (SWE),1014,8763,NGA,PAR
+1998,25 Jun 1998 - 16:00 ,Group E,Parc des Princes,Paris ,Belgium,1,1,Korea Republic, ,45500,1,0,REZENDE Marcio (BRA),PINTO Arnaldo (BRA),ARANGO Jorge Luis (COL),1014,8765,BEL,KOR
+1998,25 Jun 1998 - 16:00 ,Group E,Stade Geoffroy Guichard,Saint-Etienne ,Netherlands,2,2,Mexico, ,30600,2,0,ALZEID Abdulrahman (KSA),TRESACO GRACIA Fernando (ESP),GHADANFARI Hussain (KUW),1014,8766,NED,MEX
+1998,25 Jun 1998 - 21:00 ,Group F,La Mosson,Montpellier ,Germany,2,0,Iran, ,29800,0,0,GONZALEZ CHAVEZ Epifanio (PAR),GALVAN Celestino (PAR),DIAZ GALVEZ Jorge (CHI),1014,8767,GER,IRN
+1998,25 Jun 1998 - 21:00 ,Group F,La Beaujoire,Nantes ,USA,0,1,Yugoslavia, ,35500,0,1,EL GHANDOUR Gamal (EGY),SALIE Achmat (RSA),WARREN Mark (ENG),1014,8768,USA,YUG
+1998,26 Jun 1998 - 16:00 ,Group H,Stade de Gerland,Lyon ,Japan,1,2,Jamaica, ,39100,0,1,BENKO Gunter (AUT),AMLER Evzen (CZE),DANTE Dramane (MLI),1014,8771,JPN,JAM
+1998,26 Jun 1998 - 16:00 ,Group H,Stade du Parc Lescure,Bordeaux ,Argentina,1,0,Croatia, ,31800,1,0,BELQOLA Said (MAR),SOLDATOS Aristidis Chris (RSA),MANSRI Mohamed (TUN),1014,8772,ARG,CRO
+1998,26 Jun 1998 - 21:00 ,Group G,Stade de France,Saint-Denis ,Romania,1,1,Tunisia, ,77000,0,1,LENNIE Edward (AUS),POCIEGIEL Jacek (POL),DUPANOV Yuri (BLR),1014,8769,ROU,TUN
+1998,26 Jun 1998 - 21:00 ,Group G,Stade Felix Bollaert,Lens ,Colombia,0,2,England, ,38100,0,2,BRIZIO CARTER Arturo (MEX),RAUSIS Laurent (SUI),SALINAS Reynaldo (HON),1014,8770,COL,ENG
+1998,27 Jun 1998 - 16:30 ,Round of 16,Stade V�lodrome,Marseilles ,Italy,1,0,Norway, ,55000,1,0,HEYNEMANN Bernd (GER),SCHNEIDER Erich (GER),VAN DEN BROECK Marc (BEL),1024,8774,ITA,NOR
+1998,27 Jun 1998 - 21:00 ,Round of 16,Parc des Princes,Paris ,Brazil,4,1,Chile, ,45500,3,0,BATTA Marc (FRA),POUDEVIGNE Jacques (FRA),POWELL Owen (JAM),1024,8773,BRA,CHI
+1998,28 Jun 1998 - 16:30 ,Round of 16,Stade Felix Bollaert,Lens ,France,1,0,Paraguay,France win after extra time ,31800,0,0,BUJSAIM Ali (UAE),WICKRAMATUNGA Nimal (SRI),FRED Lencie (VAN),1024,8776,FRA,PAR
+1998,28 Jun 1998 - 21:00 ,Round of 16,Stade de France,Saint-Denis ,Nigeria,1,4,Denmark, ,77000,0,2,MEIER Urs (SUI),GHADANFARI Hussain (KUW),TRESACO GRACIA Fernando (ESP),1024,8775,NGA,DEN
+1998,29 Jun 1998 - 16:30 ,Round of 16,La Mosson,Montpellier ,Germany,2,1,Mexico, ,29800,0,0,MELO PEREIRA Vitor (POR),MANSRI Mohamed (TUN),SALIE Achmat (RSA),1024,8777,GER,MEX
+1998,29 Jun 1998 - 21:00 ,Round of 16,Stade Municipal,Toulouse ,Netherlands,2,1,Yugoslavia, ,33500,1,0,GARCIA ARANDA Jose Maria (ESP),RAUSIS Laurent (SUI),GRIGORESCU Nicolae (ROU),1024,8778,NED,YUG
+1998,30 Jun 1998 - 16:30 ,Round of 16,Stade du Parc Lescure,Bordeaux ,Romania,0,1,Croatia, ,31800,0,1,CASTRILLI Javier (ARG),ROSSI Claudio (ARG),PINTO Arnaldo (BRA),1024,8780,ROU,CRO
+1998,30 Jun 1998 - 21:00 ,Round of 16,Stade Geoffroy Guichard,Saint-Etienne ,Argentina,2,2,England,Argentina win on penalties (4 - 3) ,30600,0,0,NIELSEN Kim Milton (DEN),ABDUL HAMID Halim (MAS),AL MUSAWI Mohamed (OMA),1024,8779,ARG,ENG
+1998,03 Jul 1998 - 16:30 ,Quarter-finals,Stade de France,Saint-Denis ,Italy,0,0,France,France win on penalties (3 - 4) ,77000,0,0,DALLAS Hugh (SCO),WARREN Mark (ENG),GRIGORESCU Nicolae (ROU),1025,8781,ITA,FRA
+1998,03 Jul 1998 - 21:00 ,Quarter-finals,La Beaujoire,Nantes ,Brazil,0,2,Denmark, ,35500,2,1,EL GHANDOUR Gamal (EGY),MANSRI Mohamed (TUN),DANTE Dramane (MLI),1025,8782,BRA,DEN
+1998,04 Jul 1998 - 16:30 ,Quarter-finals,Stade V�lodrome,Marseilles ,Netherlands,2,1,Argentina, ,55000,1,1,BRIZIO CARTER Arturo (MEX),POWELL Owen (JAM),SALINAS Reynaldo (HON),1025,8784,NED,ARG
+1998,04 Jul 1998 - 21:00 ,Quarter-finals,Stade de Gerland,Lyon ,Germany,0,3,Croatia, ,39100,0,1,PEDERSEN Rune (NOR),NILSSON Mikael (SWE),VAN DEN BROECK Marc (BEL),1025,8783,GER,CRO
+1998,07 Jul 1998 - 21:00 ,Semi-finals,Stade V�lodrome,Marseilles ,Brazil,1,1,Netherlands,Brazil win on penalties (4 - 2) ,54000,0,0,BUJSAIM Ali (UAE),GHADANFARI Hussain (KUW),AL MUSAWI Mohamed (OMA),1026,8785,BRA,NED
+1998,08 Jul 1998 - 21:00 ,Semi-finals,Stade de France,Saint-Denis ,France,2,1,Croatia, ,76000,0,0,GARCIA ARANDA Jose Maria (ESP),TRESACO GRACIA Fernando (ESP),DIAZ GALVEZ Jorge (CHI),1026,8786,FRA,CRO
+1998,11 Jul 1998 - 21:00 ,Match for third place,Parc des Princes,Paris ,Netherlands,1,2,Croatia, ,45500,1,2,GONZALEZ CHAVEZ Epifanio (PAR),ZAMMIT Emanuel (MLT),FRED Lencie (VAN),1028,8787,NED,CRO
+1998,12 Jul 1998 - 21:00 ,Final,Stade de France,Saint-Denis ,Brazil,0,1,France, ,80000,0,2,BELQOLA Said (MAR),WARREN Mark (ENG),SALIE Achmat (RSA),1027,8788,BRA,FRA
