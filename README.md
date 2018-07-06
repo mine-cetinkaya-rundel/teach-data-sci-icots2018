@@ -28,12 +28,9 @@ Please bring your own laptop.
 
 ## Schedule
 
-Part 1 of this workshop will be held on Saturday, July 7, 2018 and Part 2 
-will be held on Sunday, July 8, 2018.
-
 Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall.
 
-### Part 1
+### Part 1 - Saturday, July 7
 
 | Time          | Activity                                |
 |:--------------|:----------------------------------------|
@@ -52,7 +49,7 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 | 12:45 - 13:30 | [Version control with Git and GitHub](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-06-git/01-06-git.html) |
 |               | Ex: [Demo repo](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018-demo)  |
 
-### Part 2
+### Part 2 - Sunday, July 8
 
 | Time          | Activity                                |
 |:--------------|:----------------------------------------|
