@@ -67,6 +67,16 @@ Best practices for configuring and deploying infrastructure for teaching data sc
 
 ---
 
+## Materials
+
+<br><br><br><br>
+
+All materials posted at [bit.ly/teach-data-sci](http://bit.ly/teach-data-sci)
+
+<br><br><br><br>
+
+---
+
 class: center, middle
 
 # Framing
