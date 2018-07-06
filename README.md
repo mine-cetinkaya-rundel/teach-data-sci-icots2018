@@ -26,7 +26,7 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 
 | Time          | Activity                                |
 |:--------------|:----------------------------------------|
-| 09:30 - 09:45 | Welcome                                 |
+| 09:30 - 09:45 | [Welcome](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-00-welcome/01-00-welcome.html)  |
 | 09:45 - 10:15 | Getting started |
 | 10:15 - 10:45 | Designing an intro data science course  |
 | 10:45 - 11:00 | Break |
