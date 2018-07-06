@@ -17,8 +17,8 @@ Please bring your own laptop.
 
 ## Schedule
 
-Part 1 of this workshop will be held on Saturday, July 6, 2018 and Part 2 
-will be held on Sunday, July 7, 2018.
+Part 1 of this workshop will be held on Saturday, July 7, 2018 and Part 2 
+will be held on Sunday, July 8, 2018.
 
 Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall.
 
