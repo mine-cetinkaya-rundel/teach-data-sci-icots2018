@@ -33,10 +33,10 @@ Version control is a system that records changes to a file or set of files over 
 
 ## Bad
 .center[
-  ![Final.doc](img/phd_comics_vc.gif)
+  ![:scale 50%](img/phd_comics_vc.gif)
 ]
 
-Source: Piled Higher and Deeper by Jorge Cham, http://www.phdcomics.com.
+.midi[Source: Piled Higher and Deeper by Jorge Cham, http://www.phdcomics.com]
 
 ---
 
@@ -75,7 +75,7 @@ Saving everything together periodically - everytime you complete a draft:
   ![Final.doc](img/repo.png)
 ]
 
-Source: https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018
+.midi[Source: https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018]
 
 ---
 
@@ -165,7 +165,7 @@ In this activity you are going to learn how to collaborate using Github.  With a
 
 ---
 
-## Create a repository with a README.md file
+## Create a repository w/ a README.md
 
 **Step 1**: First we are going to create a repository associated with our Github user account.
 
@@ -248,6 +248,8 @@ Now it is time to collaborate with your partner. Navigate to your partner's repo
 - You should now have a copy of your partners repository, `work-organization-their-name`. 
 - Github keeps track of the entire git history of the project and all forked copies made of the project. 
 
+--
+
 1. Edit your partners repository by clicking the edit button.  
 2. Paste in the answers to your questions under theirs and make a commit. 
 
@@ -256,6 +258,8 @@ Now it is time to collaborate with your partner. Navigate to your partner's repo
 ## Create a pull request
 
 - A **pull request** is the final step in the collaboration process, essentially asking if the edits made to your copy can be incorporated back into the original repository. 
+
+--
 
 1.  Make sure you are in your forked copy of the repository (check the url - your user name should preface the repository name) 
 2.  Click the green "New Pull Request" button. You will get an overview of the changes you made to the repository. 
@@ -290,32 +294,27 @@ class: center, middle
 
 **Fork a repository.**
 
-&lt;br&gt;
-
-1. Go to a repository.
-2. Click on Fork (on the top right corner).
+1. Go to the repository on GitHub
+2. Click on Fork (grey button in the top right corner).
 
 ---
 
 ## Aside: Where am I?
 
-**How can I tell if I am looking at my fork or the original repository?**
+**How can you tell if you am looking at your fork or the original repository?**
 
 - Look at the URL.
-- Look at the name of the repo on the upper left corner, for your fork it will say:
+- Look at the name of the repo on the upper left corner, for your fork it should say:
 
-~~~
-[your-github-name]/teach-data-sci-icots2018-demo
-forked from rundel/teach-data-sci-icots2018-demo
-~~~
+.center[
+![:scale 75%](img/github_fork.png)
+]
 
 ---
 
 ## Step 2: Clone
 
 **Clone your forked repository to obtain a local copy of the files .**
-
-&lt;br&gt;
 
 1. In RStudio Cloud, click on New Project from Git
 2. Fill in the info: use HTTPS address for URL
@@ -330,9 +329,7 @@ Git uses this file to determine which files and directories to ignore, before yo
 
 ## Git config
 
-- Go to the Terminal pane
-
-- Type the following two lines of code, replacing the information in the quotation marks with your info:
+Go to the Terminal pane and type the following two lines of code, replacing the information in the quotation marks with your info:
 
 ```shell
 git config --global user.email "your email"
@@ -342,8 +339,8 @@ git config --global user.name "your name"
 For example, for me these are
 
 ```shell
-git config --global user.email "mine@stat.duke.edu"
-git config --global user.name "Mine Cetinkaya-Rundel"
+git config --global user.email "colin.rundel@stat.duke.edu"
+git config --global user.name "Colin Rundel"
 ```
 
 To confirm that the changes have been implemented, run the following
@@ -371,8 +368,6 @@ This will cache your username password for 600,000 seconds, or ~1 week. This cac
 
 **Edit a file in this repository/project.**
 
-&lt;br&gt;
-
 1. Change the output to `github_document`
 2. Update the YAML with your information
 3. Add additional text, code, plot as you like
@@ -382,8 +377,6 @@ This will cache your username password for 600,000 seconds, or ~1 week. This cac
 ## Step 4: Stage
 
 **Stage your changes to be committed.**
-
-&lt;br&gt;
 
 1. Go to the Git pane in RStudio.
 2. Stage the changes for the changed file(s) by checking the boxes next to then, and hit Commit.
@@ -396,8 +389,6 @@ This will cache your username password for 600,000 seconds, or ~1 week. This cac
 
 **View the diff, and commit your changes, with a commit message.**
 
-&lt;br&gt;
-
 1. In the pop-up window view the *diff* for the Rmd file. You can view it for the HTML file as well if you like.
 2. Enter an **informative** commit message, like "Changed analysis year to X", and hit Commit.
 
@@ -408,8 +399,6 @@ This will cache your username password for 600,000 seconds, or ~1 week. This cac
 **Push your changes to your own fork of the the GitHub repository.**
 
 **push**: When using git push always means pushing commits from your local respository (your computer) to a remote repository (Github).
-
-&lt;br&gt;
 
 1. Now push your changes to GitHub by hitting Push.
 2. Enter login information as needed.
@@ -426,12 +415,6 @@ The only step that would be slightly different is the **Clone** step:
 4. Fill in the info:
     - URL: use HTTPS address
     - Create as a subdirectory of: Browse to where you would like to create this folder
-
----
-
-class: center, middle
-
-# Other day one essentials
 
 ---
 
