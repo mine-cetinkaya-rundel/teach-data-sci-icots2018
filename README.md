@@ -16,9 +16,10 @@ Part 2 of this workshop (Workshop A2) will be held the following day.
 
 ## Schedule
 
+### Part 1
+
 | Time          | Activity                                |
 |:--------------|:----------------------------------------|
-| **Part 1**    |                                         | 
 | 09:30 - 09:45 | Welcome                                 |
 | 09:45 - 10:15 | Starting off [TO DO: need a better name!] |
 | 10:15 - 10:45 | Designing an intro data science course  |
@@ -28,3 +29,15 @@ Part 2 of this workshop (Workshop A2) will be held the following day.
 | 12:00 - 12:30 | Tidyverse     |
 | 12:30 - 12:45 | Break |
 | 12:45 - 13:30 | Git and GitHub |
+| 
+
+### Part 2
+
+| Time          | Activity                                |
+|:--------------|:----------------------------------------|
+| 09:30 - 09:45 | Welcome                                 |
+| 09:45 - 10:45 | Computing infrastructure with RStudio   |
+| 10:45 - 11:00 | Break                                   |
+| 11:00 - 12:30 | Course management with GitHub           |
+| 12:30 - 12:45 | Break                                   |
+| 12:45 - 13:30 | Assessment and feedback                 |
