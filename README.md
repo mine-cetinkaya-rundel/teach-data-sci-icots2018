@@ -1,5 +1,3 @@
-# Teaching Data Science, Reproducibly
-
 A two part workshop at ICOTS 2018, presented by 
 [Dr. Mine Cetinkaya-Rundel](https://www2.stat.duke.edu/~mc301) 
 (Duke University + RStudio) 
