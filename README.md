@@ -46,9 +46,9 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 | 11:30 - 11:45 | [Data analysis with the tidyverse](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-tidyverse/01-04-tidyverse.html)         |
 | 10:30 - 10:45 | Break                                                       |
 | 12:00 - 13:00 | [Version control with Git and GitHub](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-06-git/01-06-git.html)                        |
-|               | <i class="fas fa-check-square"></i> [Create a GitHub account](https://github.com/)          |
-|               | <i class="fas fa-check-square"></i> [Demo GitHub repository](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018-demo) |
-| 13:00 - 13:30 | Designing an intro data science course                      |
+|               | :heavy_check_mark: [Create a GitHub account](https://github.com/) |
+|               | :heavy_check_mark: [Demo GitHub repository](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018-demo) |
+| 13:00 - 13:30 | [A first course in data science](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-06-intro-ds/01-06-intro-ds.pdf)                                             |
 
 ### Part 2 - Sunday, July 8
 
