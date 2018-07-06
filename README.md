@@ -11,7 +11,7 @@ first-hand experience with using relevant tool-chains and techniques, including
 R/RStudio, literate programming with R Markdown, and collaboration, version 
 control, and automated feedback with git/GitHub.
 
-This is a two part workshop at ICOTS 2018, presented by [Dr. Mine Cetinkaya-Rundel](https://www2.stat.duke.edu/~mc301) (Duke University + RStudio) 
+This is a two part workshop at [ICOTS 2018](https://icots.info/10/), presented by [Dr. Mine Cetinkaya-Rundel](https://www2.stat.duke.edu/~mc301) (Duke University + RStudio) 
 and [Dr. Colin Rundel](https://www2.stat.duke.edu/~cr173/) (Duke University).
 
 This workshop is aimed at participants who are interested in the role of 
