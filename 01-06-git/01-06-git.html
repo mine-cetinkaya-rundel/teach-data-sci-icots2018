@@ -270,45 +270,6 @@ class: center, middle
 
 ---
 
-## Git config
-
-- Go to the Terminal pane
-
-- Type the following two lines of code, replacing the information in the quotation marks with your info:
-
-```shell
-git config --global user.email "your email"
-git config --global user.name "your name"
-```
-
-For example, for me these are
-
-```shell
-git config --global user.email "mine@stat.duke.edu"
-git config --global user.name "Mine Cetinkaya-Rundel"
-```
-
-To confirm that the changes have been implemented, run the following
-
-```shell
-git config --global user.email
-git config --global user.name
-```
-
----
-
-## Other useful git config options
-
-For certain operations GitHub will require that you authenticate, in order to avoid having to type your username and password repeatedly we can ask git to cache our credentials
-
-```shell
-git config --global credential.helper 'cache --timeout=600000'
-```
-
-This will cache your username password for 600,000 seconds, or ~1 week. This cacheing occurs only on the machine where this is set (and where authentication occured) and when using https based url.
-
----
-
 ## Follow along demo
 
 **Step 1:** Fork a repository. (Need inspiration? Fork this [one](https://github.com/rundel/teach-data-sci-icots2018-demo).)
@@ -356,18 +317,53 @@ forked from rundel/teach-data-sci-icots2018-demo
 
 &lt;br&gt;
 
-1. In RStudio, go to File, and then New Project
-2. Click on *Version Control: Checkout a project from a version control repository*
-3. Click on *Git: Clone a project from a repository*
-4. Fill in the info:
-    - URL: use HTTPS address
-    - Create as a subdirectory of: Browse to where you would like to create this folder
-        
+1. In RStudio Cloud, click on New Project from Git
+2. Fill in the info: use HTTPS address for URL
+    
 ---
 
 ## What is .gitignore?
 
 Git uses this file to determine which files and directories to ignore, before you make a commit.
+
+---
+
+## Git config
+
+- Go to the Terminal pane
+
+- Type the following two lines of code, replacing the information in the quotation marks with your info:
+
+```shell
+git config --global user.email "your email"
+git config --global user.name "your name"
+```
+
+For example, for me these are
+
+```shell
+git config --global user.email "mine@stat.duke.edu"
+git config --global user.name "Mine Cetinkaya-Rundel"
+```
+
+To confirm that the changes have been implemented, run the following
+
+```shell
+git config --global user.email
+git config --global user.name
+```
+
+---
+
+## Other useful git config options
+
+For certain operations GitHub will require that you authenticate, in order to avoid having to type your username and password repeatedly we can ask git to cache our credentials
+
+```shell
+git config --global credential.helper 'cache --timeout=600000'
+```
+
+This will cache your username password for 600,000 seconds, or ~1 week. This cacheing occurs only on the machine where this is set (and where authentication occured) and when using https based url.
 
 ---
 
@@ -417,6 +413,19 @@ Git uses this file to determine which files and directories to ignore, before yo
 
 1. Now push your changes to GitHub by hitting Push.
 2. Enter login information as needed.
+
+---
+
+## Working in RStudio locally
+
+The only step that would be slightly different is the **Clone** step:
+
+1. In RStudio, click on New Project from Git, and then New Project
+2. Click on *Version Control: Checkout a project from a version control repository*
+3. Click on *Git: Clone a project from a repository*
+4. Fill in the info:
+    - URL: use HTTPS address
+    - Create as a subdirectory of: Browse to where you would like to create this folder
 
 ---
 
