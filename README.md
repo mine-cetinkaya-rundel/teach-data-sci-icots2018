@@ -35,7 +35,7 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 | Time          | Activity                                                    |
 |:--------------|:------------------------------------------------------------|
 | 09:30 - 09:45 | [Welcome](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-00-welcome/01-00-welcome.html) |
-| 09:45 - 10:15 | [Getting started](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/01-01-start.html)                                                  |
+| 09:45 - 10:15 | [Getting started](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/01-01-start.html)                                                  |
 |               | :heavy_check_mark: [RStudio Cloud](http://bit.ly/teach-data-sci-rscloud) |
 |               | :heavy_check_mark: UN Votes: [Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.Rmd) + [Output](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.html)                        |
 | 10:15 - 10:30 | [Computing with R and RStudio](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-02-r-rstudio/01-02-r-rstudio.html)           |
