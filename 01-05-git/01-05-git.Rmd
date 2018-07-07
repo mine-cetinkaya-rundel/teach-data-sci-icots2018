@@ -206,10 +206,14 @@ In this activity you are going to learn how to collaborate using Github.  With a
 
 ## Commit
 
-- **Commit** takes a snap shot of your project. Each commit includes a short message that concisely summarizes the changes thta were made since the last commit. 
+- **Commit** takes a snap shot of your project. Each commit includes a short message that concisely summarizes the changes that were made since the last commit. 
 
 1. Summarize the changes that you have made in 50 characters or less and click the green "commit button". 
 2. Check out the git history.  (You should now see two commits)
+
+.center[
+  ![:scale 30%](img/git_history.png)
+]
 
 ---
 

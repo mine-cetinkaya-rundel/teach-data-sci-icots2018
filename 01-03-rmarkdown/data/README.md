@@ -24,10 +24,10 @@ home_team_goals | Total goals scored by the home team by the end of the match | 
 away_team_goals | Total goals scored by the away team by the end of the match | Numeric
 away_team_name | Away team country name | String
 win_conditions | Special win condition (if any) | String
-attendance | Total crowd present at the satdium | Numeric
+attendance | Total crowd present at the stadium | Numeric
 half_time_home_goals | Goals scored by the home team until half time | Numeric
 half_time_away_goals | Goals scored by the away team until half time | Numeric
-referee | Name of the first refree | String
+referee | Name of the first referee | String
 assistant_1 | Name of the first assistant referee (linesman) | String
 assistant_2 | Name of the second assistant referee (linesman) | String
 round_id | Unique ID of the Round | Numeric
