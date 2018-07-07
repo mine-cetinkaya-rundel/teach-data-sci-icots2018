@@ -40,7 +40,7 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 |               | :heavy_check_mark: UN Votes: [Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.Rmd) + [Output](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-01-start/unvotes.html)                        |
 | 10:15 - 10:30 | [Computing with R and RStudio](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-02-r-rstudio/01-02-r-rstudio.html)           |
 | 10:30 - 10:45 | Break :tea:                                                 |
-| 10:45 - 11:30 | [Literate programming with R Markdown](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/01-04-rmarkdown.html)          |
+| 10:45 - 11:30 | [Literate programming with R Markdown](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-03-rmarkdown/01-03-rmarkdown.html)          |
 |               | :heavy_check_mark: World Cup: [Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/world-cup-goals.Rmd) + [Codebook](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-rmarkdown/data/README.md)                                               |
 | 11:30 - 11:45 | [Data analysis with the tidyverse](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-tidyverse/01-04-tidyverse.html)         |
 | 10:30 - 10:45 | Break :tea:                                                 |
