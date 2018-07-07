@@ -270,6 +270,63 @@ git config --global user.name "your name"
 
 ---
 
+## Creating teams
+
+GitHub supports the creation of teams within an organization, these teams can then be assigned a shared repository.
+
+We can use ghclass to create these teams and add students to them.
+
+```{r eval=FALSE}
+users = c("Alice","Bob","Carol","Dave","Eve")
+teams = c("Team01", "Team01", "Team01", "Team02", "Team02")
+
+create_team("icots10-data-sci", unique(teams))
+```
+
+```
+## Adding Team01 ...
+## Adding Team02 ...
+```
+
+```{r eval=FALSE}
+add_team_member("icots10-data-sci", users, teams)
+```
+
+```
+## Adding Alice to Team01 ...
+## Adding Bob to Team01 ...
+## Adding Carol to Team01 ...
+## Adding Dave to Team02 ...
+## Adding Eve to Team02 ...
+```
+
+---
+
+## Creating team assignments
+
+```{r eval=FALSE}
+create_team_repo("icots10-data-sci", prefix="hw01-")
+```
+```
+## Creating hw01-Team01 for Team01 ...
+## Creating hw01-Team02 for Team02 ...
+```
+
+```{r eval=FALSE}
+mirror_repo(
+  source_repo = "icots10-data-sci/hw01", 
+  target_repos = get_repos("icots10-data-sci","hw01-")
+)
+```
+```
+## Cloning source repo (icots10-data-sci/hw01) ...
+## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw2-Team01 ...
+## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw2-Team02 ...
+## Cleaning up ...
+```
+
+---
+
 ## Alternative - GitHub classroom
 
 Available here - https://classroom.github.com/classrooms
