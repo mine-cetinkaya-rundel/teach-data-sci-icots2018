@@ -145,13 +145,14 @@ These tokens can be created [here](https://github.com/settings/tokens) and once 
 
 ## Checking tokens
 
-If the token is found and works correctly the following code should run without error,
+If the token is found and works correctly the following code should run without error
+
 ```{r error=TRUE, message=FALSE}
 library(ghclass)
 test_github_token()
 ```
 
-If instead the token is invalid or not found, you will see something like the following,
+If instead the token is invalid or not found, you will see something like the following
 
 ```{r error=TRUE, message=FALSE}
 test_github_token("MADE_UP_TOKEN")
@@ -259,7 +260,7 @@ You all now should have your own private copy of the demo repository within the 
 
 * Use that url to create a new project in RStudio Cloud from git
 
-* Complete theexercise and commit and push your work as described in `hw01.Rmd`.
+* Complete the exercise and commit and push your work as described in `hw01.Rmd`.
 
 <br/>
 
