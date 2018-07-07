@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course management with GitHub</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Mine Çetinkaya-Rundel &amp; Colin Rundel" />
+    <meta name="date" content="2018-07-08" />
+    <link rel="stylesheet" href="../slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Course management with GitHub
+## Teaching Data Science, Reproducibly <br> @ ICOTS 2018
+### Mine Çetinkaya-Rundel &amp; Colin Rundel
+### July 8, 2018
+
+---
+
+
+## Basic Structure
+
+On Github:
+
+* 1 Organization / class
+
+* 1 repo / team / assignment
+
+* Student and team repos are all private by default
+
+* Template repos are public by default
+
+---
+
+## Setting up a course
+
+1. Create course organization on GitHub (https://github.com/organizations/new)
+
+2. Request education discount for organization (https://education.github.com/discount)
+
+3. Invite students to organization
+
+4. Create assignment(s).
+
+---
+
+## 1. Create course organization
+
+.center[
+![:scale 75%](img/create_org.png)
+]
+
+---
+
+## 2. Request education discount
+
+.center[
+![:scale 60%](img/ed_discount.png)
+
+...
+
+![:scale 60%](img/ed_about.png)
+]
+
+---
+
+## Required information
+
+When requesting the discount you will need to provide the following:
+
+* A brief description of the purpose for the GitHub organization and how you plan to use GitHub
+
+* Establishing connection to an academic institution by verifying with an `.edu` email + photo of your school id.
+
+* Link to relevant website for the class / workshop / research group
+
+&lt;br/&gt;
+
+Verification is manual and can take between a couple hours to a couple days.
+
+---
+
+## 3. Invite students
+
+.center[
+![:scale 80%](img/org_people.png)
+
+![:scale 50%](img/org_invite.png)
+]
+
+---
+
+## Member Privledges
+
+.center[
+![:scale 100%](img/org_priv.png)
+]
+
+---
+
+## Automating Invitations
+
+Inviting students to the organization only needs to be done once be class, but the process gets tedious for more than a handful of students.
+
+&lt;br/&gt;
+
+We have developed an R package that automates this (and other class related tasks) called `ghclass`. 
+
+The package is still under active development and is not currently on CRAN but can be installed from GitHub using:
+
+```r
+devtools::install_github("rundel/ghclass")
+```
+
+---
+
+## Aside - GitHub personal access tokens
+
+`ghclass` uses the GitHub API to interact with your course organization and repos - the API verifies your identity using a personal access token which must be created and saved in such a way that `ghclass` can find and use it.
+
+These tokens can be created [here](https://github.com/settings/tokens) and once created can be saved as `~/.github/token` or assigned to the `GITHUB_TOKEN` environmentval variable.
+
+If the token is found and works correctly the following code should run without error,
+
+```r
+library(ghclass)
+```
+
+```
+## Loading required package: gh
+```
+
+```r
+test_github_token()
+```
+
+---
+
+## ghclass - Inviting students
+
+
+```r
+users = c("Alice","Bob","Carol","Dave","Eve")
+
+invite_user("icots10-data-sci", users, verbose = TRUE)
+```
+
+```
+## Adding Alice to icots10-data-sci ...
+## Adding Bob to icots10-data-sci ...
+## Adding Carol to icots10-data-sci ...
+## Adding Dave to icots10-data-sci ...
+## Adding Eve to icots10-data-sci ...
+```
+
+---
+
+## ghclass - Student status
+
+
+```r
+ghclass::get_members("icots10-data-sci")
+```
+
+```
+## [1] "mine-cetinkaya-rundel" "rundel"
+```
+
+
+```r
+ghclass::get_pending_members("icots10-data-sci")
+```
+
+```
+## character(0)
+```
+
+---
+
+## 4. Create assignment(s).
+
+There are a few moving parts here, so we will break it down into several steps. For each assignment we do the following:
+
+1. Create a (public) template repository
+
+2. Create (private) individual / team repositories
+
+3. Copy the contents of the template repository into the individual / team repositories
+
+---
+
+## 4.1 Template repository
+
+.center[
+![](img/demo.png)
+]
+
+---
+
+## 4.2 Individual repos
+
+
+```r
+users = c("Alice","Bob","Carol","Dave","Eve")
+
+create_individual_repo("icots10-data-sci", users, 
+                       prefix = "demo-")
+```
+
+```
+## Creating demo-Alice for Alice ...
+## Creating demo-Bob for Bob ...
+## Creating demo-Carol for Carol ...
+## Creating demo-Dave for Dave ...
+## Creating demo-Eve for Eve ...
+```
+
+---
+
+## 4.3 Copy template
+
+
+```r
+mirror_repo(
+  source_repo = "icots10-data-sci/demo", 
+  target_repos = get_repos("icots10-data-sci","demo-")
+)
+```
+
+```
+## Cloning source repo (Sta523-Fa17/hw2) ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Alice ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Bob ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Carol ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Dave ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Eve ...
+## Cleaning up ...
+```
+
+---
+
+## Exercise
+
+You all now should have your own private copy of the demo repository within the `icots10-data-sci` organization.
+
+* Go to the page for *your* repo
+
+* Copy the *https* git url for your repo using the clone button.
+
+* Use that url to open a copy of the repo inside of RStudio Cloud
+
+* Complete the described exercise.
+
+---
+
+## Alternative - GitHub classroom
+
+
+
+.center[
+![](img/classroom.png)
+]
+
+---
+
+.center[
+![](img/classroom_assignment2.png)
+]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="../macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,242 @@
+---
+title: "Course management with GitHub"
+subtitle: "Teaching Data Science, Reproducibly <br> @ ICOTS 2018"
+author: "Mine Çetinkaya-Rundel & Colin Rundel"
+date: "July 8, 2018"
+output:
+  xaringan::moon_reader:
+    css: "../slides.css"
+    lib_dir: libs
+    nature:
+      beforeInit: "../macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## Basic Structure
+
+On Github:
+
+* 1 Organization / class
+
+* 1 repo / team / assignment
+
+* Student and team repos are all private by default
+
+* Template repos are public by default
+
+---
+
+## Setting up a course
+
+1. Create course organization on GitHub (https://github.com/organizations/new)
+
+2. Request education discount for organization (https://education.github.com/discount)
+
+3. Invite students to organization
+
+4. Create assignment(s).
+
+---
+
+## 1. Create course organization
+
+.center[
+![:scale 75%](img/create_org.png)
+]
+
+---
+
+## 2. Request education discount
+
+.center[
+![:scale 60%](img/ed_discount.png)
+
+...
+
+![:scale 60%](img/ed_about.png)
+]
+
+---
+
+## Required information
+
+When requesting the discount you will need to provide the following:
+
+* A brief description of the purpose for the GitHub organization and how you plan to use GitHub
+
+* Establishing connection to an academic institution by verifying with an `.edu` email + photo of your school id.
+
+* Link to relevant website for the class / workshop / research group
+
+<br/>
+
+Verification is manual and can take between a couple hours to a couple days.
+
+---
+
+## 3. Invite students
+
+.center[
+![:scale 80%](img/org_people.png)
+
+![:scale 50%](img/org_invite.png)
+]
+
+---
+
+## Member Privledges
+
+.center[
+![:scale 100%](img/org_priv.png)
+]
+
+---
+
+## Automating Invitations
+
+Inviting students to the organization only needs to be done once be class, but the process gets tedious for more than a handful of students.
+
+<br/>
+
+We have developed an R package that automates this (and other class related tasks) called `ghclass`. 
+
+The package is still under active development and is not currently on CRAN but can be installed from GitHub using:
+```{r eval=FALSE}
+devtools::install_github("rundel/ghclass")
+```
+
+---
+
+## Aside - GitHub personal access tokens
+
+`ghclass` uses the GitHub API to interact with your course organization and repos - the API verifies your identity using a personal access token which must be created and saved in such a way that `ghclass` can find and use it.
+
+These tokens can be created [here](https://github.com/settings/tokens) and once created can be saved as `~/.github/token` or assigned to the `GITHUB_TOKEN` environmentval variable.
+
+If the token is found and works correctly the following code should run without error,
+```{r}
+library(ghclass)
+test_github_token()
+```
+
+---
+
+## ghclass - Inviting students
+
+```{r eval=FALSE}
+users = c("Alice","Bob","Carol","Dave","Eve")
+
+invite_user("icots10-data-sci", users, verbose = TRUE)
+```
+
+```
+## Adding Alice to icots10-data-sci ...
+## Adding Bob to icots10-data-sci ...
+## Adding Carol to icots10-data-sci ...
+## Adding Dave to icots10-data-sci ...
+## Adding Eve to icots10-data-sci ...
+```
+
+---
+
+## ghclass - Student status
+
+```{r}
+ghclass::get_members("icots10-data-sci")
+```
+
+```{r}
+ghclass::get_pending_members("icots10-data-sci")
+```
+
+---
+
+## 4. Create assignment(s).
+
+There are a few moving parts here, so we will break it down into several steps. For each assignment we do the following:
+
+1. Create a (public) template repository
+
+2. Create (private) individual / team repositories
+
+3. Copy the contents of the template repository into the individual / team repositories
+
+---
+
+## 4.1 Template repository
+
+.center[
+![](img/demo.png)
+]
+
+---
+
+## 4.2 Individual repos
+
+```{r eval=FALSE}
+users = c("Alice","Bob","Carol","Dave","Eve")
+
+create_individual_repo("icots10-data-sci", users, 
+                       prefix = "demo-")
+```
+
+```
+## Creating demo-Alice for Alice ...
+## Creating demo-Bob for Bob ...
+## Creating demo-Carol for Carol ...
+## Creating demo-Dave for Dave ...
+## Creating demo-Eve for Eve ...
+```
+
+---
+
+## 4.3 Copy template
+
+```{r eval=FALSE}
+mirror_repo(
+  source_repo = "icots10-data-sci/demo", 
+  target_repos = get_repos("icots10-data-sci","demo-")
+)
+```
+
+```
+## Cloning source repo (Sta523-Fa17/hw2) ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Alice ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Bob ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Carol ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Dave ...
+## Mirroring icots10-data-sci/demo to icots10-data-sci/demo-Eve ...
+## Cleaning up ...
+```
+
+---
+
+## Exercise
+
+You all now should have your own private copy of the demo repository within the `icots10-data-sci` organization.
+
+* Go to the page for *your* repo
+
+* Copy the *https* git url for your repo using the clone button.
+
+* Use that url to open a copy of the repo inside of RStudio Cloud
+
+* Complete the described exercise.
+
+---
+
+## Alternative - GitHub classroom
+
+
+
+.center[
+![](img/classroom.png)
+]
+
+---
+
+.center[
+![](img/classroom_assignment2.png)
+]
