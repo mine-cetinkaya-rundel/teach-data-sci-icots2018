@@ -44,17 +44,16 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 |               | :heavy_check_mark: World Cup: [Rmd](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-03-rmarkdown/world-cup-goals.Rmd) + [Codebook](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-03-rmarkdown/data/README.md)                                               |
 | 11:30 - 11:45 | [Data analysis with the tidyverse](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-04-tidyverse/01-04-tidyverse.html)         |
 | 11:45 - 12:00 | Break :tea:                                                 |
-| 12:00 - 13:00 | [Version control with Git and GitHub](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-05-git/01-05-git.html)                        |
+| 12:00 - 13:30 | [Version control with Git and GitHub](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-05-git/01-05-git.html)                        |
 |               | :heavy_check_mark: [GitHub.com](https://github.com/) |
 |               | :heavy_check_mark: [Demo GitHub repository](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018-demo) |
-| 13:00 - 13:30 | [A first course in data science](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/01-06-intro-ds/01-06-intro-ds.pdf)                                             |
 
 ### Part 2 - Sunday, July 8
 
 | Time          | Activity                                |
 |:--------------|:----------------------------------------|
-| 09:30 - 09:45 | Welcome                                 |
-| 09:45 - 10:45 | Computing infrastructure with RStudio   |
+| 09:30 - 10:00 | [A first course in data science](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/02-01-intro-ds/02-01-intro-ds.pdf)                   |
+| 10:00 - 10:45 | Computing infrastructure with RStudio   |
 | 10:45 - 11:00 | Break                                   |
 | 11:00 - 12:30 | Course management with GitHub           |
 | 12:30 - 12:45 | Break                                   |
