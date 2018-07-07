@@ -57,6 +57,6 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 |               | :heavy_check_mark: [New workspace in RStudio Cloud](https://rstudio.cloud/projects)                    |
 | 11:00 - 11:15 | Break :tea:                        |
 | 11:15 - 12:45 | [Course management with GitHub (part 1)](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/02-03-management/02-03-management.html)  |
-| 12:45 - 12:45 | Break :tea:                        |
 |               | :heavy_check_mark: [Workshop Organization](https://github.com/icots10-data-sci)                    |
+| 12:45 - 12:45 | Break :tea:                        |
 | 12:45 - 13:30 | [Course management with GitHub (part 2)](https://htmlpreview.github.io/?https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/02-03-management/02-03-management.html)  |
