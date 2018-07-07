@@ -65,6 +65,10 @@ On Github:
 
 4. Create assignment(s)
 
+5. Collect assignments(s).
+
+6. Grade assignment(s).
+
 ---
 
 ## 1. Create course organization
@@ -358,18 +362,70 @@ mirror_repo(
 
 ---
 
-## Alternative - GitHub classroom
+## 5. Collecting Assignments
 
-Available here - https://classroom.github.com/classrooms
+
+```r
+repos = get_repos("icots10-data-sci",filter = "hw01-")
+
+clone_repo(repos, "hw01", verbose = TRUE)
+```
+```
+## Cloning into 'hw01/hw01-Alice'...
+## Cloning into 'hw01/hw01-Bob'...
+## Cloning into 'hw01/hw01-Clare'...
+## Cloning into 'hw01/hw01-Dave'...
+## Cloning into 'hw01/hw01-Eve'...
+## Cloning into 'hw01/hw01-Team01'...
+## Cloning into 'hw01/hw01-Team02'...
+```
+
+---
+
+## 6. Grading assignments
+
+.center[
+![](img/local_clone.png)
+]
+
+---
+class: center, middle
+count: false
+
+# Alternatives
+
+---
+
+## GitHub classroom
 
 .center[
 ![](img/classroom.png)
+
+https://classroom.github.com/
 ]
 
 ---
 
+## Class
+
 .center[
-![](img/classroom_assignment2.png)
+![](img/classroom_class.png)
+]
+
+---
+
+## Individual assignments
+
+.center[
+![](img/classroom_assignment.png)
+]
+
+---
+
+## Group assignments
+
+.center[
+![](img/classroom_group.png)
 ]
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
