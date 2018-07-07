@@ -69,7 +69,7 @@ we will cover throughout this workshop:
 
 - Literate programming with R Markdown
 - Version control with Git and GitHub
-- Student access to computing without installation
+- Student access to computing without local installation
 
 
 
