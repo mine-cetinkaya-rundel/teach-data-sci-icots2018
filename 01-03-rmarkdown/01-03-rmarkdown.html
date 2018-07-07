@@ -21,6 +21,160 @@ class: center, middle, inverse, title-slide
 
 class: center, middle
 
+# Reproducibility: who cares?
+
+---
+
+## Science retracts gay marriage paper without agreement of lead author
+
+- In May 2015 Science retracted a study of how canvassers can sway 
+people's opinions about gay marriage published just 5 months earlier.
+
+- Science Editor-in-Chief Marcia McNutt: Original survey data not made 
+available for independent reproduction of results. + Survey incentives 
+misrepresented. + Sponsorship statement false.
+
+- Two Berkeley grad students who attempted to replicate the study quickly 
+discovered that the data must have been faked.
+
+- Methods we'll discuss today can't prevent this, but they can make it 
+easier to discover issues.
+
+&lt;font size="3"&gt;Source: http://news.sciencemag.org/policy/2015/05/science-retracts-gay-marriage-paper-without-lead-author-s-consent&lt;/font&gt;
+
+---
+
+## Bad spreadsheet merge kills depression paper, quick fix resurrects it
+
+- **Original conclusion:** Lower levels of CSF IL-6 were associated with 
+current depression and with future depression [...].
+
+- **Revised conclusion:** Higher levels of CSF IL-6 and IL-8 were 
+associated with current depression [...].
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;font size="3"&gt;Source: http://retractionwatch.com/2014/07/01/bad-spreadsheet-merge-kills-depression-paper-quick-fix-resurrects-it/&lt;/font&gt;
+
+---
+
+## Divorce study felled by a coding error gets a second chance
+
+- **Original conclusion:** The risk of divorce in a heterosexual marriage increases when the wife falls ill, but not the husband. 
+
+- **Corrected conclusion:** Based on the corrected analysis, we conclude that there are not gender differences in the relationship between gender, pooled illness onset, and divorce.
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;font size="3"&gt;Source: http://retractionwatch.com/2015/09/10/divorce-study-felled-by-a-coding-error-gets-a-second-chance/#more-32151&lt;/font&gt;
+
+---
+
+## Divorce study retraction: Editor's note
+
+- "The research environment is fast-paced given the ethos to “publish or perish"."
+
+- "[...] research is becoming increasingly complex, with greater calls for transdisciplinary collaborations, “big data,” and more sophisticated research questions and methods [...] data sets often have multiple files that require merging, change the wording of questions over time, provide incomplete codebooks, and have unclear and sometimes duplicative variables."
+
+- "Given these issues, I would not be surprised if coding errors were fairly common [...]"
+
+&lt;br&gt;
+
+&lt;font size="3"&gt;Source: http://retractionwatch.com/2015/09/10/divorce-study-felled-by-a-coding-error-gets-a-second-chance/#more-32151&lt;/font&gt;
+
+---
+
+class: center, middle
+
+# Reproducibility: why should you care?
+
+---
+
+## Think back to every time...
+
+- The results in Table 1 don't seem to correspond to those in Figure 2.
+- In what order do I run these scripts?
+- Where did we get this data file?
+- Why did I omit those samples?
+- How did I make that figure?
+- "Your script is now giving an error."
+- "The attached is similar to the code we used."
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;font size="3"&gt;Source: Karl Broman&lt;/font&gt;
+
+---
+
+## No collaborators?
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&gt;Your closest collaborator is you six months ago, &lt;br&gt;
+but you don’t reply to emails.
+&lt;br&gt;&lt;br&gt;
+&lt;font size="3"&gt;- Mark Holder&lt;/font&gt;
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+---
+
+## Two pronged approach
+
+\#1 
+Convince researchers to adopt a reproducible research workflow
+
+&lt;br&gt;&lt;br&gt;
+
+\#2
+Train new researchers who don’t have any other workflow
+
+---
+
+class: center, middle
+
+# Reproducibility: how?
+
+---
+
+## Reproducibility checklist
+
+- Are the tables and figures reproducible from the code and data?
+- Does the code actually do what you think it does?
+- In addition to what was done, is it clear *why* it was done? (e.g., how 
+were parameter settings chosen?)
+- Can the code be used for other data?
+- Can you extend the code to do other things?
+
+---
+
+## Ambitious goal + many other concerns 
+
+We need an environment where
+
+- data, analysis, and results are tightly connected, or better yet, 
+inseparable
+
+- reproducibility is built in
+    + the original data remains untouched
+    + all data manipulations and analyses are inherently documented
+
+- documentation is human readable and syntax is minimal
+
+---
+
+## Roadmap
+
+1. Scriptability `\(\rightarrow\)` R
+
+2. Literate programming `\(\rightarrow\)` R Markdown
+
+3. Version control `\(\rightarrow\)` Git / GitHub
+
+---
+
+class: center, middle
+
 # Literate Programming
 
 ---
