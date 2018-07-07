@@ -1,5 +1,5 @@
 ---
-title: "Course management with GitHub"
+title: "Course management <br/> with GitHub"
 subtitle: "Teaching Data Science, Reproducibly <br> @ ICOTS 2018"
 author: "Mine Çetinkaya-Rundel & Colin Rundel"
 date: "July 8, 2018"
@@ -25,6 +25,14 @@ Enter your GitHub account in the following google sheet:
 .center[.large[
 http://bit.ly/icots-gh
 ]]
+
+---
+
+## Goals
+
+* Centralize the distribution and collection of all student assignments
+
+* Force students to use version control
 
 ---
 
@@ -227,7 +235,7 @@ mirror_repo(
 ```
 
 ```
-## Cloning source repo (Sta523-Fa17/hw2) ...
+## Cloning source repo (icots10-data-sci/hw01) ...
 ## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw01-Alice ...
 ## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw01-Bob ...
 ## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw01-Carol ...
@@ -242,19 +250,87 @@ mirror_repo(
 
 You all now should have your own private copy of the demo repository within the `icots10-data-sci` organization.
 
-* Go to the page for *your* repo.
+* Go to the page for *your* hw01 repo
 
 * Copy the *https* git url for your repo using the clone button.
 
-* Use that url to open a copy of the repo inside of RStudio Cloud.
+* Use that url to create a new project in RStudio Cloud from git
 
-* Complete the described exercise.
+* Complete the exercise and commit and push your work as described in `hw01.Rmd`.
+
+<br/>
+
+.midi[
+*Reminder* - before you will be to push you will need to run the following commands in RStudio Cloud's terminal:
+
+```shell
+git config --global user.email "your email"
+git config --global user.name "your name"
+```
+]
+
+---
+
+## Creating teams
+
+GitHub supports the creation of teams within an organization, these teams can then be assigned a shared repository.
+
+We can use ghclass to create these teams and add students to them.
+
+```{r eval=FALSE}
+users = c("Alice","Bob","Carol","Dave","Eve")
+teams = c("Team01", "Team01", "Team01", "Team02", "Team02")
+
+create_team("icots10-data-sci", unique(teams))
+```
+
+```
+## Adding Team01 ...
+## Adding Team02 ...
+```
+
+```{r eval=FALSE}
+add_team_member("icots10-data-sci", users, teams)
+```
+
+```
+## Adding Alice to Team01 ...
+## Adding Bob to Team01 ...
+## Adding Carol to Team01 ...
+## Adding Dave to Team02 ...
+## Adding Eve to Team02 ...
+```
+
+---
+
+## Creating team assignments
+
+```{r eval=FALSE}
+create_team_repo("icots10-data-sci", prefix="hw01-")
+```
+```
+## Creating hw01-Team01 for Team01 ...
+## Creating hw01-Team02 for Team02 ...
+```
+
+```{r eval=FALSE}
+mirror_repo(
+  source_repo = "icots10-data-sci/hw01", 
+  target_repos = get_repos("icots10-data-sci","hw01-")
+)
+```
+```
+## Cloning source repo (icots10-data-sci/hw01) ...
+## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw2-Team01 ...
+## Mirroring icots10-data-sci/hw01 to icots10-data-sci/hw2-Team02 ...
+## Cleaning up ...
+```
 
 ---
 
 ## Alternative - GitHub classroom
 
-
+Available here - https://classroom.github.com/classrooms
 
 .center[
 ![](img/classroom.png)
