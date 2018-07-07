@@ -14,6 +14,20 @@ output:
       countIncrementalSlides: false
 ---
 
+## GitHub accounts
+
+<br/>
+
+Enter your GitHub account in the following google sheet:
+
+<br/>
+
+.center[.large[
+http://bit.ly/icots-gh
+]]
+
+---
+
 ## Basic Structure
 
 On Github:
@@ -109,16 +123,18 @@ devtools::install_github("rundel/ghclass")
 
 ---
 
-## Aside - GitHub personal access tokens
+## Aside - GitHub tokens
 
 `ghclass` uses the GitHub API to interact with your course organization and repos - the API verifies your identity using a personal access token which must be created and saved in such a way that `ghclass` can find and use it.
 
-These tokens can be created [here](https://github.com/settings/tokens) and once created can be saved as `~/.github/token` or assigned to the `GITHUB_TOKEN` environmentval variable.
+These tokens can be created [here](https://github.com/settings/tokens) and once created should be saved to `~/.github/token` or assigned to the `GITHUB_TOKEN` environmentval variable.
 
 If the token is found and works correctly the following code should run without error,
-```{r}
+```{r error=TRUE}
 library(ghclass)
 test_github_token()
+
+test_github_token("MADE_UP_TOKEN")
 ```
 
 ---
