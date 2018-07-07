@@ -210,6 +210,9 @@ In this activity you are going to learn how to collaborate using Github.  With a
 
 1. Summarize the changes that you have made in 50 characters or less and click the green "commit button". 
 2. Check out the git history.  (You should now see two commits)
+.center[
+  ![:scale 40%](img/git_history.png)
+]
 
 ---
 
