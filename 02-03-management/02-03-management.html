@@ -125,13 +125,6 @@ If the token is found and works correctly the following code should run without 
 
 ```r
 library(ghclass)
-```
-
-```
-## Loading required package: gh
-```
-
-```r
 test_github_token()
 ```
 
@@ -141,7 +134,7 @@ test_github_token()
 
 
 ```r
-users = c("Alice","Bob","Carol","Dave","Eve")
+users &lt;- c("Alice", "Bob", "Carol", "Dave", "Eve")
 
 invite_user("icots10-data-sci", users, verbose = TRUE)
 ```
@@ -160,7 +153,7 @@ invite_user("icots10-data-sci", users, verbose = TRUE)
 
 
 ```r
-ghclass::get_members("icots10-data-sci")
+get_members("icots10-data-sci")
 ```
 
 ```
@@ -169,7 +162,7 @@ ghclass::get_members("icots10-data-sci")
 
 
 ```r
-ghclass::get_pending_members("icots10-data-sci")
+get_pending_members("icots10-data-sci")
 ```
 
 ```
@@ -178,11 +171,11 @@ ghclass::get_pending_members("icots10-data-sci")
 
 ---
 
-## 4. Create assignment(s).
+## 4. Create assignment(s)
 
 There are a few moving parts here, so we will break it down into several steps. For each assignment we do the following:
 
-1. Create a (public) template repository
+1. Create a (public) template repository that contains starter documents for an assignment
 
 2. Create (private) individual / team repositories
 
@@ -205,15 +198,15 @@ There are a few moving parts here, so we will break it down into several steps. 
 users = c("Alice","Bob","Carol","Dave","Eve")
 
 create_individual_repo("icots10-data-sci", users, 
-                       prefix = "demo-")
+                       prefix = "hw01-")
 ```
 
 ```
-## Creating demo-Alice for Alice ...
-## Creating demo-Bob for Bob ...
-## Creating demo-Carol for Carol ...
-## Creating demo-Dave for Dave ...
-## Creating demo-Eve for Eve ...
+## Creating hw01-Alice for Alice ...
+## Creating hw01-Bob for Bob ...
+## Creating hw01-Carol for Carol ...
+## Creating hw01-Dave for Dave ...
+## Creating hw01-Eve for Eve ...
 ```
 
 ---

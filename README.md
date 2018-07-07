@@ -53,8 +53,9 @@ Both parts will take place in room 2-AVS (Level 2, AV Study Room) in Terrsa Hall
 | Time          | Activity                                |
 |:--------------|:----------------------------------------|
 | 09:30 - 10:00 | [A first course in data science](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/02-01-intro-ds/02-01-intro-ds.pdf)                   |
-| 10:00 - 10:45 | [Computing infrastructure with RStudio Cloud](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/02-02-rscloud/02-02-rscloud.pdf)                       |
-| 10:45 - 11:00 | Break                                   |
-| 11:00 - 12:30 | Course management with GitHub           |
-| 12:30 - 12:45 | Break                                   |
+| 10:00 - 11:00 | [Computing infrastructure with RStudio Cloud](https://github.com/mine-cetinkaya-rundel/teach-data-sci-icots2018/blob/master/02-02-rscloud/02-02-rscloud.pdf)                       |
+|               | :heavy_check_mark: [New workspace in RStudio Cloud](https://rstudio.cloud/projects)                    |
+| 11:00 - 11:15 | Break                                   |
+| 11:15 - 12:45 | Course management with GitHub           |
+| 12:45 - 12:45 | Break                                   |
 | 12:45 - 13:30 | Assessment and feedback                 |
