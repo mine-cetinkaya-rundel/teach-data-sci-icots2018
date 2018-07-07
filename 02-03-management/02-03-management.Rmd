@@ -60,9 +60,9 @@ On Github:
 
 4. Create assignment(s)
 
-5. Collect assignments(s).
+5. Collect assignments(s)
 
-6. Grade assignment(s).
+6. Grade assignment(s)
 
 ---
 
@@ -358,6 +358,7 @@ clone_repo(repos, "hw01", verbose = TRUE)
 ]
 
 ---
+
 class: center, middle
 count: false
 
@@ -396,3 +397,63 @@ https://classroom.github.com/
 .center[
 ![](img/classroom_group.png)
 ]
+
+---
+
+class: center, middle
+count: false
+
+# Feedback
+
+---
+
+## Issues on GitHub by course admins
+
+- Instructors (and TAs) can view all repositories within the course organization.
+
+- You can open issues in a repository with feedback for the students.
+
+- Make sure to `@` mention the student so that they are notified when an issue is opened.
+
+<br/>
+**Note:** You might want to consider keeping points out of issues.
+
+---
+
+## Peer review
+
+- Once an assignment is completed you can let other students/teams into a repository and they can provide peer review.
+
+- Peer review is an incredibly effective learning experience for both the reviewers and the reviewees, however it does require coordination and being able to carve out sufficient time in the course schedule.
+
+<br/>
+**Tip:** Do not solely count on peer review for feedback as some reviewers might be less diligent than others. Teams reviewing teams, as opposed to individual reviwing individuals, might address this issue partially.
+
+---
+
+## Pull requests
+
+- Another option is to open pull requests for your students' work where you directly edit their work and ask them to approve the edits.
+
+- This can be effective as students will see your corrections and review them before accepting them.
+
+- However this also does mean that you're directly correcting their work as opposed to giving them higher level instructions on how to correct it.
+
+---
+
+## Exercise
+
+**Scenario 1:** You're a student
+
+- Go to the GitHub organization for our "class". Observe that you can only see the template repo and your own repo.
+
+**Scenario 2:** You're an instructor
+
+- First, we'll change your access level so that you're an *Owner* of the repo
+
+- Go to the GitHub organization for our "class" and observe that now you can see all repos.
+
+- Go into the repo for your partner. Open an issue and add some text to the issue. In the issue `@` mention their username. Submit your issue.
+
+- Check your email to confirm that you got notified of an issue being filed in your repo, and review the issue.
+
