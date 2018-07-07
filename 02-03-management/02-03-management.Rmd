@@ -32,8 +32,13 @@ http://bit.ly/icots-gh
 
 * Centralize the distribution and collection of all student assignments
 
-* Force students to use version control
+* Enable students to work collaboratively
 
+* Force students to use git & GitHub
+  - Version control is a best practice for reproducible research
+  - Widely used in industry 
+  - Publish / share work
+  
 ---
 
 ## Basic Structure
@@ -42,7 +47,7 @@ On Github:
 
 * 1 Organization / class
 
-* 1 repo / team / assignment
+* 1 repo / (student or team) / assignment
 
 * Student and team repos are all private by default
 
